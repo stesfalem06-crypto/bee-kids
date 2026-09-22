@@ -1,0 +1,32 @@
+name: bee_education_suite
+description: "Offline Eritrean Education Apps: Junior Bee (G6-G8) and Bee Kids (Singapore Math in Tigrinya)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  crypto: ^3.0.3
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.2.3
+  video_player: ^2.9.2
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/content/unit_notes.json
+    - assets/content/exams.json
+    - assets/content/singapore_math_tigrinya.json
