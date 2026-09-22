@@ -32,10 +32,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Python Dependencies & Verify Content
+      - name: Verify Content Assets
         run: |
-          python -m pip install --upgrade pip requests
           python tools/sync_drive.py --check-assets
+
+      - name: Configure Android Platform & Gradle
+        working-directory: ./flutter_app
+        run: |
+          # Generate/refresh full platform wrapper if needed
+          flutter create . --platforms=android --org=com.bee
+          # Ensure minSdk is 21 for camera & video player
+          sed -i 's/minSdkVersion = flutter.minSdkVersion/minSdkVersion = 21/g' android/app/build.gradle 2>/dev/null || true
+          sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 21/g' android/app/build.gradle 2>/dev/null || true
 
       - name: Flutter Pub Get
         working-directory: ./flutter_app
@@ -46,14 +54,14 @@ jobs:
         run: |
           flutter build apk --release -t lib/main_junior.dart
           mkdir -p ../build_output/junior
-          cp build/app/outputs/flutter-apk/app-release.apk ../build_output/junior/Junior_Bee_G6_G8_Release.apk
+          find build/ -name "*release*.apk" -exec cp {} ../build_output/junior/Junior_Bee_G6_G8_Release.apk \;
 
       - name: Build Bee Kids Release APK (Singapore Math Tigrinya)
         working-directory: ./flutter_app
         run: |
           flutter build apk --release -t lib/main_kids.dart
           mkdir -p ../build_output/kids
-          cp build/app/outputs/flutter-apk/app-release.apk ../build_output/kids/Bee_Kids_Tigrinya_Release.apk
+          find build/ -name "*release*.apk" -exec cp {} ../build_output/kids/Bee_Kids_Tigrinya_Release.apk \;
 
       - name: Upload Junior Bee APK Artifact
         uses: actions/upload-artifact@v4
