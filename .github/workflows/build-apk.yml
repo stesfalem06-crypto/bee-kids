@@ -39,9 +39,18 @@ jobs:
       - name: Configure Android Platform & Gradle
         working-directory: ./flutter_app
         run: |
-          # Generate/refresh full platform wrapper if needed
+          # Generate Android platform if missing
           flutter create . --platforms=android --org=com.bee
-          # Ensure minSdk is 21 for camera & video player
+          # Upgrade Gradle wrapper to 8.5 to satisfy Android Gradle Plugin requirements
+          mkdir -p android/gradle/wrapper
+          cat << 'EOF' > android/gradle/wrapper/gradle-wrapper.properties
+          distributionBase=GRADLE_USER_HOME
+          distributionPath=wrapper/dists
+          zipStoreBase=GRADLE_USER_HOME
+          zipStorePath=wrapper/dists
+          distributionUrl=https\://services.gradle.org/distributions/gradle-8.5-all.zip
+          EOF
+          # Ensure minSdk is 21
           sed -i 's/minSdkVersion = flutter.minSdkVersion/minSdkVersion = 21/g' android/app/build.gradle 2>/dev/null || true
           sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 21/g' android/app/build.gradle 2>/dev/null || true
 
@@ -52,14 +61,14 @@ jobs:
       - name: Build Junior Bee Release APK (G6-G8)
         working-directory: ./flutter_app
         run: |
-          flutter build apk --release -t lib/main_junior.dart
+          flutter build apk --release --no-tree-shake-icons -t lib/main_junior.dart
           mkdir -p ../build_output/junior
           find build/ -name "*release*.apk" -exec cp {} ../build_output/junior/Junior_Bee_G6_G8_Release.apk \;
 
       - name: Build Bee Kids Release APK (Singapore Math Tigrinya)
         working-directory: ./flutter_app
         run: |
-          flutter build apk --release -t lib/main_kids.dart
+          flutter build apk --release --no-tree-shake-icons -t lib/main_kids.dart
           mkdir -p ../build_output/kids
           find build/ -name "*release*.apk" -exec cp {} ../build_output/kids/Bee_Kids_Tigrinya_Release.apk \;
 
