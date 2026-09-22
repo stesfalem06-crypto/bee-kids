@@ -235,7 +235,7 @@ export function BeeKidsView() {
                       {activeLesson.numberBond.part1}
                     </div>
                     <div className="w-14 h-14 rounded-full bg-amber-100 border-2 border-dashed border-amber-500 text-amber-950 font-black text-xl flex items-center justify-center shadow">
-                      {activeLesson.numberBond.part2 === '?' ? '?' : activeLesson.numberBond.part2}
+                      {activeLesson.numberBond.part2 === null ? '?' : activeLesson.numberBond.part2}
                     </div>
                   </div>
                 </div>
