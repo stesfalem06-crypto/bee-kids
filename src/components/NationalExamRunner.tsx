@@ -211,13 +211,37 @@ export function NationalExamRunner({ exam, onExit }: NationalExamRunnerProps) {
 
             {/* Explanation box during review */}
             {isSubmitted && (
-              <div className="mt-6 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
-                <div className="text-xs font-bold uppercase tracking-wider text-teal-400 mb-1">
-                  Eritrean Curriculum Explanation
+              <div className="mt-6 p-4 rounded-xl bg-slate-950/80 border border-slate-800 space-y-3">
+                <div>
+                  <div className="text-xs font-bold uppercase tracking-wider text-teal-400 mb-1 flex items-center justify-between">
+                    <span>Eritrean Curriculum Step-by-Step Explanation</span>
+                    <span className="text-emerald-400 font-bold">
+                      Correct Answer: [{currentQ.correctAnswer}]
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 leading-relaxed whitespace-pre-line">
+                    {currentQ.explanation}
+                  </p>
                 </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  {currentQ.explanation}
-                </p>
+
+                {/* Linked Previous Years Similar Questions */}
+                {currentQ.similarQuestions && currentQ.similarQuestions.length > 0 && (
+                  <div className="pt-2.5 border-t border-slate-800">
+                    <div className="text-[11px] font-bold uppercase tracking-wider text-amber-400 mb-1.5 flex items-center gap-1.5">
+                      <span>🔗 Similar Question in Previous National Examinations</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {currentQ.similarQuestions.map((sim, si) => (
+                        <span
+                          key={si}
+                          className="text-[11px] px-2.5 py-1 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 font-mono"
+                        >
+                          {sim}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </div>

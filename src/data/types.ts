@@ -14,6 +14,8 @@ export interface ExamQuestion {
   year: number;
   grade: number;
   topic?: string;
+  similarQuestions?: string[];
+  examRef?: string;
 }
 
 export interface NationalExam {
@@ -55,7 +57,7 @@ export interface UnitNotes {
   id: string;
   grade: 6 | 7 | 8;
   subject: string;
-  subjectKey: 'math' | 'science' | 'english' | 'social_studies' | 'citizenship' | 'ict' | 'life_skills';
+  subjectKey: 'math' | 'science' | 'english' | 'social_studies' | 'citizenship' | 'ict' | 'life_skills' | 'tigrinya';
   unitNumber: number;
   title: string;
   summary: string;
@@ -65,10 +67,12 @@ export interface UnitNotes {
   examples: WorkedExample[];
   exercises: ExerciseItem[];
   illustratedBadge?: string;
+  interactiveWidget?: 'pizzeria' | 'pythagoras' | 'microscope' | 'cell_division' | 'zobas_map' | 'primes' | 'fraction_model';
+  illustrations?: { caption: string; icon: string; description: string }[];
 }
 
 export interface SubjectInfo {
-  key: 'math' | 'science' | 'english' | 'social_studies' | 'citizenship' | 'ict' | 'life_skills';
+  key: 'math' | 'science' | 'english' | 'social_studies' | 'citizenship' | 'ict' | 'life_skills' | 'tigrinya';
   name: string;
   tigrinyaName: string;
   icon: string;

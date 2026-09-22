@@ -304,9 +304,16 @@ export function JuniorBeeView() {
                     <div>
                       {/* Top badge line */}
                       <div className="flex items-center justify-between gap-2 mb-2">
-                        <span className="px-2.5 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-teal-500/20 text-teal-300 border border-teal-500/30">
-                          Unit {unit.unitNumber}
-                        </span>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="px-2.5 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                            Unit {unit.unitNumber}
+                          </span>
+                          {unit.interactiveWidget && (
+                            <span className="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center gap-1">
+                              <Sparkles className="w-3 h-3 text-amber-400" /> Lab
+                            </span>
+                          )}
+                        </div>
                         <span className="text-xs font-medium text-slate-400">{unit.subject}</span>
                       </div>
 

@@ -5,69 +5,84 @@
     "subject": "Mathematics",
     "subjectKey": "math",
     "unitNumber": 1,
-    "title": "Welcome to Banuna Pizzeria (Quantity, Price & Equations)",
-    "summary": "Explore practical math through commerce at Banuna Pizzeria in Asmara. Learn how unit price relates to total cost, formulate algebraic equations, and solve single-step equations with variables.",
+    "title": "Unit 1: Relations, Equations & Commerce (Banuna Pizzeria)",
+    "summary": "Explore everyday commerce in Asmara through Banuna Pizzeria. Learn how unit price and quantity combine into total cost, formulate algebraic equations, and solve single-variable linear equations.",
     "keyTerms": [
       "Quantity",
       "Unit Price",
       "Total Cost",
       "Variable",
       "Equation",
-      "Unknown Term"
+      "Unknown Term",
+      "Inverse Operations"
     ],
     "keyIdeas": [
-      "Total Cost = Unit Price × Quantity.",
-      "When the quantity increases, the total cost increases in direct linear proportion.",
-      "An equation uses an equals sign (=) to assert equality between two mathematical expressions."
+      "Total Cost = Unit Price × Quantity (C = p × q).",
+      "Linear relationships describe direct variation: as pizza quantity increases, cost increases in equal constant steps.",
+      "To solve an equation, perform inverse operations equally on both sides to isolate the unknown variable."
+    ],
+    "interactiveWidget": "pizzeria",
+    "illustrations": [
+      {
+        "caption": "Banuna Pizzeria Price Board",
+        "icon": "🍕",
+        "description": "Pizza slice: 25 Nakfa | Fresh juice: 15 Nakfa"
+      },
+      {
+        "caption": "Equation Balancer Scale",
+        "icon": "⚖️",
+        "description": "Both sides of an equation must maintain exact equality: 25p + 15j = Total Nakfa"
+      }
     ],
     "sections": [
       {
-        "title": "What Did They Buy? What Did It Cost?",
-        "content": "At Banuna Pizzeria in Asmara, a slice of vegetable pizza costs 25 Nakfa and fresh fruit juice costs 15 Nakfa. If Senait buys p pizza slices and j juices, her total expense is 25p + 15j. Defining variables for everyday objects helps translate real situations into mathematical models."
+        "title": "1.1 What Did They Buy? What Did It Cost?",
+        "content": "At Banuna Pizzeria in downtown Asmara, items have standard prices: 25 Nakfa for a pizza slice and 15 Nakfa for a fruit juice. When students buy items together, we can represent total spending using variables: C = 25p + 15j. Defining variables lets us quickly calculate any customer bill."
       },
       {
-        "title": "Quantity and Price Proportions",
-        "content": "If 1 pizza costs 45 Nakfa, 2 pizzas cost 90 Nakfa, and 3 cost 135 Nakfa. We express this with the direct variation formula C = 45q, where C is total cost in Nakfa and q is quantity."
+        "title": "1.2 Direct Variation and Solving Equations",
+        "content": "When one pizza costs 25 Nakfa, 2 cost 50 Nakfa, 3 cost 75 Nakfa. If Senait spent 125 Nakfa on pizza slices, we formulate the equation: 25p = 125. Dividing both sides by 25 gives p = 5 slices."
       }
     ],
     "examples": [
       {
-        "title": "Calculating Bill at Banuna Pizzeria",
-        "problem": "Bereket orders 3 medium pizzas at 60 Nakfa each and 4 sodas at 12 Nakfa each. What is the total bill?",
+        "title": "Banuna Pizzeria Class Bill Calculation",
+        "problem": "Bereket buys 4 pizza slices at 25 Nakfa each and 3 juices at 15 Nakfa each. How much change does he get from a 200 Nakfa banknote?",
         "solutionSteps": [
-          "Step 1: Calculate cost of pizzas: 3 × 60 = 180 Nakfa.",
-          "Step 2: Calculate cost of sodas: 4 × 12 = 48 Nakfa.",
-          "Step 3: Sum the amounts: 180 + 48 = 228 Nakfa."
+          "Step 1: Calculate cost of 4 pizzas: 4 × 25 = 100 Nakfa.",
+          "Step 2: Calculate cost of 3 juices: 3 × 15 = 45 Nakfa.",
+          "Step 3: Total bill = 100 + 45 = 145 Nakfa.",
+          "Step 4: Change from 200 Nakfa: 200 - 145 = 55 Nakfa."
         ],
-        "finalAnswer": "228 Nakfa"
+        "finalAnswer": "55 Nakfa change"
       }
     ],
     "exercises": [
       {
         "id": "g6_math_u1_q1",
         "num": 1,
-        "question": "If 1 loaf of bread in Keren costs 4 Nakfa, what is the cost of 18 loaves?",
+        "question": "If 1 slice of pizza costs 25 Nakfa and 1 juice costs 15 Nakfa, what is the cost of 5 slices and 2 juices?",
         "options": [
-          "64 Nakfa",
-          "72 Nakfa",
-          "80 Nakfa",
-          "84 Nakfa"
+          "140 Nakfa",
+          "155 Nakfa",
+          "165 Nakfa",
+          "175 Nakfa"
         ],
-        "answer": "72 Nakfa",
-        "explanation": "Cost = 18 × 4 = 72 Nakfa."
+        "answer": "155 Nakfa",
+        "explanation": "Step 1: 5 × 25 = 125 Nakfa.\nStep 2: 2 × 15 = 30 Nakfa.\nStep 3: 125 + 30 = 155 Nakfa."
       },
       {
         "id": "g6_math_u1_q2",
         "num": 2,
-        "question": "Solve for x: 5x + 20 = 70.",
+        "question": "Solve for p in the equation: 25p + 45 = 170.",
         "options": [
-          "8",
-          "10",
-          "12",
-          "14"
+          "3",
+          "4",
+          "5",
+          "6"
         ],
-        "answer": "10",
-        "explanation": "Subtract 20 from both sides: 5x = 50. Divide by 5: x = 10."
+        "answer": "5",
+        "explanation": "Step 1: Subtract 45 from both sides: 25p = 125.\nStep 2: Divide by 25: p = 5."
       }
     ]
   },
@@ -77,52 +92,130 @@
     "subject": "Mathematics",
     "subjectKey": "math",
     "unitNumber": 2,
-    "title": "Numbers - Operating on Whole Numbers & Integers",
-    "summary": "Master operations on whole numbers up to millions, commutative, associative, and distributive properties, and integer operations on the number line.",
+    "title": "Unit 2: Numbers - Operating on Whole Numbers & Integers",
+    "summary": "Master operations on whole numbers up to millions, commutative, associative, and distributive properties, and integer arithmetic on the number line.",
     "keyTerms": [
       "Place Value",
       "Commutative Property",
       "Associative Property",
       "Distributive Property",
       "Integers",
-      "Negative Numbers"
+      "Number Line",
+      "Absolute Value"
     ],
     "keyIdeas": [
       "Commutative Law: a + b = b + a and a × b = b × a.",
       "Distributive Law: a × (b + c) = (a × b) + (a × c).",
-      "Integers include negative numbers, zero, and positive numbers."
+      "Adding a negative integer moves left on the number line; subtracting a negative integer moves right."
+    ],
+    "illustrations": [
+      {
+        "caption": "Number Line Integers",
+        "icon": "↔️",
+        "description": "Negative numbers extend left of zero; positive numbers extend right"
+      }
     ],
     "sections": [
       {
-        "title": "Properties of Operations",
-        "content": "Operations on whole numbers obey fundamental laws. Using the distributive property: 7 × 106 = 7 × (100 + 6) = 700 + 42 = 742."
+        "title": "2.1 Properties of Arithmetic Operations",
+        "content": "Using the distributive property simplifies mental math: 8 × 97 = 8 × (100 - 3) = 800 - 24 = 776."
+      },
+      {
+        "title": "2.2 Integer Rules",
+        "content": "Subtracting a negative number is equivalent to adding its positive counterpart: 12 - (-7) = 12 + 7 = 19."
       }
     ],
     "examples": [
       {
-        "title": "Integer Operations",
-        "problem": "Evaluate (-15) + (+9) - (-6).",
+        "title": "Evaluating Integer Expressions",
+        "problem": "Calculate: (-18) + (+12) - (-9).",
         "solutionSteps": [
-          "Step 1: Add (-15) + 9 = -6.",
-          "Step 2: Subtracting negative is adding: -6 - (-6) = -6 + 6.",
-          "Step 3: Result is 0."
+          "Step 1: Combine (-18) + 12 = -6.",
+          "Step 2: Subtraction of negative (-9) becomes addition of +9: -6 + 9 = 3."
         ],
-        "finalAnswer": "0"
+        "finalAnswer": "3"
       }
     ],
     "exercises": [
       {
         "id": "g6_math_u2_q1",
         "num": 1,
-        "question": "What is (-8) × (-6)?",
+        "question": "What is the result of (-14) × (-5)?",
         "options": [
-          "-48",
-          "48",
-          "-14",
-          "14"
+          "-70",
+          "70",
+          "-19",
+          "19"
         ],
-        "answer": "48",
-        "explanation": "The product of two negative integers is positive: (-8) × (-6) = +48."
+        "answer": "70",
+        "explanation": "Multiplying two negative numbers produces a positive product: (-14) × (-5) = +70."
+      }
+    ]
+  },
+  {
+    "id": "g6_math_u3",
+    "grade": 6,
+    "subject": "Mathematics",
+    "subjectKey": "math",
+    "unitNumber": 3,
+    "title": "Unit 3: Primes - The Sieve of Eratosthenes & Factors",
+    "summary": "Discover prime and composite numbers, the ancient Sieve of Eratosthenes algorithm, prime factorization factor trees, Greatest Common Factor (GCF), and Least Common Multiple (LCM).",
+    "keyTerms": [
+      "Prime Number",
+      "Composite Number",
+      "Sieve of Eratosthenes",
+      "Factor Tree",
+      "GCF",
+      "LCM"
+    ],
+    "keyIdeas": [
+      "A prime number has exactly two distinct factors: 1 and itself (2, 3, 5, 7, 11...).",
+      "The number 1 is neither prime nor composite.",
+      "Every composite number can be uniquely factored into a product of primes (Fundamental Theorem of Arithmetic)."
+    ],
+    "interactiveWidget": "primes",
+    "illustrations": [
+      {
+        "caption": "Factor Tree for 60",
+        "icon": "🌳",
+        "description": "60 = 2 × 30 = 2 × 2 × 15 = 2² × 3 × 5"
+      }
+    ],
+    "sections": [
+      {
+        "title": "3.1 Prime Factorization and Factor Trees",
+        "content": "To factor 72: 72 = 8 × 9 = (2 × 2 × 2) × (3 × 3) = 2³ × 3²."
+      },
+      {
+        "title": "3.2 Finding GCF and LCM",
+        "content": "For 24 and 36: 24 = 2³ × 3; 36 = 2² × 3². GCF takes the lowest powers: 2² × 3 = 12. LCM takes highest powers: 2³ × 3² = 72."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Finding GCF and LCM of 18 and 30",
+        "problem": "Find the GCF and LCM of 18 and 30.",
+        "solutionSteps": [
+          "18 = 2 × 3²; 30 = 2 × 3 × 5.",
+          "GCF = 2 × 3 = 6.",
+          "LCM = 2 × 3² × 5 = 90."
+        ],
+        "finalAnswer": "GCF = 6, LCM = 90"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g6_math_u3_q1",
+        "num": 1,
+        "question": "What is the Greatest Common Factor (GCF) of 24 and 36?",
+        "options": [
+          "6",
+          "12",
+          "18",
+          "72"
+        ],
+        "answer": "12",
+        "explanation": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Greatest common divisor is 12."
       }
     ]
   },
@@ -132,51 +225,66 @@
     "subject": "General Science",
     "subjectKey": "science",
     "unitNumber": 1,
-    "title": "Living Things & The Optical Microscope",
-    "summary": "Explore cell theory, parts of animal and plant cells, optical light microscopes, and the fundamental characteristics of living organisms.",
+    "title": "Unit 1: Living Things & The Optical Compound Microscope",
+    "summary": "Learn the unified Cell Theory, parts of animal and plant cells, optics of the compound microscope, and safe laboratory specimen preparation with glass slides.",
     "keyTerms": [
-      "Cell",
-      "Microscope",
-      "Cytoplasm",
-      "Nucleus",
+      "Cell Theory",
+      "Compound Microscope",
+      "Eyepiece",
+      "Objective Lens",
       "Cell Wall",
       "Chloroplast",
-      "Vacuole"
+      "Cytoplasm",
+      "Nucleus"
     ],
     "keyIdeas": [
-      "All living organisms are made of cells.",
-      "Plant cells have a cellulose cell wall, large vacuole, and chloroplasts for photosynthesis.",
-      "Total Magnification = Eyepiece Magnification × Objective Lens Magnification."
+      "The cell is the basic structural and functional unit of all living organisms.",
+      "Total Magnification = Eyepiece Power × Objective Lens Power (e.g. 10x × 40x = 400x).",
+      "Plant cells possess a rigid cellulose cell wall, chloroplasts, and a large central vacuole."
+    ],
+    "interactiveWidget": "microscope",
+    "illustrations": [
+      {
+        "caption": "Compound Optical Microscope",
+        "icon": "🔬",
+        "description": "Eyepiece (10x), Revolving Nosepiece, Objective lenses (4x, 10x, 40x), Stage clips, Light source"
+      },
+      {
+        "caption": "Plant vs Animal Cell",
+        "icon": "🌿",
+        "description": "Plant cells have chloroplasts and rigid cell walls; animal cells have flexible membranes"
+      }
     ],
     "sections": [
       {
-        "title": "Microscope Anatomy & Magnification",
-        "content": "The light microscope magnifies microscopic specimens using objective lenses (4x, 10x, 40x) and an eyepiece (10x). Total magnification for high power is 10 × 40 = 400x."
+        "title": "1.1 The Compound Microscope Anatomy",
+        "content": "The ocular eyepiece lens (usually 10x) magnifies the primary image produced by objective lenses (4x scanning, 10x low power, 40x high power). The stage holds the slide with stage clips, while coarse and fine focus knobs sharpen the specimen image."
       }
     ],
     "examples": [
       {
-        "title": "Calculating Magnification",
-        "problem": "Find the magnification using a 10x ocular lens and a 40x objective lens.",
+        "title": "Calculating Total Microscope Magnification",
+        "problem": "A student in Keren observes onion cells with a 15x ocular lens and a 40x high-power objective. What is the total magnification?",
         "solutionSteps": [
-          "Multiply 10 by 40: 10 × 40 = 400x."
+          "Formula: Total Magnification = Eyepiece × Objective.",
+          "Calculation: 15 × 40 = 600x."
         ],
-        "finalAnswer": "400x"
+        "finalAnswer": "600x"
       }
     ],
     "exercises": [
       {
         "id": "g6_sci_u1_q1",
         "num": 1,
-        "question": "Which organelle is found in plant cells but NOT animal cells?",
+        "question": "Which structure gives plant cells their rigid rectangular shape?",
         "options": [
-          "Mitochondria",
           "Cell membrane",
-          "Chloroplast",
-          "Nucleus"
+          "Cellulose cell wall",
+          "Ribosome",
+          "Mitochondria"
         ],
-        "answer": "Chloroplast",
-        "explanation": "Chloroplasts contain chlorophyll for photosynthesis and are exclusive to plant cells."
+        "answer": "Cellulose cell wall",
+        "explanation": "The tough cellulose cell wall provides structural support and rigidity to plant cells."
       }
     ]
   },
@@ -186,51 +294,60 @@
     "subject": "Social Studies",
     "subjectKey": "social_studies",
     "unitNumber": 1,
-    "title": "Geography & Regions of Eritrea (The Six Zobas)",
-    "summary": "Study the geographic landscape, administrative zobas (Maekel, Debub, Anseba, Gash-Barka, Semenawi Keyih Bahri, Debubawi Keyih Bahri), climates, and natural resources of Eritrea.",
+    "title": "Unit 1: Geography & Physical Landscapes of Eritrea (The 6 Zobas)",
+    "summary": "Survey the six administrative regions (Zobas) of Eritrea: Maekel, Debub, Anseba, Gash-Barka, Semenawi Keyih Bahri, and Debubawi Keyih Bahri, including topography, climates, and rivers.",
     "keyTerms": [
       "Zoba",
       "Highlands",
-      "Lowlands",
-      "Coastal Plain",
+      "Western Lowlands",
+      "Eastern Escarpment",
       "Danakil Depression",
-      "Red Sea Coastline"
+      "Red Sea Coast",
+      "Mereb River",
+      "Barka River"
     ],
     "keyIdeas": [
-      "Eritrea has six administrative regions (Zobas) with distinct topography and climate zones.",
-      "The central highlands enjoy temperate weather, while the eastern and western lowlands experience tropical and semi-arid conditions.",
-      "Eritrea's coastline spans over 1,200 km along the vital international Red Sea trade route."
+      "Eritrea features three distinct physiographic zones: the central temperate highlands, western lowlands, and coastal plains.",
+      "Zoba Gash-Barka is the agricultural heartland, while Zoba Debubawi Keyih Bahri borders the southern Red Sea."
+    ],
+    "interactiveWidget": "zobas_map",
+    "illustrations": [
+      {
+        "caption": "The Six Zobas of Eritrea",
+        "icon": "🗺️",
+        "description": "Maekel (Asmara), Debub (Mendefera), Anseba (Keren), Gash-Barka (Barentu), Semenawi Keyih Bahri (Massawa), Debubawi Keyih Bahri (Assab)"
+      }
     ],
     "sections": [
       {
-        "title": "The Six Administrative Regions of Eritrea",
-        "content": "Zoba Maekel contains the capital Asmara. Zoba Debub hosts historic towns and high agricultural output. Zoba Gash-Barka is the vast western agricultural hub. Zoba Anseba centers around Keren. The two coastal regions, Semenawi and Debubawi Keyih Bahri, border the Red Sea with ports at Massawa and Assab."
+        "title": "1.1 Physiography of Eritrea",
+        "content": "The central highlands sit over 2,000 meters above sea level, enjoying temperate climates and rich volcanic soils. The coastal desert stretches along the Red Sea, where the Danakil Depression is among the hottest places on Earth."
       }
     ],
     "examples": [
       {
-        "title": "Zoba Capital Matching",
-        "problem": "Name the capital cities of Zoba Anseba and Zoba Semenawi Keyih Bahri.",
+        "title": "Regional Capital Identification",
+        "problem": "Identify the administrative capitals of Zoba Gash-Barka and Zoba Debub.",
         "solutionSteps": [
-          "Zoba Anseba administrative capital is Keren.",
-          "Zoba Semenawi Keyih Bahri administrative capital is the historic port city of Massawa."
+          "Zoba Gash-Barka capital is Barentu.",
+          "Zoba Debub capital is Mendefera."
         ],
-        "finalAnswer": "Keren and Massawa"
+        "finalAnswer": "Barentu and Mendefera"
       }
     ],
     "exercises": [
       {
         "id": "g6_soc_u1_q1",
         "num": 1,
-        "question": "Which administrative region of Eritrea is bordered by the southern Red Sea with Assab as its primary port?",
+        "question": "Which is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub?",
         "options": [
-          "Zoba Maekel",
-          "Zoba Gash-Barka",
-          "Zoba Debubawi Keyih Bahri",
-          "Zoba Anseba"
+          "Mount Emba Soira",
+          "Mount Bizen",
+          "Mount Ghedem",
+          "Mount Fentele"
         ],
-        "answer": "Zoba Debubawi Keyih Bahri",
-        "explanation": "Zoba Debubawi Keyih Bahri (Southern Red Sea region) encompasses the southern coastline and the port city of Assab."
+        "answer": "Mount Emba Soira",
+        "explanation": "Mount Emba Soira (3,018m) in Zoba Debub is the highest elevation point in Eritrea."
       }
     ]
   },
@@ -240,51 +357,56 @@
     "subject": "Citizenship Education",
     "subjectKey": "citizenship",
     "unitNumber": 1,
-    "title": "Being a Responsible Young Person & Family Duties",
-    "summary": "Learn self-identity, exhibiting responsible behavior in family and community, understanding rights and duties, and cultivating positive friendships.",
+    "title": "Unit 1: Being a Responsible Young Person & Family Duties",
+    "summary": "Cultivate civic virtues: self-discipline, assisting at home and school, respecting parents and community elders, and understanding rights paired with duties.",
     "keyTerms": [
-      "Responsibility",
-      "Self-discipline",
-      "Family Duties",
-      "Cooperation",
-      "Civic Respect"
+      "Civic Responsibility",
+      "Self-Discipline",
+      "Family Duty",
+      "Elder Respect",
+      "Cooperation"
     ],
     "keyIdeas": [
-      "A responsible person takes accountability for their actions and helps at home and school.",
-      "Cooperation and respect for elders are central virtues in Eritrean communities.",
-      "Preserving public property and cleanliness is every citizen's obligation."
+      "Every right is accompanied by a corresponding civic duty.",
+      "Respecting community elders and cooperating with peers builds harmonious societies."
+    ],
+    "illustrations": [
+      {
+        "caption": "Community Solidarity",
+        "icon": "🤝",
+        "description": "Helping elders and participating in shared neighborhood tasks"
+      }
     ],
     "sections": [
       {
-        "title": "Demonstrating Civic Responsibility",
-        "content": "Responsibility is shown by completing assignments on time, assisting family with chores, caring for younger siblings, and participating in neighborhood cleanup (maetot)."
+        "title": "1.1 The Meaning of Responsibility",
+        "content": "A responsible young person completes their homework diligently, cleans their living space, treats classmates kindly, and takes pride in communal cleanliness."
       }
     ],
     "examples": [
       {
-        "title": "Community Service Role",
-        "problem": "How can a student practice civic responsibility in their village or town?",
+        "title": "Demonstrating Civic Responsibility",
+        "problem": "Give two examples of responsible behavior in an Eritrean classroom.",
         "solutionSteps": [
-          "1. Participate in communal environmental cleanup.",
-          "2. Respect elders and public rules.",
-          "3. Protect trees and public water taps."
+          "1. Arriving punctually and listening attentively to teachers.",
+          "2. Taking care of classroom desks and textbooks."
         ],
-        "finalAnswer": "Active communal care and environmental preservation."
+        "finalAnswer": "Punctuality and taking care of public school equipment."
       }
     ],
     "exercises": [
       {
         "id": "g6_cit_u1_q1",
         "num": 1,
-        "question": "Which of the following demonstrates responsible behavior at school?",
+        "question": "Which action exemplifies civic responsibility at school?",
         "options": [
-          "Arriving late to class",
-          "Damaging library books",
-          "Listening attentively to teachers and peers",
-          "Blaming others for mistakes"
+          "Littering the schoolyard",
+          "Writing on classroom walls",
+          "Taking care of library books and helping peers",
+          "Ignoring the national anthem"
         ],
-        "answer": "Listening attentively to teachers and peers",
-        "explanation": "Respectful listening and active cooperation demonstrate civic maturity."
+        "answer": "Taking care of library books and helping peers",
+        "explanation": "Protecting school materials and showing mutual respect reflect true civic values."
       }
     ]
   },
@@ -294,49 +416,57 @@
     "subject": "English Grammar & Reading",
     "subjectKey": "english",
     "unitNumber": 1,
-    "title": "Everyday Communication, Parts of Speech & Folktales",
-    "summary": "Understand nouns, pronouns, present continuous vs simple present tense, sentence punctuation, and read traditional Eritrean folktales.",
+    "title": "Unit 1: Classroom Language, Nouns & Eritrean Folktales",
+    "summary": "Master common and proper nouns, singular vs plural rules, simple present tense, and read beloved Eritrean folktales.",
     "keyTerms": [
-      "Common Noun",
       "Proper Noun",
-      "Pronoun",
+      "Common Noun",
+      "Singular",
+      "Plural",
       "Subject-Verb Agreement",
-      "Punctuation"
+      "Folktale"
     ],
     "keyIdeas": [
-      "A proper noun begins with a capital letter and names specific persons, places, or days.",
-      "Subject-verb agreement: singular subjects take singular verbs with 's' or 'es' in the simple present tense."
+      "Proper nouns name specific persons, places, or days and always capitalize their first letter.",
+      "In simple present tense, third-person singular subjects take verbs ending in -s or -es."
+    ],
+    "illustrations": [
+      {
+        "caption": "Reading Folktales",
+        "icon": "📖",
+        "description": "Traditional stories conveying wisdom, honesty, and bravery"
+      }
     ],
     "sections": [
       {
-        "title": "Nouns and Pronouns in Context",
-        "content": "A noun names a person, place, or thing. A pronoun takes the place of a noun to avoid unnecessary repetition (e.g. 'Bereket went to Massawa because he wanted to see the sea')."
+        "title": "1.1 Proper and Common Nouns",
+        "content": "Common nouns name general categories (city, river, mountain). Proper nouns name specific entities (Asmara, Mereb, Emba Soira)."
       }
     ],
     "examples": [
       {
-        "title": "Identifying Subject Pronoun",
-        "problem": "Replace the underlined subject with a pronoun: 'Almaz and Helen visited the National Museum.'",
+        "title": "Verb Agreement in Simple Present",
+        "problem": "Select the correct verb: 'Yonas (walk / walks) to school every morning.'",
         "solutionSteps": [
-          "Almaz and Helen is a plural third-person subject.",
-          "The appropriate third-person plural subject pronoun is 'They'."
+          "Yonas is a third-person singular subject.",
+          "Add -s to the verb: 'walks'."
         ],
-        "finalAnswer": "They visited the National Museum."
+        "finalAnswer": "Yonas walks to school every morning."
       }
     ],
     "exercises": [
       {
         "id": "g6_eng_u1_q1",
         "num": 1,
-        "question": "Choose the correct verb: 'The teacher ______ the chalkboard before every lesson.'",
+        "question": "Which of the following contains a proper noun?",
         "options": [
-          "clean",
-          "cleans",
-          "cleaning",
-          "cleaned have"
+          "The beautiful bird",
+          "We visited Massawa",
+          "A large classroom",
+          "Running very fast"
         ],
-        "answer": "cleans",
-        "explanation": "Third-person singular subject 'The teacher' takes the singular verb 'cleans'."
+        "answer": "We visited Massawa",
+        "explanation": "'Massawa' is a proper noun naming a specific historic port city."
       }
     ]
   },
@@ -346,8 +476,8 @@
     "subject": "Mathematics",
     "subjectKey": "math",
     "unitNumber": 1,
-    "title": "Rational Numbers, Fractions & Repeating Decimals",
-    "summary": "Define rational numbers as fractions a/b (b ≠ 0). Master addition, subtraction, multiplication, and division of fractions and decimals, and convert between fractions and repeating decimals.",
+    "title": "Unit 1: Rational Numbers, Repeating Decimals & Operations",
+    "summary": "Define rational numbers as a/b (b ≠ 0). Perform operations on fractions and decimals, convert terminating and repeating decimals into fractions, and apply order of operations (PEMDAS).",
     "keyTerms": [
       "Rational Number",
       "Terminating Decimal",
@@ -357,40 +487,47 @@
     ],
     "keyIdeas": [
       "A rational number is any value expressible as a quotient of integers a/b where b ≠ 0.",
-      "To divide fractions, multiply by the reciprocal of the divisor: (a/b) ÷ (c/d) = (a/b) × (d/c).",
-      "Rational decimal expansions either terminate or repeat."
+      "Dividing by a fraction is multiplying by its reciprocal: (a/b) ÷ (c/d) = (a/b) × (d/c)."
+    ],
+    "illustrations": [
+      {
+        "caption": "Rational Numbers on Number Line",
+        "icon": "📏",
+        "description": "Fractions and negative fractions sit between whole integers"
+      }
     ],
     "sections": [
       {
-        "title": "Dividing Rational Numbers",
-        "content": "To compute (3/4) ÷ (-9/16): multiply by the reciprocal of -9/16, which is -16/9. (3/4) × (-16/9) = -4/3 = -1 1/3."
+        "title": "1.1 Fraction Division with Reciprocals",
+        "content": "To divide (4/5) ÷ (8/15): flip 8/15 to 15/8. Multiply: (4/5) × (15/8) = (4 × 15) / (5 × 8) = 60/40 = 3/2 = 1 1/2."
       }
     ],
     "examples": [
       {
-        "title": "Fraction Division",
-        "problem": "Evaluate (5/6) ÷ (10/3).",
+        "title": "Converting Repeating Decimal to Fraction",
+        "problem": "Convert 0.666... (0.6 repeating) into a simplified fraction.",
         "solutionSteps": [
-          "Step 1: Reciprocal of 10/3 is 3/10.",
-          "Step 2: Multiply: (5/6) × (3/10).",
-          "Step 3: Simplify: (5 × 3) / (6 × 10) = 15/60 = 1/4."
+          "Let x = 0.666...",
+          "Multiply by 10: 10x = 6.666...",
+          "Subtract: 10x - x = 6.666... - 0.666... => 9x = 6",
+          "Divide by 9: x = 6/9 = 2/3."
         ],
-        "finalAnswer": "1/4"
+        "finalAnswer": "2/3"
       }
     ],
     "exercises": [
       {
         "id": "g7_math_u1_q1",
         "num": 1,
-        "question": "Which of the following is NOT a rational number?",
+        "question": "Evaluate (5/8) ÷ (15/16):",
         "options": [
-          "-5/8",
-          "0.75",
-          "√2",
-          "0"
+          "1/2",
+          "2/3",
+          "3/4",
+          "1"
         ],
-        "answer": "√2",
-        "explanation": "√2 is irrational because its decimal representation is non-terminating and non-repeating."
+        "answer": "2/3",
+        "explanation": "(5/8) × (16/15) = (5 × 16)/(8 × 15) = 80/120 = 2/3."
       }
     ]
   },
@@ -400,44 +537,50 @@
     "subject": "General Science",
     "subjectKey": "science",
     "unitNumber": 1,
-    "title": "Human Body Systems - Digestion & Respiration",
-    "summary": "Follow the journey of nutrients through the human digestive canal, explore enzyme action, and study gas exchange in pulmonary alveoli.",
+    "title": "Unit 1: Human Body Systems - Digestion & Respiration",
+    "summary": "Study mechanical and chemical digestion from mouth to rectum, the role of enzymes (amylase, pepsin, lipase), and gas exchange across alveoli in the respiratory system.",
     "keyTerms": [
-      "Digestive Tract",
+      "Alimentary Canal",
       "Enzymes",
       "Peristalsis",
-      "Stomach",
-      "Villi",
+      "Small Intestine Villi",
       "Alveoli",
-      "Capillaries"
+      "Gas Exchange"
     ],
     "keyIdeas": [
-      "Digestive enzymes (amylase, pepsin, lipase) break down complex food polymers into absorbable monomers.",
-      "The small intestine villi maximize surface area for nutrient absorption into capillaries.",
-      "In alveoli, oxygen diffuses into blood while carbon dioxide diffuses into the lungs to be exhaled."
+      "Enzymes catalyze the chemical breakdown of food polymers into absorbable nutrients.",
+      "Villi in the small intestine maximize the surface area for nutrient absorption into blood capillaries.",
+      "In alveoli, oxygen diffuses into blood while carbon dioxide diffuses into lungs to be exhaled."
+    ],
+    "illustrations": [
+      {
+        "caption": "Human Digestive Tract",
+        "icon": "🍎",
+        "description": "Mouth -> Esophagus -> Stomach -> Small Intestine -> Large Intestine"
+      }
     ],
     "sections": [
       {
-        "title": "Digestive Pathway and Enzymes",
-        "content": "Digestion starts in the mouth with salivary amylase. Food travels down the esophagus via peristalsis into the stomach where pepsin and hydrochloric acid digest proteins. Pancreatic juices and bile finish digestion in the duodenum."
+        "title": "1.1 The Digestive Pathway",
+        "content": "Food passes through the digestive tract via peristalsis. In the stomach, hydrochloric acid and pepsin break down proteins. In the duodenum, bile emulsifies fats, and pancreatic enzymes digest carbohydrates and lipids."
       }
     ],
     "examples": [
       {
-        "title": "Role of Villi",
-        "problem": "Why are villi critical in the small intestine?",
+        "title": "Function of Microscopic Villi",
+        "problem": "Explain how the microscopic structure of intestinal villi facilitates rapid nutrient absorption.",
         "solutionSteps": [
-          "1. Millions of tiny projections exponentially multiply surface area.",
-          "2. Single-cell thin walls allow rapid diffusion into blood vessels."
+          "1. Millions of tiny finger-like villi multiply the inner surface area by hundreds of times.",
+          "2. Each villus has a thin single-cell epithelium and a dense network of blood capillaries."
         ],
-        "finalAnswer": "Maximizes nutrient absorption rate."
+        "finalAnswer": "Greatly expands surface area and provides short diffusion distance into blood."
       }
     ],
     "exercises": [
       {
         "id": "g7_sci_u1_q1",
         "num": 1,
-        "question": "Where does the primary absorption of digested nutrients occur?",
+        "question": "Where does the primary absorption of digested nutrients into the bloodstream occur?",
         "options": [
           "Stomach",
           "Esophagus",
@@ -455,42 +598,49 @@
     "subject": "Social Studies",
     "subjectKey": "social_studies",
     "unitNumber": 1,
-    "title": "Ancient Trade Routes, Adulis & Geography of Horn of Africa",
-    "summary": "Examine the historic significance of ancient Adulis, archaeological treasures of Kohaito and Metera, and the physical geography of the Horn of Africa.",
+    "title": "Unit 1: Ancient Trade Routes, Adulis & Archaeology of Eritrea",
+    "summary": "Investigate the historic port of Adulis on the Red Sea, ancient trade networks connecting Africa, the Mediterranean, India, and Arabia, and the ruins of Kohaito and Metera.",
     "keyTerms": [
       "Adulis",
+      "Gulf of Zula",
+      "Red Sea Trade",
       "Kohaito",
-      "Metera",
-      "Trade Winds",
-      "Silk and Spice Routes",
-      "Horn of Africa"
+      "Metera Obelisk",
+      "Archaeology"
     ],
     "keyIdeas": [
       "Adulis was a major international maritime port connecting Africa, the Mediterranean, India, and Arabia.",
       "The highlands of Eritrea provided temperate agricultural conditions that supported early civilizational trade hubs."
     ],
+    "illustrations": [
+      {
+        "caption": "Historic Port of Adulis",
+        "icon": "⛵",
+        "description": "Ancient Red Sea maritime gateway on the Gulf of Zula"
+      }
+    ],
     "sections": [
       {
-        "title": "The Historic Port of Adulis",
-        "content": "Located south of Massawa on the Gulf of Zula, Adulis served as the primary gateway for exports including obsidian, ivory, spices, and fragrant resins."
+        "title": "1.1 The Port City of Adulis",
+        "content": "Adulis was the primary coastal terminus for trade caravans bearing obsidian from the Danakil, ivory, frankincense, gold, and agricultural produce."
       }
     ],
     "examples": [
       {
-        "title": "Ancient Trade Goods",
-        "problem": "What natural commodities did ancient traders export through Adulis?",
+        "title": "Ancient Trade Commodities",
+        "problem": "Name two major commodities exported from the Eritrean coast in ancient times.",
         "solutionSteps": [
-          "1. High-value natural goods: ivory, frankincense, myrrh, gold.",
-          "2. Minerals such as obsidian from the volcanic fields of the Danakil."
+          "1. Frankincense and aromatic gums from coastal and highland trees.",
+          "2. Obsidian volcanic glass used for tools and ornaments."
         ],
-        "finalAnswer": "Ivory, incense, gold, and obsidian."
+        "finalAnswer": "Frankincense and obsidian volcanic glass."
       }
     ],
     "exercises": [
       {
         "id": "g7_soc_u1_q1",
         "num": 1,
-        "question": "On which body of water was the ancient port city of Adulis located?",
+        "question": "Adulis was situated along the coast of which body of water?",
         "options": [
           "Mediterranean Sea",
           "Red Sea",
@@ -498,7 +648,7 @@
           "Persian Gulf"
         ],
         "answer": "Red Sea",
-        "explanation": "Adulis was situated on the Red Sea coast in the Gulf of Zula."
+        "explanation": "Adulis was located on the Gulf of Zula along the Red Sea coast."
       }
     ]
   },
@@ -508,49 +658,56 @@
     "subject": "Citizenship Education",
     "subjectKey": "citizenship",
     "unitNumber": 1,
-    "title": "Rule of Law, Community Equality & Environmental Stewardship",
-    "summary": "Study the principles of the Rule of Law, gender equity in society, peaceful conflict resolution, and protection of natural soil and water resources.",
+    "title": "Unit 1: Rule of Law, Gender Equity & Environmental Stewardship",
+    "summary": "Understand constitutional governance, the Rule of Law, gender equality in society, and communal environmental conservation through hillside terracing.",
     "keyTerms": [
       "Rule of Law",
       "Gender Equality",
-      "Conflict Resolution",
-      "Soil Conservation",
-      "Terracing"
+      "Terracing",
+      "Environmental Stewardship",
+      "Civic Rights"
     ],
     "keyIdeas": [
-      "The Rule of Law ensures no individual is above the law and all citizens receive impartial justice.",
-      "Soil and water conservation campaigns (such as hillside terracing and tree planting) preserve arable land for future generations."
+      "The Rule of Law guarantees that laws are applied equally and impartially to everyone.",
+      "Hillside stone terracing slows torrential runoff and prevents valuable agricultural soil loss."
+    ],
+    "illustrations": [
+      {
+        "caption": "Hillside Terracing",
+        "icon": "🌱",
+        "description": "Stepped stone terraces preventing rainwater soil erosion"
+      }
     ],
     "sections": [
       {
-        "title": "Environmental Protection as Civic Duty",
-        "content": "Eritrean students regularly contribute to soil conservation by constructing stone terraces along steep hillsides and planting tree saplings during summer work campaigns."
+        "title": "1.1 Soil Conservation Campaigns",
+        "content": "Eritrean students actively contribute to the nation by planting trees and building hillside terraces during summer work programs (Maetot)."
       }
     ],
     "examples": [
       {
-        "title": "Hillside Terracing Benefits",
-        "problem": "How does terracing prevent catastrophic soil erosion during heavy seasonal rains?",
+        "title": "Benefits of Terracing",
+        "problem": "Why is stone terracing constructed on steep Eritrean hillsides?",
         "solutionSteps": [
-          "1. Stone terraces slow down rushing surface water runoff.",
-          "2. Trapped soil creates fertile stepped benches for crops and vegetation."
+          "1. Rushing rainwater slows down upon striking terrace walls.",
+          "2. Trapped soil stays in place and retains moisture for crop roots."
         ],
-        "finalAnswer": "Slows water flow and retains fertile topsoil."
+        "finalAnswer": "Prevents soil erosion and conserves soil moisture."
       }
     ],
     "exercises": [
       {
         "id": "g7_cit_u1_q1",
         "num": 1,
-        "question": "What is the primary purpose of agricultural hillside terracing in Eritrea?",
+        "question": "What is the primary agricultural purpose of building stone terraces on hillsides?",
         "options": [
           "To build highways",
-          "To prevent soil erosion and conserve moisture",
-          "To construct sports fields",
-          "To extract minerals"
+          "To prevent soil erosion and retain soil moisture",
+          "To extract minerals",
+          "To build sports arenas"
         ],
-        "answer": "To prevent soil erosion and conserve moisture",
-        "explanation": "Terracing retains topsoil and reduces torrential rainwater runoff on steep hills."
+        "answer": "To prevent soil erosion and retain soil moisture",
+        "explanation": "Terracing slows water runoff and retains fertile topsoil."
       }
     ]
   },
@@ -560,50 +717,136 @@
     "subject": "English Grammar & Reading",
     "subjectKey": "english",
     "unitNumber": 1,
-    "title": "Grammar Mastery: Tenses, Modals & Active/Passive Voice",
-    "summary": "Master past simple vs present perfect, modal auxiliaries (must, should, can), and convert active voice statements into formal passive constructions.",
+    "title": "Unit 1: Tenses, Modals & Active/Passive Voice Transformations",
+    "summary": "Deepen mastery of English tenses (past continuous, present perfect), modal verbs (must, should, can), and convert active sentences into passive voice.",
     "keyTerms": [
       "Present Perfect",
-      "Past Simple",
-      "Modal Auxiliary",
       "Active Voice",
-      "Passive Voice"
+      "Passive Voice",
+      "Modal Auxiliaries",
+      "Participle"
     ],
     "keyIdeas": [
-      "Active voice emphasizes the doer: 'The student solved the problem.'",
-      "Passive voice emphasizes the object or outcome: 'The problem was solved by the student.'"
+      "Active voice focuses on the performer; passive voice focuses on the action or object.",
+      "Passive formula: Object + auxiliary verb 'to be' + past participle + (by agent)."
+    ],
+    "illustrations": [
+      {
+        "caption": "Active to Passive Conversion",
+        "icon": "🔄",
+        "description": "Subject and object swap positions with auxiliary 'be' + V3"
+      }
     ],
     "sections": [
       {
-        "title": "Transforming Active to Passive Voice",
-        "content": "In passive voice, the direct object becomes the subject. The verb changes to 'to be' + past participle. For example: 'The engineer designed the bridge' -> 'The bridge was designed by the engineer'."
+        "title": "1.1 Converting Active to Passive",
+        "content": "'The farmer planted sorghum' (Active) becomes 'Sorghum was planted by the farmer' (Passive)."
       }
     ],
     "examples": [
       {
         "title": "Passive Voice Conversion",
-        "problem": "Convert to passive: 'Farmers grow sorghum in Gash-Barka.'",
+        "problem": "Convert to passive: 'The teacher praised the diligent student.'",
         "solutionSteps": [
-          "1. Direct object 'sorghum' becomes subject.",
-          "2. Present tense of 'to be' is 'is'.",
-          "3. Past participle of grow is 'grown'."
+          "1. Direct object: 'the diligent student'.",
+          "2. Past tense of 'to be': 'was'.",
+          "3. Past participle: 'praised'."
         ],
-        "finalAnswer": "Sorghum is grown in Gash-Barka by farmers."
+        "finalAnswer": "The diligent student was praised by the teacher."
       }
     ],
     "exercises": [
       {
         "id": "g7_eng_u1_q1",
         "num": 1,
-        "question": "What is the passive form of 'The author wrote an inspiring story'?",
+        "question": "What is the passive form of 'The technician repaired the school radio'?",
         "options": [
-          "An inspiring story is written by the author.",
-          "An inspiring story was written by the author.",
-          "The author was writing a story.",
-          "The story has written the author."
+          "The school radio is repaired by the technician.",
+          "The school radio was repaired by the technician.",
+          "The technician was repairing the radio.",
+          "The radio has repaired the technician."
         ],
-        "answer": "An inspiring story was written by the author.",
-        "explanation": "Past simple active 'wrote' becomes 'was written' in passive voice."
+        "answer": "The school radio was repaired by the technician.",
+        "explanation": "Past simple active 'repaired' becomes 'was repaired' in passive voice."
+      }
+    ]
+  },
+  {
+    "id": "g8_math_u1",
+    "grade": 8,
+    "subject": "Mathematics",
+    "subjectKey": "math",
+    "unitNumber": 1,
+    "title": "Unit 1: Real Numbers, Radicals & Pythagorean Theorem",
+    "summary": "Survey the real number system, properties of square roots and radicals, the Pythagorean theorem (a² + b² = c²), and solving linear inequalities on number lines.",
+    "keyTerms": [
+      "Real Numbers",
+      "Irrational Numbers",
+      "Radical",
+      "Pythagorean Theorem",
+      "Hypotenuse",
+      "Linear Inequality"
+    ],
+    "keyIdeas": [
+      "For any right-angled triangle, a² + b² = c², where c is the hypotenuse opposite the right angle.",
+      "Multiplying or dividing an inequality by a negative number reverses the inequality symbol."
+    ],
+    "interactiveWidget": "pythagoras",
+    "illustrations": [
+      {
+        "caption": "Pythagorean Theorem Triangle",
+        "icon": "📐",
+        "description": "In a right triangle with sides 6 cm and 8 cm: 6² + 8² = 36 + 64 = 100 = 10²"
+      }
+    ],
+    "sections": [
+      {
+        "title": "1.1 The Pythagorean Theorem",
+        "content": "In any right-angled triangle, the area of the square whose side is the hypotenuse is equal to the sum of the areas of the squares on the other two legs."
+      },
+      {
+        "title": "1.2 Linear Inequalities Rule",
+        "content": "When solving -3x < 15, dividing both sides by -3 reverses the symbol: x > -5."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Hypotenuse Calculation",
+        "problem": "A right triangle has perpendicular legs of 9 cm and 12 cm. Find the length of the hypotenuse.",
+        "solutionSteps": [
+          "c² = a² + b² = 9² + 12².",
+          "c² = 81 + 144 = 225.",
+          "c = √225 = 15 cm."
+        ],
+        "finalAnswer": "15 cm"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g8_math_u1_q1",
+        "num": 1,
+        "question": "Solve the inequality for x: -4x < 24.",
+        "options": [
+          "x < -6",
+          "x > -6",
+          "x < 6",
+          "x > 6"
+        ],
+        "answer": "x > -6",
+        "explanation": "Dividing both sides by negative 4 reverses the inequality sign from < to >: x > -6."
+      },
+      {
+        "id": "g8_math_u1_q2",
+        "num": 2,
+        "question": "In a right-angled triangle with legs 5 cm and 12 cm, what is the length of the hypotenuse?",
+        "options": [
+          "13 cm",
+          "14 cm",
+          "15 cm",
+          "17 cm"
+        ],
+        "answer": "13 cm",
+        "explanation": "c = √(5² + 12²) = √(25 + 144) = √169 = 13 cm."
       }
     ]
   },
@@ -613,43 +856,47 @@
     "subject": "General Science",
     "subjectKey": "science",
     "unitNumber": 1,
-    "title": "Human Reproduction, Genetics & Cell Division (Meiosis/Mitosis)",
-    "summary": "Detailed study of human reproductive anatomy, gametogenesis, meiosis vs mitosis, the menstrual cycle, fertilization in fallopian tubes, and basic Mendelian inheritance.",
+    "title": "Unit 1: Human Reproduction, Genetics & Cell Division (Meiosis/Mitosis)",
+    "summary": "Study human reproductive anatomy, gametogenesis in testes and ovaries, mitosis vs meiosis, fertilization, and Mendelian inheritance patterns.",
     "keyTerms": [
       "Testes",
       "Ovaries",
       "Sperm",
       "Ovum",
       "Meiosis",
+      "Mitosis",
       "Fertilization",
       "Zygote",
       "Chromosomes"
     ],
     "keyIdeas": [
-      "In humans, sperm cells are produced inside the testes, and ova develop inside the ovaries.",
-      "Meiosis produces haploid sex cells (gametes) with 23 chromosomes, restoring 46 chromosomes upon fertilization.",
-      "Fertilization takes place in the oviduct (fallopian tube), producing a diploid single-celled zygote."
+      "Sperm cells are generated inside male testes, and ova develop in female ovaries.",
+      "Meiosis produces four genetically diverse haploid gametes (n = 23), whereas mitosis produces two identical diploid cells (2n = 46).",
+      "Fertilization takes place in the fallopian tube, forming a diploid zygote."
+    ],
+    "interactiveWidget": "cell_division",
+    "illustrations": [
+      {
+        "caption": "Meiosis vs Mitosis",
+        "icon": "🧬",
+        "description": "Mitosis creates 2 clone body cells (2n=46); Meiosis creates 4 haploid gametes (n=23)"
+      }
     ],
     "sections": [
       {
-        "title": "Anatomy and Gametogenesis",
-        "content": "The male testes produce testosterone and spermatozoa inside seminiferous tubules. The female ovaries produce estrogen and progesterone and release mature ova during ovulation. Fertilization unites sperm and ovum to create a zygote."
-      },
-      {
-        "title": "Mitosis vs Meiosis Comparison",
-        "content": "Mitosis produces 2 genetically identical diploid daughter cells for somatic growth. Meiosis involves two nuclear divisions producing 4 genetically varied haploid gametes with half the chromosome number (n = 23)."
+        "title": "1.1 Male and Female Gonads",
+        "content": "Testes produce testosterone and sperm in seminiferous tubules. Ovaries produce estrogen, progesterone, and release mature eggs during ovulation."
       }
     ],
     "examples": [
       {
-        "title": "Chromosome Number Calculation",
-        "problem": "If a human somatic skin cell contains 46 chromosomes, how many chromosomes are in a human sperm cell?",
+        "title": "Chromosome Halving in Gametes",
+        "problem": "Why must gametes be haploid (n = 23) rather than diploid (2n = 46)?",
         "solutionSteps": [
-          "1. Somatic cells are diploid (2n = 46).",
-          "2. Gametes are haploid (n) produced via meiosis.",
-          "3. Compute: 46 ÷ 2 = 23."
+          "1. When sperm (n = 23) fuses with ovum (n = 23) during fertilization, the resulting zygote restores the diploid chromosome number 2n = 46.",
+          "2. If gametes were diploid, chromosome counts would double every generation."
         ],
-        "finalAnswer": "23 chromosomes"
+        "finalAnswer": "Maintains a constant chromosome count (46) across human generations."
       }
     ],
     "exercises": [
@@ -664,73 +911,20 @@
           "Pistil"
         ],
         "answer": "Testes",
-        "explanation": "Testes are the primary male gonads responsible for spermatogenesis."
+        "explanation": "Testes are the primary male reproductive gonads where spermatogenesis takes place."
       },
       {
         "id": "g8_sci_u1_q2",
         "num": 2,
-        "question": "Which of the following are produced by meiosis cell division?",
+        "question": "Which cell division produces haploid sex cells (gametes)?",
         "options": [
-          "Blood cells",
-          "Bone cells",
-          "Sex cells (gametes)",
-          "Skin cells"
+          "Mitosis",
+          "Meiosis",
+          "Binary fission",
+          "Budding"
         ],
-        "answer": "Sex cells (gametes)",
-        "explanation": "Meiosis produces haploid sex cells (sperm and egg) for sexual reproduction."
-      }
-    ]
-  },
-  {
-    "id": "g8_math_u1",
-    "grade": 8,
-    "subject": "Mathematics",
-    "subjectKey": "math",
-    "unitNumber": 1,
-    "title": "Real Numbers, Radicals & Pythagorean Theorem",
-    "summary": "Study rational and irrational numbers, square root properties, the Pythagorean theorem in right-angled triangles, and solving linear inequalities on number lines.",
-    "keyTerms": [
-      "Real Numbers",
-      "Irrational Numbers",
-      "Radical",
-      "Pythagorean Theorem",
-      "Hypotenuse",
-      "Linear Inequality"
-    ],
-    "keyIdeas": [
-      "For any right-angled triangle: a² + b² = c², where c is the hypotenuse opposite the 90° angle.",
-      "When multiplying or dividing an inequality by a negative number, the inequality sign MUST reverse direction."
-    ],
-    "sections": [
-      {
-        "title": "Pythagorean Theorem Applications",
-        "content": "In a right triangle with legs a = 6 cm and b = 8 cm, the hypotenuse c is calculated by c = √(6² + 8²) = √(36 + 64) = √100 = 10 cm."
-      }
-    ],
-    "examples": [
-      {
-        "title": "Solving Negative Inequality",
-        "problem": "Solve for x: -4x + 12 < 28.",
-        "solutionSteps": [
-          "Step 1: Subtract 12 from both sides: -4x < 16.",
-          "Step 2: Divide both sides by -4 and reverse the inequality: x > -4."
-        ],
-        "finalAnswer": "x > -4"
-      }
-    ],
-    "exercises": [
-      {
-        "id": "g8_math_u1_q1",
-        "num": 1,
-        "question": "Solve for x: -5x < 25.",
-        "options": [
-          "x < -5",
-          "x > -5",
-          "x < 5",
-          "x > 5"
-        ],
-        "answer": "x > -5",
-        "explanation": "Dividing both sides by -5 reverses the inequality sign to give x > -5."
+        "answer": "Meiosis",
+        "explanation": "Meiosis is the reductional division producing 4 genetically varied haploid gametes."
       }
     ]
   },
@@ -740,35 +934,44 @@
     "subject": "ICT Computer Studies",
     "subjectKey": "ict",
     "unitNumber": 1,
-    "title": "Computer Hardware Architecture & Data Processing",
-    "summary": "Understand hardware components (CPU, ALU, RAM, ROM, storage drives, peripherals), operating systems, digital byte units, and basic digital literacy.",
+    "title": "Unit 1: Computer Hardware Architecture & Data Storage",
+    "summary": "Explore central processing units (CPU, ALU, Control Unit), memory hierarchy (RAM vs ROM), secondary storage, input/output peripherals, and digital byte calculations.",
     "keyTerms": [
       "CPU",
       "RAM",
       "ROM",
-      "Operating System",
+      "Arithmetic Logic Unit",
+      "Bit",
       "Byte",
       "Kilobyte",
       "Gigabyte",
-      "Input/Output Devices"
+      "Operating System"
     ],
     "keyIdeas": [
-      "The Central Processing Unit (CPU) is the computer's computational brain, housing the Control Unit and ALU.",
-      "RAM is volatile working memory that clears when powered down; ROM stores non-volatile startup firmware."
+      "The CPU is the central processing brain of the computer, executing program instructions.",
+      "RAM is volatile working memory that clears when turned off; ROM stores permanent startup instructions.",
+      "1 Byte = 8 bits; 1 Kilobyte (KB) = 1,024 bytes; 1 Megabyte (MB) = 1,024 KB; 1 Gigabyte (GB) = 1,024 MB."
+    ],
+    "illustrations": [
+      {
+        "caption": "Computer Memory Hierarchy",
+        "icon": "💻",
+        "description": "Registers -> CPU Cache -> RAM (Volatile) -> Storage Drive (Non-volatile)"
+      }
     ],
     "sections": [
       {
-        "title": "Hierarchy of Computer Memory",
-        "content": "Computer memory is measured in bits (0 or 1) and bytes (8 bits). 1 KB = 1024 bytes; 1 MB = 1024 KB; 1 GB = 1024 MB."
+        "title": "1.1 CPU and Memory Architecture",
+        "content": "The CPU contains the Control Unit (directs data flow) and ALU (performs arithmetic and logical calculations). RAM holds active program data, while ROM holds BIOS firmware."
       }
     ],
     "examples": [
       {
-        "title": "Data Storage Conversion",
-        "problem": "How many megabytes are in a 4-gigabyte flash memory drive?",
+        "title": "Storage Unit Calculation",
+        "problem": "How many megabytes (MB) are in a 4-gigabyte (GB) storage flash drive?",
         "solutionSteps": [
-          "1 GB equals 1024 Megabytes.",
-          "Multiply: 4 × 1024 = 4096 MB."
+          "1 GB = 1024 Megabytes.",
+          "Multiply 4 by 1024: 4 × 1024 = 4096 MB."
         ],
         "finalAnswer": "4096 MB"
       }
@@ -777,15 +980,15 @@
       {
         "id": "g8_ict_u1_q1",
         "num": 1,
-        "question": "Which memory component is volatile and loses its data when the computer is turned off?",
+        "question": "Which memory component loses all its stored data when electrical power is switched off?",
         "options": [
-          "Hard Disk",
+          "Hard Drive",
           "ROM",
           "RAM",
           "Optical DVD"
         ],
         "answer": "RAM",
-        "explanation": "RAM (Random Access Memory) requires continuous electrical power to maintain stored data."
+        "explanation": "RAM (Random Access Memory) is volatile memory requiring continuous power."
       }
     ]
   },
@@ -795,34 +998,43 @@
     "subject": "Social Studies",
     "subjectKey": "social_studies",
     "unitNumber": 1,
-    "title": "Modern Eritrean History, Self-Reliance & African Unity",
-    "summary": "Survey the history of modern Eritrea, the heroic 30-year armed struggle for national liberation (1961–1991), the 1993 independence referendum, and the African Union.",
+    "title": "Unit 1: Modern Eritrean History, Self-Reliance & The African Union",
+    "summary": "Study the history of modern Eritrea, the 30-year armed struggle for national liberation (1961–1991), the historic 1993 independence referendum, and African continental cooperation.",
     "keyTerms": [
       "Armed Struggle",
+      "Mount Adal",
       "EPLF",
-      "Self-Reliance",
+      "May 24 1991",
       "1993 Referendum",
-      "National Independence",
+      "Self-Reliance",
       "African Union"
     ],
     "keyIdeas": [
-      "Eritrea achieved de facto independence on May 24, 1991, followed by an overwhelming 99.8% vote in the UN-monitored April 1993 Referendum.",
-      "The national philosophy of self-reliance emphasizes indigenous development and communal empowerment."
+      "The Eritrean armed struggle began at Mount Adal on September 1, 1961, led by Hamid Idris Awate.",
+      "Eritrea achieved de facto liberation on May 24, 1991, followed by a 99.8% referendum vote in April 1993."
+    ],
+    "illustrations": [
+      {
+        "caption": "Historical Timeline of Eritrea",
+        "icon": "🏛️",
+        "description": "1961: Struggle begins at Mount Adal | 1991: Liberation of Asmara | 1993: Sovereign Referendum"
+      }
     ],
     "sections": [
       {
-        "title": "The Road to Independence (1961–1991)",
-        "content": "Beginning at Mount Adal on September 1, 1961, the Eritrean people conducted a disciplined 30-year national struggle culminating in the liberation of Asmara on May 24, 1991."
+        "title": "1.1 The Road to Sovereign Independence",
+        "content": "Over three decades of determined sacrifice, the Eritrean people built an army and social system based on self-reliance, gender equality, and communal solidarity."
       }
     ],
     "examples": [
       {
-        "title": "Key Historical Dates",
-        "problem": "State the date of the historic liberation of Asmara.",
+        "title": "Referendum Date and Outcome",
+        "problem": "State the date and voter mandate percentage of the Eritrean Independence Referendum.",
         "solutionSteps": [
-          "Eritrean forces entered and liberated Asmara on May 24, 1991, celebrated as National Liberation Day."
+          "The referendum was conducted in April 1993.",
+          "99.8% of voters voted in favor of sovereign independence."
         ],
-        "finalAnswer": "May 24, 1991"
+        "finalAnswer": "April 1993 with 99.8% voting Yes."
       }
     ],
     "exercises": [
@@ -837,7 +1049,7 @@
           "2000"
         ],
         "answer": "1993",
-        "explanation": "In April 1993, the Eritrean people voted 99.8% in favor of sovereign independence."
+        "explanation": "In April 1993, the Eritrean people overwhelmingly voted 99.8% in favor of sovereign statehood."
       }
     ]
   },
@@ -847,50 +1059,57 @@
     "subject": "Citizenship Education",
     "subjectKey": "citizenship",
     "unitNumber": 1,
-    "title": "Constitutional Rights, National Values & Youth Leadership",
-    "summary": "Deepen understanding of constitutional duties, gender equality, human rights conventions, environmental stewardship, and leadership roles for young citizens.",
+    "title": "Unit 1: The Constitution, Civic Duty & Youth Leadership",
+    "summary": "Study the constitutional framework, branches of governance, human rights, civic patriotism, and community leadership roles for young citizens.",
     "keyTerms": [
       "Constitution",
+      "Rule of Law",
       "Civic Duty",
-      "Integrity",
-      "Leadership",
-      "Gender Equity",
-      "Social Justice"
+      "Youth Leadership",
+      "Patriotism",
+      "Integrity"
     ],
     "keyIdeas": [
-      "A constitution defines governmental branches, checks and balances, and citizen guarantees.",
-      "Integrity and honesty are essential leadership qualities in public and community life."
+      "A constitution defines the structure of government and establishes citizens' fundamental rights and duties.",
+      "Youth leadership begins with personal honesty, academic dedication, and serving one's community."
+    ],
+    "illustrations": [
+      {
+        "caption": "Pillars of Civic Duty",
+        "icon": "⚖️",
+        "description": "Integrity, Social Justice, Communal Solidarity, Respect for the Constitution"
+      }
     ],
     "sections": [
       {
-        "title": "Active Citizenship and Youth Leadership",
-        "content": "Youth leadership is built on moral integrity, academic diligence, respect for national heritage, and proactive assistance to elderly and vulnerable neighbors."
+        "title": "1.1 Pillars of the Constitution",
+        "content": "The constitution balances executive, legislative, and judicial authorities while enshrining citizen protections regardless of gender or background."
       }
     ],
     "examples": [
       {
-        "title": "Attributes of an Ethical Leader",
-        "problem": "List two vital qualities of an ethical student leader.",
+        "title": "Qualities of an Ethical Leader",
+        "problem": "List two essential qualities of an ethical student leader.",
         "solutionSteps": [
-          "1. Honesty and transparency in managing responsibilities.",
-          "2. Treating all classmates with empathy and fairness regardless of background."
+          "1. Impartial fairness and honesty when resolving peer disputes.",
+          "2. Active dedication to helping struggling classmates excel academically."
         ],
-        "finalAnswer": "Honesty, empathy, and impartial fairness."
+        "finalAnswer": "Impartial fairness and dedication to public service."
       }
     ],
     "exercises": [
       {
         "id": "g8_cit_u1_q1",
         "num": 1,
-        "question": "What is the supreme foundational law that outlines governance structures and citizen guarantees?",
+        "question": "The supreme foundational law defining government structure and protecting citizen rights is the:",
         "options": [
           "Penal Code",
           "Constitution",
           "Civil Ordinance",
-          "Commercial Bylaws"
+          "Commercial Code"
         ],
         "answer": "Constitution",
-        "explanation": "The Constitution is the supreme foundational legal document of a sovereign country."
+        "explanation": "The Constitution is the supreme foundational law of a sovereign state."
       }
     ]
   },
@@ -900,51 +1119,118 @@
     "subject": "Life Skills & Health",
     "subjectKey": "life_skills",
     "unitNumber": 1,
-    "title": "Adolescent Health, Decision Making & Future Planning",
-    "summary": "Equip students with practical life skills: personal hygiene during puberty, peer pressure resistance, goal setting, study schedules, and career exploration.",
+    "title": "Unit 1: Adolescent Health, Goal Setting & National Examination Strategy",
+    "summary": "Provide junior students with essential life strategies: understanding puberty and adolescent health, resisting negative peer pressure, time management, and exam revision routines.",
     "keyTerms": [
       "Adolescence",
       "Puberty",
       "Decision Making",
       "Goal Setting",
       "Peer Pressure",
-      "Time Management"
+      "Revision Timetable"
     ],
     "keyIdeas": [
-      "Adolescence brings physical and emotional changes that require healthy nutrition and personal hygiene.",
-      "SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) help organize study habits for national examinations."
+      "Balanced nutrition, hygiene, and regular sleep support physical growth and cognitive retention.",
+      "Structured daily revision timetables and practicing past national papers significantly reduce exam stress."
+    ],
+    "illustrations": [
+      {
+        "caption": "SMART Goal Framework",
+        "icon": "🎯",
+        "description": "Specific, Measurable, Achievable, Relevant, Time-bound goals for school success"
+      }
     ],
     "sections": [
       {
-        "title": "Effective Study Habits for National Examinations",
-        "content": "Creating daily revision timetables, forming focused peer study circles, testing oneself with past national exam papers, and getting sufficient sleep lead to academic mastery."
+        "title": "1.1 Preparing for the National Examination",
+        "content": "Students should create balanced study timetables, review difficult topics early, form focused study pairs, and practice with authentic past exam question banks."
       }
     ],
     "examples": [
       {
-        "title": "Overcoming Negative Peer Pressure",
-        "problem": "What steps should a student take when pressured to skip classes?",
+        "title": "Overcoming Examination Anxiety",
+        "problem": "What effective strategies help students manage stress during exam weeks?",
         "solutionSteps": [
-          "1. Clearly and firmly say 'No'.",
-          "2. Walk away from harmful situations.",
-          "3. Discuss challenges with trusted parents, guardians, or teachers."
+          "1. Consistent 7-8 hours of sleep per night to consolidate memory.",
+          "2. Taking timed practice tests from past national exam papers.",
+          "3. Eating nutritious meals and taking short active walking breaks."
         ],
-        "finalAnswer": "Firm refusal, removing oneself from harm, and seeking counsel."
+        "finalAnswer": "Sufficient sleep, past paper practice, and structured revision intervals."
       }
     ],
     "exercises": [
       {
         "id": "g8_lif_u1_q1",
         "num": 1,
-        "question": "Which of the following is a healthy strategy for managing exam stress?",
+        "question": "Which of the following is the most effective approach for national exam preparation?",
         "options": [
-          "Staying awake all night without sleep",
-          "Organized revision with scheduled breaks and past paper practice",
-          "Skipping meals before testing",
-          "Ignoring weak subjects entirely"
+          "Cramming the entire night before without sleep",
+          "Scheduled daily revision intervals and past examination practice",
+          "Skipping breakfast on exam day",
+          "Studying only one subject and ignoring others"
         ],
-        "answer": "Organized revision with scheduled breaks and past paper practice",
-        "explanation": "Balanced revision schedules and past examination practice reduce anxiety and improve recall."
+        "answer": "Scheduled daily revision intervals and past examination practice",
+        "explanation": "Consistent revision and practicing past exam questions reinforce memory and exam familiarity."
+      }
+    ]
+  },
+  {
+    "id": "g8_eng_u1",
+    "grade": 8,
+    "subject": "English Grammar & Reading",
+    "subjectKey": "english",
+    "unitNumber": 1,
+    "title": "Unit 1: Advanced Sentence Synthesis, Conditionals & Reported Speech",
+    "summary": "Master complex sentence joining, conditional clauses (If clauses Type 1, 2, and 3), converting direct speech to reported speech, and reading comprehension strategies.",
+    "keyTerms": [
+      "Conditional Clauses",
+      "Direct Speech",
+      "Reported Speech",
+      "Sentence Synthesis",
+      "Relative Pronouns"
+    ],
+    "keyIdeas": [
+      "Second conditional (hypothetical present): If + Past Simple, would + base verb.",
+      "When changing direct speech to reported speech, present tenses shift back to past tenses."
+    ],
+    "illustrations": [
+      {
+        "caption": "Reported Speech Tense Shift",
+        "icon": "🗣️",
+        "description": "'I am studying' (Direct) -> He said that he was studying (Reported)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "1.1 Direct to Indirect Speech",
+        "content": "Direct: 'I visited Massawa last summer,' said Dawit. Reported: Dawit said that he had visited Massawa the previous summer."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Reported Speech Transformation",
+        "problem": "Convert to indirect speech: 'I am reading my textbook,' said Senait.",
+        "solutionSteps": [
+          "1. Reporting verb: said that.",
+          "2. Pronoun shift: 'I' -> 'she'.",
+          "3. Tense shift: 'am reading' (present continuous) -> 'was reading' (past continuous)."
+        ],
+        "finalAnswer": "Senait said that she was reading her textbook."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g8_eng_u1_q1",
+        "num": 1,
+        "question": "If I ______ sufficient time, I would complete all national exam practice papers.",
+        "options": [
+          "have",
+          "had",
+          "will have",
+          "have had"
+        ],
+        "answer": "had",
+        "explanation": "In the second conditional (hypothetical), the if-clause uses the past simple tense ('had')."
       }
     ]
   }

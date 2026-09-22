@@ -1,5 +1,6 @@
 import { UnitNotes } from '../data/types';
-import { X, BookOpen, Lightbulb, CheckSquare, Sparkles } from 'lucide-react';
+import { X, BookOpen, Lightbulb, CheckSquare, Sparkles, Image as ImageIcon } from 'lucide-react';
+import { InteractiveStudyWidget } from './InteractiveStudyWidgets';
 
 interface CurriculumNotesModalProps {
   unit: UnitNotes;
@@ -19,6 +20,11 @@ export function CurriculumNotesModal({ unit, onClose, onStartPractice }: Curricu
                 Grade {unit.grade} • Unit {unit.unitNumber}
               </span>
               <span className="text-xs text-slate-400">{unit.subject}</span>
+              {unit.interactiveWidget && (
+                <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center gap-1">
+                  <Sparkles className="w-3 h-3 text-amber-400 animate-spin" /> Interactive Lab
+                </span>
+              )}
             </div>
             <h2 className="text-lg font-bold text-white mt-1">{unit.title}</h2>
           </div>
@@ -39,6 +45,35 @@ export function CurriculumNotesModal({ unit, onClose, onStartPractice }: Curricu
             </h3>
             <p className="text-sm text-slate-300 leading-relaxed">{unit.summary}</p>
           </div>
+
+          {/* Interactive Widget Animation for Selected Units */}
+          {unit.interactiveWidget && (
+            <div>
+              <InteractiveStudyWidget widgetType={unit.interactiveWidget} />
+            </div>
+          )}
+
+          {/* Illustrations & Visual Diagrams */}
+          {unit.illustrations && unit.illustrations.length > 0 && (
+            <div className="bg-slate-950/50 p-4 rounded-xl border border-teal-500/30">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-teal-400 mb-3 flex items-center gap-1.5">
+                <ImageIcon className="w-4 h-4 text-teal-400" /> Illustrated Textbook Diagrams
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {unit.illustrations.map((ill, i) => (
+                  <div key={i} className="bg-slate-900/90 p-3 rounded-lg border border-slate-800 flex items-start gap-3">
+                    <span className="text-2xl p-2 rounded-lg bg-teal-500/10 border border-teal-500/20 shrink-0">
+                      {ill.icon}
+                    </span>
+                    <div>
+                      <div className="text-xs font-bold text-teal-300">{ill.caption}</div>
+                      <div className="text-[11px] text-slate-400 mt-0.5 leading-snug">{ill.description}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Key Ideas */}
           <div>

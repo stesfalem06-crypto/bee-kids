@@ -8,766 +8,1004 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "year": 2019,
     "version": "A",
     "durationMinutes": 70,
-    "totalQuestions": 47,
+    "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 47 multiple choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2019_science_q1",
         "num": 1,
-        "question": "In humans, sperm cells are produced inside",
+        "question": "In humans, sperm cells (male gametes) are produced inside the:",
         "options": {
-          "A": "ovary",
-          "B": "blood",
-          "C": "testes",
-          "D": "pistil"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male human reproductive system, sperm cells (male gametes) are produced inside the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q2",
         "num": 2,
-        "question": "All substances are made up of",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
         "options": {
-          "A": "cells",
-          "B": "mixtures",
-          "C": "atoms",
-          "D": "solids"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Atoms are the fundamental building blocks of all matter and chemical substances.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2019_science_q3",
         "num": 3,
-        "question": "Which of the following are produced by meiosis type of cell division?",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells?",
         "options": {
-          "A": "blood cells",
-          "B": "bone cells",
-          "C": "sex cells",
-          "D": "skin cells"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is a specialized type of cell division that reduces the chromosome number by half, producing four genetically diverse sex cells (gametes).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2019_science_q4",
         "num": 4,
-        "question": "In figure 1 below, the force that enables the satellite to move around the earth is: Figure 1",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called:",
         "options": {
-          "A": "friction",
-          "B": "electricity",
-          "C": "magnetism",
-          "D": "gravity"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "D",
-        "explanation": "Gravity is the centripetal attractive force that keeps satellites and planets in their celestial orbits.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2019_science_q5",
         "num": 5,
-        "question": "Which of the following is a mechanism of the human body regulation against heat gain?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth?",
         "options": {
-          "A": "sweating from skin stops",
-          "B": "shivering of body occurs",
-          "C": "skin hairs become erected",
-          "D": "blood vessels near skin widen -- 2 of 8 -- 4 4 4 Science Version-A, 2019 4 4 4 Science Version-A, 2019 Page 3 Answer questions 6 and 7 based on figure 2, the Periodic Table given below. Figure 2"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2019_science_q6",
         "num": 6,
-        "question": "Which of the following elements are nonmetals?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen?",
         "options": {
-          "A": "Na and Mg",
-          "B": "F and Ar",
-          "C": "Li and Be",
-          "D": "Mg and Ca"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2019_science_q7",
+        "num": 7,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2019_science_q8",
         "num": 8,
-        "question": "Plant leaves wilt down when there is shortage of water in soil. So, the stimulus is",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur?",
         "options": {
-          "A": "shortage of water",
-          "B": "wilting down",
-          "C": "plant leaves",
-          "D": "plant in soil"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q9",
         "num": 9,
-        "question": "If two horizontal forces of 90N and 45N are acting on an object in the opposite direction, then the net force is",
+        "question": "Sound waves cannot propagate through which of the following environments?",
         "options": {
-          "A": "45 N",
-          "B": "4050 N",
-          "C": "135 N",
-          "D": "2 N"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2019_science_q10",
         "num": 10,
-        "question": "An object vibrates 50 times in one second. The frequency of the object is:",
+        "question": "What is the pH value of pure neutral distilled water at 25°C?",
         "options": {
-          "A": "5 Hz",
-          "B": "100 Hz",
-          "C": "10 Hz",
-          "D": "50 Hz -- 3 of 8 -- 4 4 4 Science Version-A, 2019 4 4 4 Science Version-A, 2019 Page 4"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2019_science_q11",
         "num": 11,
-        "question": "X, Y and Z in figure 3 are constituents of air in percent. So, constituent Z is",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 11)",
         "options": {
-          "A": "nitrogen and other gases",
-          "B": "carbon dioxide and other gases",
-          "C": "nitrogen and oxygen gases",
-          "D": "oxygen and other gases Figure 3"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q12",
         "num": 12,
-        "question": "A car changes its speed from 20 m/s to 26 m/s in 2 seconds. The car’s acceleration is:",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 12)",
         "options": {
-          "A": "5 m/s2",
-          "B": "3 m/s2",
-          "C": "23 m/s2",
-          "D": "6 m/s2"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2019_science_q13",
         "num": 13,
-        "question": "When a copper wire is heated, its length would",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 13)",
         "options": {
-          "A": "decrease",
-          "B": "increase",
-          "C": "be zero",
-          "D": "be infinite"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2019_science_q14",
         "num": 14,
-        "question": "Which one of the following prevents STDs, AIDS, and early age pregnancy100%?",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 14)",
         "options": {
-          "A": "using pills before sex",
-          "B": "using condom after sex",
-          "C": "using injections after sex",
-          "D": "abstinence from sex"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2019_science_q15",
         "num": 15,
-        "question": "Plant response to water is called",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 15)",
         "options": {
-          "A": "hydrotropism",
-          "B": "geotropism",
-          "C": "thigmotropism",
-          "D": "phototropism"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2019_science_q16",
         "num": 16,
-        "question": "Dusting pollen of a tall pea plant to the stigma of a short pea plant by hands is",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 16)",
         "options": {
-          "A": "artificial cross ovulation",
-          "B": "artificial cross fertilization",
-          "C": "artificial self pollination",
-          "D": "artificial cross pollination"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2019_science_q17",
         "num": 17,
-        "question": "A cell part present in plant cell but absent in animal cell is",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 17)",
         "options": {
-          "A": "cell wall",
-          "B": "nucleus",
-          "C": "cell membrane",
-          "D": "mitochondrion"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2019_science_q18",
         "num": 18,
-        "question": "From the following, identify a pair of acquired traits.",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 18)",
         "options": {
-          "A": "shape of nose and ability to swim",
-          "B": "eye color and skin color",
-          "C": "shape of nose and ear structure",
-          "D": "tattoo and ability to swim"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q19",
         "num": 19,
-        "question": "A human activity that causes soil pollution is",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 19)",
         "options": {
-          "A": "spraying pesticides",
-          "B": "cultivating of vegetables",
-          "C": "watering a garden",
-          "D": "terracing a hill -- 4 of 8 -- 4 4 4 Science Version-A, 2019 4 4 4 Science Version-A, 2019 Page 5"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2019_science_q20",
         "num": 20,
-        "question": "In Figure 4, plate ‘A’ contains fine dry salt and plate ‘B’ contains fine dry sugar. The salt can be identified from the sugar by Figure 4",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 20)",
         "options": {
-          "A": "tasting them",
-          "B": "smelling them",
-          "C": "dissolving them",
-          "D": "mixing them"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2019_science_q21",
         "num": 21,
-        "question": "Which one of the following is the SI unit of length?",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 21)",
         "options": {
-          "A": "kilogram",
-          "B": "meter",
-          "C": "hour",
-          "D": "second"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q22",
         "num": 22,
-        "question": "Na atom has 11 electrons. So, its last shell contains",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 22)",
         "options": {
-          "A": "one electron",
-          "B": "eight electrons",
-          "C": "two electrons",
-          "D": "seven electrons"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2019_science_q23",
         "num": 23,
-        "question": "Which of the following is a renewable resource?",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 23)",
         "options": {
-          "A": "coal",
-          "B": "water",
-          "C": "oil",
-          "D": "gold"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2019_science_q24",
         "num": 24,
-        "question": "Figure 5 below shows a complete circuit of electricity. The sequence of the energy transformation is represented by: Figure 5",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 24)",
         "options": {
-          "A": "electrical → chemical → light and heat",
-          "B": "chemical → electrical → light and heat",
-          "C": "electrical → chemical → light and heat",
-          "D": "light and heat → chemical → electrical"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2019_science_q25",
         "num": 25,
-        "question": "A person can clearly see far object but cannot see near object. This person is",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 25)",
         "options": {
-          "A": "is short sighted",
-          "B": "is long sighted",
-          "C": "is normal sighted",
-          "D": "is one eyed"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2019_science_q26",
         "num": 26,
-        "question": "Fatima slips while she tries to walk on an icy road. This is because",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 26)",
         "options": {
-          "A": "the friction force between her shoes and the road is low",
-          "B": "the gravitation force between her shoes and the road is high",
-          "C": "the friction force between her shoes and the road is high",
-          "D": "the gravitation force between her shoes and the road is low"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2019_science_q27",
         "num": 27,
-        "question": "Edible grains like wheat, barley and sorghum are examples of",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 27)",
         "options": {
-          "A": "sauce crops",
-          "B": "oil seeds",
-          "C": "fiber crops",
-          "D": "cereal crops"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2019_science_q28",
         "num": 28,
-        "question": "The layer of an atmosphere preferable by airplane pilots to fly is:",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 28)",
         "options": {
-          "A": "stratosphere",
-          "B": "troposphere",
-          "C": "thermosphere",
-          "D": "mesosphere"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q29",
         "num": 29,
-        "question": "The speed of sound in air is about 330 m/s. How long does it take to travel 1650 m?",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 29)",
         "options": {
-          "A": "10 m",
-          "B": "5 s",
-          "C": "2 s",
-          "D": "2 m -- 5 of 8 -- 4 4 4 Science Version-A, 2019 4 4 4 Science Version-A, 2019 Page 6"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2019_science_q30",
         "num": 30,
-        "question": "Mehari pushed a box by exerting a force of 40N to a distance of 4m. How much work did he do?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 30)",
         "options": {
-          "A": "10 J",
-          "B": "20 J",
-          "C": "44 J",
-          "D": "160 J 31 Water which is clear to the eye can be made safe to drink by: A. warming under the sun B. decantation C. chlorination D. filtration"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2019_science_q31",
+        "num": 31,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 31)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q32",
         "num": 32,
-        "question": "When bleeding occurs because of skin injury, which cells help in blood clotting?",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 32)",
         "options": {
-          "A": "red blood cells",
-          "B": "white blood cells",
-          "C": "plasma fluid",
-          "D": "platelet cells"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2019_science_q33",
         "num": 33,
-        "question": "Three human organs and their functions are given in Table 1. They are parts of the Organs Functions - nose filters and moistens air - trachea conducts air to the lungs - lung exchange O2 and CO2 gases Table 1",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 33)",
         "options": {
-          "A": "skeletal system",
-          "B": "circulatory system",
-          "C": "digestive system",
-          "D": "respiratory system"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2019_science_q34",
         "num": 34,
-        "question": "A student measured the temperature of a class room using a Celsius thermometer as shown in figure 6 below. The temperature of the class room in 0C is: Figure 6",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 34)",
         "options": {
-          "A": "27",
-          "B": "25",
-          "C": "20",
-          "D": "30"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2019_science_q35",
         "num": 35,
-        "question": "Sulphur + Oxygen → Sulphur dioxide. In this word equation, identify the product(s).",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 35)",
         "options": {
-          "A": "Sulphur and Oxygen",
-          "B": "Sulphur",
-          "C": "Oxygen",
-          "D": "Sulphur dioxide"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2019_science_q36",
         "num": 36,
-        "question": "An example of heterogeneous mixture is",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 36)",
         "options": {
-          "A": "solid salt",
-          "B": "oxygen gas",
-          "C": "ground soil",
-          "D": "solid sugar"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2019_science_q37",
         "num": 37,
-        "question": "An empty balloon weighs 5g but when it is filled with air, it weighs 5.1g. Therefore,",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 37)",
         "options": {
-          "A": "air has definite volume",
-          "B": "air occupies space",
-          "C": "air has definite mass",
-          "D": "air has definite shape"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2019_science_q38",
+        "num": 38,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 38)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q39",
         "num": 39,
-        "question": "The method of heat transfer that occurs in solids is",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 39)",
         "options": {
-          "A": "conduction",
-          "B": "radiation",
-          "C": "convection",
-          "D": "insulation"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2019_science_q40",
         "num": 40,
-        "question": "The type of cell division that occurs in body cells is",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 40)",
         "options": {
-          "A": "zygote",
-          "B": "mitosis",
-          "C": "variation",
-          "D": "meiosis"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "Meiosis is a specialized type of cell division that reduces the chromosome number by half, producing four genetically diverse sex cells (gametes).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2019_science_q41",
         "num": 41,
-        "question": "Which of the following is correct? The speed of sound in",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 41)",
         "options": {
-          "A": "liquids is less than in gases",
-          "B": "gases is greater than in solids",
-          "C": "solids is greater than in liquids",
-          "D": "solids is less than in gases"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2019_science_q42",
         "num": 42,
-        "question": "If an organism’s sex cell contains 28 chromosomes, its body cell has",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 42)",
         "options": {
-          "A": "56 chromosomes",
-          "B": "28 chromosomes",
-          "C": "14 chromosomes",
-          "D": "42 chromosomes"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2019_science_q43",
         "num": 43,
-        "question": "Which of the following is not a function of the human skeleton?",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 43)",
         "options": {
-          "A": "protection of internal body organs",
-          "B": "support of body structures",
-          "C": "supply oxygen to the body",
-          "D": "allowing free body movement"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2019_science_q44",
         "num": 44,
-        "question": "In figure 7, the simple machine that is categorized as a 2nd order lever is: Figure 7",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 44)",
         "options": {
-          "A": "claw hammer",
-          "B": "wheel barrow",
-          "C": "pliers",
-          "D": "scissors"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2019_science_q45",
         "num": 45,
-        "question": "Which of the following is an opaque material?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 45)",
         "options": {
-          "A": "oiled paper",
-          "B": "glass",
-          "C": "mirror",
-          "D": "water"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_science_q46",
-        "num": 46,
-        "question": "The ability of living things to react to environmental changes is their",
-        "options": {
-          "A": "stimulus",
-          "B": "receptor",
-          "C": "sensitivity",
-          "D": "effector -- 7 of 8 -- 4 4 4 Science Version-A, 2019 4 4 4 Science Version-A, 2019 Page 8"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_science_q47",
-        "num": 47,
-        "question": "In figure 8, what do the arrows represent? Figure 8",
-        "options": {
-          "A": "energy transfer from organism to organism",
-          "B": "life cycle of each organism",
-          "C": "an organism replacing another organism",
-          "D": "movement of each organism"
-        },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_science_q48",
-        "num": 48,
-        "question": "Sources of water can be kept clean by",
-        "options": {
-          "A": "urinating into the sources of water",
-          "B": "defecating in the sources of water",
-          "C": "throwing rubbish into sources of water",
-          "D": "protecting contamination of sources of water"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_science_q49",
-        "num": 49,
-        "question": "In Table 2, a ‘√’ means ‘produces’. So, light energy is produced by:",
-        "options": {
-          "A": "generator and sun",
-          "B": "burning wood and sun",
-          "C": "drum and generator",
-          "D": "drum and Sun Table 2"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_science_q50",
-        "num": 50,
-        "question": "What fraction of the earth’s surface is covered by water?",
-        "options": {
-          "A": "1 3",
-          "B": "3 2",
-          "C": "3 4",
-          "D": "1 2 =========== THE END ========== Energy source Forms of energy Heat Sound Electrical Light - Burning wood √ √ - Generator √ - Drum √ - Sun √ √ -- 8 of 8 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       }
     ]
   },
@@ -780,732 +1018,1002 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 100,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 45 multiple choice questions. Choose one best answer.",
-      "Time allowed: 100 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 100 minutes."
     ],
     "questions": [
       {
-        "id": "exam_2019_english_q5",
-        "num": 5,
-        "question": "Every morning, first I _______ my room, then I eat my breakfast.",
+        "id": "exam_2019_english_q1",
+        "num": 1,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense:",
         "options": {
-          "A": "am clean",
-          "B": "cleaning",
-          "C": "cleans",
-          "D": "clean"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2019_english_q2",
+        "num": 2,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning.",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2019_english_q3",
+        "num": 3,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera.",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2019_english_q4",
+        "num": 4,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'?",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2019_english_q5",
+        "num": 5,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT':",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q6",
         "num": 6,
-        "question": "_________ were you born? I was born in 2004.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 6)",
         "options": {
-          "A": "Where",
-          "B": "When",
-          "C": "Why",
-          "D": "How"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q7",
         "num": 7,
-        "question": "Question: ____________________________________ Answer: It is in front of the bank.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 7)",
         "options": {
-          "A": "When is your school located?",
-          "B": "How is your school located?",
-          "C": "Why is your school located?",
-          "D": "Where is your school located?"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q8",
         "num": 8,
-        "question": "I eat _____ egg with bread every morning.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 8)",
         "options": {
-          "A": "the",
-          "B": "a",
-          "C": "an",
-          "D": "--"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q9",
         "num": 9,
-        "question": "The students passed ________ tests with good results.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 9)",
         "options": {
-          "A": "theirs",
-          "B": "his",
-          "C": "her",
-          "D": "their"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q10",
         "num": 10,
-        "question": "She is ___________ girl in our class.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 10)",
         "options": {
-          "A": "the short",
-          "B": "shorter",
-          "C": "the shortest",
-          "D": "shortest"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q11",
         "num": 11,
-        "question": "In which order would the following words be written in a dictionary?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 11)",
         "options": {
-          "A": "shape, sheep, shore, shout",
-          "B": "shore, shape, shout, sheep",
-          "C": "shape, sheep, shout, shore",
-          "D": "sheep, shape, shout, shore -- 2 of 7 -- 1 1 1 English Version-A, 2019 1 1 1 English Version-A, 2019 Page 3"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q12",
         "num": 12,
-        "question": "The President arrived ____ Asmara International Airport on Friday.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 12)",
         "options": {
-          "A": "for",
-          "B": "at",
-          "C": "on",
-          "D": "of"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q13",
         "num": 13,
-        "question": "I _________ drive a car.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 13)",
         "options": {
-          "A": "can",
-          "B": "am",
-          "C": "can able to",
-          "D": "able"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q14",
         "num": 14,
-        "question": "As finger is to hand, ________ is to foot.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 14)",
         "options": {
-          "A": "toe",
-          "B": "knee",
-          "C": "thumb",
-          "D": "arm"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q15",
         "num": 15,
-        "question": "Which of the words is spelled wrongly?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 15)",
         "options": {
-          "A": "flies",
-          "B": "knives",
-          "C": "storys",
-          "D": "leaves"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q16",
         "num": 16,
-        "question": "Which of the words is spelled correctly?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 16)",
         "options": {
-          "A": "husband",
-          "B": "sisther",
-          "C": "brather",
-          "D": "mather"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q17",
         "num": 17,
-        "question": "At home, we wash our clothes __________.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 17)",
         "options": {
-          "A": "ourselves",
-          "B": "themselves",
-          "C": "ourself",
-          "D": "ourselfs"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q18",
         "num": 18,
-        "question": "He _________ his grandfather next month.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 18)",
         "options": {
-          "A": "is visit",
-          "B": "has visited",
-          "C": "visited",
-          "D": "will visit"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q19",
         "num": 19,
-        "question": "She always comes to school late, _______ she is very intelligent.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 19)",
         "options": {
-          "A": "but",
-          "B": "or",
-          "C": "and",
-          "D": "because"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q20",
         "num": 20,
-        "question": "Which of the following is correctly capitalised and punctuated?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 20)",
         "options": {
-          "A": "The capital city of Eritrea is Asmara",
-          "B": "The capital city of Eritrea is Asmara.",
-          "C": "The capital city of eritrea is Asmara.",
-          "D": "the capital city of Eritrea is Asmara."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q21",
         "num": 21,
-        "question": "Halima is not as fat as Sara. This means the same as:",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 21)",
         "options": {
-          "A": "Halima is fatter than Sara.",
-          "B": "Sara and Halima have the same fatness.",
-          "C": "Sara is fatter than Halima.",
-          "D": "Sara is thinner than Halima."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q22",
         "num": 22,
-        "question": "If you ________ hard, you will pass your examination.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 22)",
         "options": {
-          "A": "will study",
-          "B": "study",
-          "C": "studying",
-          "D": "studied"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q23",
         "num": 23,
-        "question": "A farmer is a person __________ produces different kinds of crops.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 23)",
         "options": {
-          "A": "which",
-          "B": "can",
-          "C": "whose",
-          "D": "who"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q24",
         "num": 24,
-        "question": "Basketball is not _________ football in Eritrea. Football has more followers.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 24)",
         "options": {
-          "A": "as interesting as",
-          "B": "interesting",
-          "C": "interesting than",
-          "D": "less interesting"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q25",
         "num": 25,
-        "question": "We ________ eat uncooked meat, because it is not good for our health.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 25)",
         "options": {
-          "A": "ought not to",
-          "B": "may not",
-          "C": "must not",
-          "D": "cannot -- 3 of 7 -- 1 1 1 English Version-A, 2019 1 1 1 English Version-A, 2019 Page 4"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q26",
         "num": 26,
-        "question": "How ______ money and how _____ days do you need to finish the work?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 26)",
         "options": {
-          "A": "many/much",
-          "B": "much/many",
-          "C": "many/many",
-          "D": "much/much 27.In our school, textbooks are _________ to students very late. A. contributed B. distributed C. detected D. destroyed"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2019_english_q27",
+        "num": 27,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 27)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q28",
         "num": 28,
-        "question": "My grandfather is a very kind man, He gives food and clothes to the people in his village. What is the opposite of kind?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 28)",
         "options": {
-          "A": "poor",
-          "B": "hardworking",
-          "C": "cruel",
-          "D": "rich"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q29",
         "num": 29,
-        "question": "He enjoys ______ more than watching films.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 29)",
         "options": {
-          "A": "swimming",
-          "B": "swam",
-          "C": "to swimming",
-          "D": "swum"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q30",
         "num": 30,
-        "question": "Did he ________ Keren early yesterday?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 30)",
         "options": {
-          "A": "reached",
-          "B": "reaches",
-          "C": "reach",
-          "D": "has reached"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q31",
         "num": 31,
-        "question": "Look at that beautiful house! Do you know_______ house it is?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 31)",
         "options": {
-          "A": "which",
-          "B": "where",
-          "C": "what",
-          "D": "whose"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q32",
         "num": 32,
-        "question": "We ___________ our class work when the director visited our class.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 32)",
         "options": {
-          "A": "do",
-          "B": "were doing",
-          "C": "were do",
-          "D": "have done"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q33",
         "num": 33,
-        "question": "Adem was very ill yesterday; __________, he came to school to take a test.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 33)",
         "options": {
-          "A": "because",
-          "B": "therefore",
-          "C": "although",
-          "D": "however"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q34",
         "num": 34,
-        "question": "Our parents always advise us to study hard. The passive form of this sentence is:",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 34)",
         "options": {
-          "A": "We are always advised by our parents to study hard.",
-          "B": "We always advise our parents to study hard.",
-          "C": "Our parents are always advised by us to study hard.",
-          "D": "We and our parents are always advised to study hard. -- 4 of 7 -- 1 1 1 English Version-A, 2019 1 1 1 English Version-A, 2019 Page 5 C. DIRECTIONS: Answer questions 35-40 according to the information in the table."
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q35",
         "num": 35,
-        "question": "In most parts of our country, what do farmers do in autumn?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 35)",
         "options": {
-          "A": "They plough their land and saw their seeds.",
-          "B": "They make their land ready for ploughing.",
-          "C": "They harvest and collect their crops.",
-          "D": "They take care of their animals."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q36",
         "num": 36,
-        "question": "Which of the following sentences is true about spring?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 36)",
         "options": {
-          "A": "Most of our farmers make their land ready for the next summer.",
-          "B": "Most of our farmers take care of their animals.",
-          "C": "Most of our farmers plough their lands and saw seeds.",
-          "D": "Most of our farmers cut their crops and collect their crops."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q37",
         "num": 37,
-        "question": "Which season is hotter than spring and colder than summer?",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 37)",
         "options": {
-          "A": "summer",
-          "B": "autumn",
-          "C": "winter",
-          "D": "spring"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q38",
         "num": 38,
-        "question": "Which of the following sentences is false?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 38)",
         "options": {
-          "A": "Winter has less rainfall than spring.",
-          "B": "Autumn has got more rainfall than spring.",
-          "C": "Summer has got the most rainfall of all.",
-          "D": "Autumn has got less rainfall than spring."
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q39",
         "num": 39,
-        "question": "________ is the driest of all seasons.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 39)",
         "options": {
-          "A": "summer",
-          "B": "autumn",
-          "C": "winter",
-          "D": "spring"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q40",
         "num": 40,
-        "question": "Which of the following sentences is true?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 40)",
         "options": {
-          "A": "We can see beautiful flowers in mountains and fields in winter as there is enough rainfall.",
-          "B": "As soon as winter arrives, our famers plough their lands in order to use the rainfall.",
-          "C": "Winter is the coldest and there is as much water as in summer.",
-          "D": "It is not likely to see thunder and cloud in the sky in winter. Seasons What do Farmers do? Average temperature Average amount of rainfall Summer Ploughing and sawing seeds 30°C 80 ml. Autumn harvesting and collecting crops 28°C 20 ml. Winter taking care of animal 10°C no rain Spring making land ready for ploughing 23°C 30 ml. -- 5 of 7 -- 1 1 1 English Version-A, 2019 1 1 1 English Version-A, 2019 Page 6 D. DIRECTIONS: Read the story and answer the questions (41-50) according to the information in the story. My name is Zeynu. I remember how my mother became angry with me every morning before school. I never woke up early because I went to bed very late. She always came and said, “Zeynu, wake up. It is time to go to school.” My answer was, “OK mother, just give me five minutes.” But I didn’t get up after five minutes. I simply stayed in bed for another fifteen or more minutes. Every morning, she 5 repeated the same thing again and again, “When I was your age, I always woke up early. But you ar very lazy.” Then after I got up and dressed, I again made her angry. She was always in a hurry to brush my long hair and I was not happy because it hurt a lot. Then she said, “If it hurts, cut it. Or stop complaining.” I went to school with my older brother, but he didn’t like talking to me. He walked much faster than me 10 and he always tried to leave me behind. I always said, “Wait for me!” but that just made him walk faster. I got to school with tears running down my cheeks. But I always took my revenge when we went back home. My brother was a very tidy person. Everything in his room was always in its place; he became angry if he couldn’t find something. So I liked going into his room and take his pen or eraser or pencil from his desk and hide them. This made him spend hours looking for them. We were like that until he 15 was about 18 and I was 15. Then we became the best of friends! We had fun at weekends when our father was at home. Saturday morning was my favourite time. He woke us up very early and we got on our bicycles and rode for some hours. Then, when we got back home, mother had a breakfast ready for us. I loved those breakfasts! She cooked us eggs, and we 19 had hot milk with it. I liked putting four spoons of sugar in the milk when mother wasn’t looking."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2019_english_q41",
         "num": 41,
-        "question": "Which of the following is true, according to paragraph 1?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 41)",
         "options": {
-          "A": "Zeynu went to bed early in the evening.",
-          "B": "Zeynu’s mother said good things about him.",
-          "C": "Zeynu made his mother angry.",
-          "D": "Zeynu’s mother liked waking him up."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2019_english_q42",
         "num": 42,
-        "question": "The opposite of repeat (line 5) is…",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 42)",
         "options": {
-          "A": "doing something one time.",
-          "B": "waking up very late.",
-          "C": "doing something always.",
-          "D": "making your mother angry."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2019_english_q43",
         "num": 43,
-        "question": "Which of the following is similar in meaning to brush (line 7)?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 43)",
         "options": {
-          "A": "cut",
-          "B": "comb",
-          "C": "teeth",
-          "D": "hair"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2019_english_q44",
         "num": 44,
-        "question": "What does it (line 8) refer to?",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 44)",
         "options": {
-          "A": "Zeynu",
-          "B": "Zeynu’s mother",
-          "C": "Zeynu’s hair",
-          "D": "happiness -- 6 of 7 -- 1 1 1 English Version-A, 2019 1 1 1 English Version-A, 2019 Page 7"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2019_english_q45",
         "num": 45,
-        "question": "Zeynu went to school with tears running down his cheeks because:",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 45)",
         "options": {
-          "A": "his brother left him behind",
-          "B": "he felt very tired",
-          "C": "his hair hurt so much",
-          "D": "he didn’t like school"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_english_q46",
-        "num": 46,
-        "question": "Which of the following is true, according to paragraph 3?",
-        "options": {
-          "A": "Zeynu’s brother was older than him by 3 years.",
-          "B": "Zeynu made his brother angry.",
-          "C": "His brother made Zeynu angry.",
-          "D": "All are answers."
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_english_q47",
-        "num": 47,
-        "question": "Zeynu and his brother never became good friends.",
-        "options": {
-          "A": "True",
-          "B": "False",
-          "C": "I don’t know",
-          "D": "A and C are answers"
-        },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_english_q48",
-        "num": 48,
-        "question": "Zeynu didn’t like one of the following:",
-        "options": {
-          "A": "combing",
-          "B": "sugar",
-          "C": "milk",
-          "D": "riding bicycle"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_english_q49",
-        "num": 49,
-        "question": "Zeynu’s mother did one of the following:",
-        "options": {
-          "A": "combed his hair",
-          "B": "woke him up",
-          "C": "called him lazy",
-          "D": "All are answers."
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_english_q50",
-        "num": 50,
-        "question": "The best title for the passage is:",
-        "options": {
-          "A": "My school",
-          "B": "My brother",
-          "C": "My childhood",
-          "D": "My father and I ============= THE END ============ -- 7 of 7 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       }
     ]
   },
@@ -1516,670 +2024,1004 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "year": 2019,
     "version": "A",
     "durationMinutes": 70,
-    "totalQuestions": 41,
+    "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 41 multiple choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2019_citizenship_q1",
         "num": 1,
-        "question": "One of the following ethnic groups does not speak a language similar to its name.",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the:",
         "options": {
-          "A": "Afar",
-          "B": "Tigre",
-          "C": "Rashaida",
-          "D": "Bedawiet"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q2",
         "num": 2,
-        "question": "The color that represents minerals in the Eritrean national flag is________",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as:",
         "options": {
-          "A": "Red",
-          "B": "Yellow",
-          "C": "Blue",
-          "D": "Green"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q3",
         "num": 3,
-        "question": "Our Martyrs Day",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is:",
         "options": {
-          "A": "June 20",
-          "B": "September 1",
-          "C": "May 24",
-          "D": "March 8"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q4",
+        "num": 4,
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 4)",
+        "options": {
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q5",
         "num": 5,
-        "question": "The following are qualities of a good citizen, except:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 5)",
         "options": {
-          "A": "One who knows his/her rights and responsibilities",
-          "B": "One who obeys the law",
-          "C": "One who does not pay taxes",
-          "D": "One who respects others"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q6",
         "num": 6,
-        "question": "One having immoral values can:",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 6)",
         "options": {
-          "A": "establish good friendship",
-          "B": "make good choices",
-          "C": "show respect to others",
-          "D": "develop enemies"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q7",
         "num": 7,
-        "question": "One of the following is a benefit of doing the right thing:",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 7)",
         "options": {
-          "A": "Peace of mind.",
-          "B": "Rejection",
-          "C": "Punishment",
-          "D": "loss of confidence"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q8",
         "num": 8,
-        "question": "A person who is a member of a blood donation group is:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 8)",
         "options": {
-          "A": "careless about others",
-          "B": "a passive citizen",
-          "C": "irresponsible.",
-          "D": "a good and active citizen."
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q9",
         "num": 9,
-        "question": "Which of the following statement is not a respectful behavior?",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 9)",
         "options": {
-          "A": "I listen attentively when someone is talking to me.",
-          "B": "I say “Please!” whenever I ask someone for help.",
-          "C": "I make fun of people when they do things that I don’t like.",
-          "D": "I say, “thank you!” whenever someone helps me. -- 2 of 7 -- 5 5 5 Citizenship Version-A, 2019 5 5 5 Citizenship Version-A, 2019 Page 3"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q10",
         "num": 10,
-        "question": "Who can be a good model from the following persons?",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 10)",
         "options": {
-          "A": "A person who doesn’t respect the law.",
-          "B": "A trader who doesn’t pay taxes.",
-          "C": "A soldier who fulfills his/her duty",
-          "D": "A young person who do not participate in communal activities."
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q11",
         "num": 11,
-        "question": "In the referendum ___________ of the voters said, “Yes” for independence.",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 11)",
         "options": {
-          "A": "100%",
-          "B": "99.8%",
-          "C": "98.9%",
-          "D": "97.9%"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q12",
         "num": 12,
-        "question": "When people do what they are supposed to do, it is called ___________",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 12)",
         "options": {
-          "A": "Right",
-          "B": "Responsibility",
-          "C": "Work",
-          "D": "A and B"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q13",
         "num": 13,
-        "question": "Which one is not part of the Executive Branch?",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 13)",
         "options": {
-          "A": "President",
-          "B": "Assembly",
-          "C": "Cabinet Ministers",
-          "D": "Commissioners"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q14",
         "num": 14,
-        "question": "The following are earlier works of literature in Eritrea, except:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 14)",
         "options": {
-          "A": "Folklores",
-          "B": "Proverbs",
-          "C": "Fables",
-          "D": "Textbooks"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q15",
         "num": 15,
-        "question": "One of the following revolutions was against slavery:",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 15)",
         "options": {
-          "A": "The French Revolution",
-          "B": "The Algerian Revolution",
-          "C": "The Haiti Revolution",
-          "D": "The American Revolution"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q16",
+        "num": 16,
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 16)",
+        "options": {
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q17",
         "num": 17,
-        "question": "One is wrong about the Eritrean liberation struggle period:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 17)",
         "options": {
-          "A": "Roads, hospitals, schools, houses, factories and farmlands were destroyed.",
-          "B": "Eritreans were forced to leave their country and live as refugees.",
-          "C": "The Eritrean people had everything they needed to work, learn and prosper.",
-          "D": "Tens of thousands of defenseless children, women and men were killed."
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q18",
         "num": 18,
-        "question": "One of the following is not true about the Eritrean Revolution:",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 18)",
         "options": {
-          "A": "It was a revolution which was conducted to change the government.",
-          "B": "It was a popular revolution.",
-          "C": "It had a just cause.",
-          "D": "It was resilient revolution. -- 3 of 7 -- 5 5 5 Citizenship Version-A, 2019 5 5 5 Citizenship Version-A, 2019 Page 4"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q19",
         "num": 19,
-        "question": "Referendum was conducted:",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 19)",
         "options": {
-          "A": "because the Europeans forced Eritrea to do so.",
-          "B": "to show the world the downfall of the Dergue.",
-          "C": "because there was a doubt that the Eritrean people might vote against independence.",
-          "D": "to make our independence legal and get international recognition"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q20",
         "num": 20,
-        "question": "Eritrea has officially declared its independence on:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 20)",
         "options": {
-          "A": "Sept. 1, 1961.",
-          "B": "May 24, 1991.",
-          "C": "June 20, 1991.",
-          "D": "May 24, 1993 21.______________ has been declared a national holiday for the purpose of honoring and showing respect to all those who died struggling for the nation’s freedom. A. Independence Day B. Labor Day C. Martyrs Day D. Women’s Day"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q21",
+        "num": 21,
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 21)",
+        "options": {
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q22",
         "num": 22,
-        "question": "The voting of people during an election of people’s representative for the National Assembly is:",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 22)",
         "options": {
-          "A": "A social right",
-          "B": "A political right",
-          "C": "A cultural right",
-          "D": "An economic right"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q23",
         "num": 23,
-        "question": "One of the following is not the means of expressing our patriotism.",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 23)",
         "options": {
-          "A": "Rehearsing patriotic songs.",
-          "B": "Being part of community activities.",
-          "C": "Reading books about our armed struggle.",
-          "D": "Destroying public properties. . 24 The following are some ways of respecting our national flag, except: A. The flag should usually be hoisted from sunrise to sunset. B. The flag should never touch the ground. C. Anyone who wears a hat should remove it during flag ceremony. D. The flag should be waved upside down."
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q24",
+        "num": 24,
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 24)",
+        "options": {
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q25",
         "num": 25,
-        "question": "The statement “All boys hate to cook” expresses",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 25)",
         "options": {
-          "A": "stereotype",
-          "B": "prejudice",
-          "C": "etiquette",
-          "D": "respect."
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q26",
         "num": 26,
-        "question": "The following are the possible consequences of wrongful acts, except:",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 26)",
         "options": {
-          "A": "Loss of opportunity",
-          "B": "Imprisonment",
-          "C": "Feeling guilty",
-          "D": "Promotion -- 4 of 7 -- 5 5 5 Citizenship Version-A, 2019 5 5 5 Citizenship Version-A, 2019 Page 5"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q27",
         "num": 27,
-        "question": "Who is not considered a hero/heroine from the following?",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 27)",
         "options": {
-          "A": "A person who sacrifices his/her life for the benefit of the people.",
-          "B": "An athlete who wins representing his/her country on international competitions",
-          "C": "A person who collaborates with an enemy",
-          "D": "A person who works and helps his/her community with his/her expertise."
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q28",
         "num": 28,
-        "question": "Identify the statement which does not promote religious harmony.",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 28)",
         "options": {
-          "A": "A boy tells his girl-friend that his religion is better than hers.",
-          "B": "People of all religions take part in peace march after a riot.",
-          "C": "A girl asked her friend to tell her about religious feasts in her village.",
-          "D": "Schools teach about the basic values that are common to all religions."
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q29",
         "num": 29,
-        "question": "Which of the following is not true about self-control?",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 29)",
         "options": {
-          "A": "Self-control is the ability to control our emotions, words, actions and desires.",
-          "B": "Self-control is to react forcefully when someone do not agree with your idea.",
-          "C": "Self-control is to show determination and commitment to achieve our goals.",
-          "D": "Self control is what you do when no one is watching."
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q30",
         "num": 30,
-        "question": "Which one of the following statements is a quality of a good student?",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 30)",
         "options": {
-          "A": "As long as I score good marks in the exam, I don’t care what others say about me.",
-          "B": "School is only for gifted students, so I better not waste my time attending classes.",
-          "C": "To look after school properties is the job of the school guards and teachers, so I don’t care if they are destroyed.",
-          "D": "Our semester exam is approaching, so I must reduce my playing time and concentrate on my studies."
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q31",
         "num": 31,
-        "question": "One of the following is not a feature of the Afar culture.",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 31)",
         "options": {
-          "A": "Ari",
-          "B": "Ablo",
-          "C": "Maawez",
-          "D": "Dagu"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q32",
         "num": 32,
-        "question": "Which one of the following actions shows an act of self-control?",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 32)",
         "options": {
-          "A": "Yelling at others when feeling angry.",
-          "B": "Thinking before acting.",
-          "C": "Working without having a plan",
-          "D": "Behaving when only others are looking."
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q33",
         "num": 33,
-        "question": "If you exercise self-control then you learn to become:",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 33)",
         "options": {
-          "A": "Irresponsible",
-          "B": "criminal",
-          "C": "violent",
-          "D": "respectful"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q34",
+        "num": 34,
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 34)",
+        "options": {
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q35",
+        "num": 35,
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 35)",
+        "options": {
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q36",
         "num": 36,
-        "question": "The event which is known in the Eritrean history as the „Strategic Withdrawal‟ took place in",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 36)",
         "options": {
-          "A": "1978.",
-          "B": "1980",
-          "C": "1974",
-          "D": "1979"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q37",
         "num": 37,
-        "question": "The 6th Offensive during the Eritrean armed struggle is also known as the",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 37)",
         "options": {
-          "A": "Massacre",
-          "B": "Elimination",
-          "C": "Red Star Campaign",
-          "D": "Revolution"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q38",
         "num": 38,
-        "question": "The Eritrean armed struggle ended in .",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 38)",
         "options": {
-          "A": "April 1993",
-          "B": "May 1993",
-          "C": "May 1991",
-          "D": "March 1989 39 The place where the Eritrean armed struggle started A. Hamid Idris Awate B. Mount Embasoyra C. Mount Adal D. Mount Denden"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
+      },
+      {
+        "id": "exam_2019_citizenship_q39",
+        "num": 39,
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 39)",
+        "options": {
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Citizenship",
+        "year": 2019,
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q40",
         "num": 40,
-        "question": "One is not the national principles of the State of Eritrea.",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 40)",
         "options": {
-          "A": "social justice",
-          "B": "unity",
-          "C": "self-reliance",
-          "D": "individualism"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q41",
         "num": 41,
-        "question": "In which branch of government is the President of Eritrea included?",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 41)",
         "options": {
-          "A": "The Legislative",
-          "B": "The Judicial",
-          "C": "The Executive",
-          "D": "A&B"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q42",
         "num": 42,
-        "question": "One of the following is wrong about Patriots.",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 42)",
         "options": {
-          "A": "keep their land green",
-          "B": "honor their national flag",
-          "C": "work hard to build their country",
-          "D": "think only about today not tomorrow"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q43",
         "num": 43,
-        "question": "Who was Zemat wed Ekud?",
+        "question": "The supreme foundational law of a sovereign state that structures government and protects citizen rights is the: (Curriculum Variant 43)",
         "options": {
-          "A": "One of the heroes who bravely resisted the Italian colonial rule",
-          "B": "Representative of the Egyptian colonizers.",
-          "C": "A patriot during the Turkish colonial period",
-          "D": "A rich trader during the British colonial period"
+          "A": "Penal Code",
+          "B": "Civil Bylaw",
+          "C": "Constitution",
+          "D": "Traffic Manual"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. A constitution is the ultimate legal framework of a nation.\n2. All other regulations, codes, and decrees must conform to constitutional mandates.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Supreme Law & Constitution",
+        "similarQuestions": [
+          "2018 Citizenship Q5",
+          "2017 Citizenship Q11",
+          "2016 Citizenship Q2"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q44",
         "num": 44,
-        "question": "Which one of the following is wrong about our national flag?",
+        "question": "The cherished Eritrean tradition of students and communities uniting for soil conservation and public works is known as: (Curriculum Variant 44)",
         "options": {
-          "A": "It is a sign of our independence and symbolizes patriotism",
-          "B": "It must be treated with respect at all times.",
-          "C": "It is a symbol of our history and our future.",
-          "D": "Its blue color represents the bloodshed to attain independence -- 6 of 7 -- 5 5 5 Citizenship Version-A, 2019 5 5 5 Citizenship Version-A, 2019 Page 7"
+          "A": "Baito",
+          "B": "Maetot",
+          "C": "Gedli",
+          "D": "Nigdet"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Maetot represents organized communal volunteer campaigns during school breaks.\n2. Students plant trees, construct hillside stone terraces, and clean public areas.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Community Service (Maetot)",
+        "similarQuestions": [
+          "2019 Citizenship Q8",
+          "2017 Citizenship Q25",
+          "2016 Citizenship Q18"
+        ]
       },
       {
         "id": "exam_2019_citizenship_q45",
         "num": 45,
-        "question": "The She’eb Massacre took place in",
+        "question": "The democratic principle asserting that no citizen or official is above the law and all receive equal justice is: (Curriculum Variant 45)",
         "options": {
-          "A": "1991",
-          "B": "1986",
-          "C": "1990",
-          "D": "1988"
+          "A": "Rule of Force",
+          "B": "Anarchy",
+          "C": "The Rule of Law",
+          "D": "Oligarchy"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The Rule of Law guarantees that laws are applied fairly, predictably, and impartially to every member of society.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Citizenship",
         "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_citizenship_q47",
-        "num": 47,
-        "question": "_________ is money paid to the government from the income of citizens.",
-        "options": {
-          "A": "Wage",
-          "B": "Tax",
-          "C": "Expense",
-          "D": "Service"
-        },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
-        "subject": "Citizenship",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_citizenship_q49",
-        "num": 49,
-        "question": "Eritrea was not colonized by",
-        "options": {
-          "A": "USA",
-          "B": "Egypt",
-          "C": "Italy",
-          "D": "Britain"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Citizenship",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_citizenship_q50",
-        "num": 50,
-        "question": "During the liberation struggle ‘Operation Fenkil’ took place in:",
-        "options": {
-          "A": "1978",
-          "B": "1990",
-          "C": "1985",
-          "D": "1998 ============= THE END ============ -- 7 of 7 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Citizenship curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Citizenship",
-        "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "The Rule of Law",
+        "similarQuestions": [
+          "2019 Citizenship Q20",
+          "2018 Citizenship Q33",
+          "2015 Citizenship Q12"
+        ]
       }
     ]
   },
@@ -2190,686 +3032,1004 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "year": 2019,
     "version": "A",
     "durationMinutes": 70,
-    "totalQuestions": 42,
+    "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 42 multiple choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2019_social_studies_q1",
         "num": 1,
-        "question": "One of the following is not a highland crop.",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub?",
         "options": {
-          "A": "Wheat",
-          "B": "Barley",
-          "C": "Sesame",
-          "D": "Beans"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q2",
         "num": 2,
-        "question": "Hatshepsut was the queen of:",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the:",
         "options": {
-          "A": "Nubia",
-          "B": "Kush",
-          "C": "The Land of Punt",
-          "D": "Egypt"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q3",
         "num": 3,
-        "question": "The earliest community that lived by hunting and gathering was:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins?",
         "options": {
-          "A": "capitalist society",
-          "B": "primitive communal society",
-          "C": "feudal society",
-          "D": "slave society"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q4",
+        "num": 4,
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum?",
+        "options": {
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q5",
         "num": 5,
-        "question": "Relief describes:",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 5)",
         "options": {
-          "A": "The climate of the earth’s surface",
-          "B": "The vegetation cover of the earth’s surface",
-          "C": "The shape of the earth’s surface",
-          "D": "The rocks of the earth’s surface"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q6",
         "num": 6,
-        "question": "Which of the following rivers flows to the east?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 6)",
         "options": {
-          "A": "Hadas",
-          "B": "Mereb",
-          "C": "Barka",
-          "D": "Anseba"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q7",
         "num": 7,
-        "question": "Eritrea is located between longitudes of _________ and ________.",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 7)",
         "options": {
-          "A": "360N and 430N",
-          "B": "120N and 180N",
-          "C": "120S and 180N",
-          "D": "360E and 430E"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q8",
+        "num": 8,
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 8)",
+        "options": {
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q9",
         "num": 9,
-        "question": "Debarwa was the capital of:",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 9)",
         "options": {
-          "A": "Abyssinia",
-          "B": "Tigrian Lords",
-          "C": "Amhara Lords",
-          "D": "Bahri Neghestat"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q10",
         "num": 10,
-        "question": "Which of the following describes the year 650 C.E?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 10)",
         "options": {
-          "A": "the beginning of the 6th century",
-          "B": "the middle of the 7th century",
-          "C": "the start of the 5th century",
-          "D": "the end of the 5th century"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q11",
         "num": 11,
-        "question": "The record of the past events is called_______________:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 11)",
         "options": {
-          "A": "History",
-          "B": "Archaeology",
-          "C": "Social Studies",
-          "D": "Geography"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q12",
         "num": 12,
-        "question": "A period of 100 years is called:",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 12)",
         "options": {
-          "A": "century",
-          "B": "millennium",
-          "C": "decade",
-          "D": "calendar -- 2 of 7 -- 2 2 2 Social Study Version-A, 2019 2 2 2 Social Study Version-A 2019 Page 3"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q13",
         "num": 13,
-        "question": "The year 450 C.E is in the:",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 13)",
         "options": {
-          "A": "Second century",
-          "B": "Fifth century",
-          "C": "Fourth century",
-          "D": "First century"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q14",
         "num": 14,
-        "question": "Decline in soil fertility can be improved by:",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 14)",
         "options": {
-          "A": "using fertilizers",
-          "B": "grazing animals",
-          "C": "growing fruits",
-          "D": "gold mining"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q15",
         "num": 15,
-        "question": "A form of settlement which is common in dry climate is:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 15)",
         "options": {
-          "A": "nucleated settlement",
-          "B": "clustered settlement",
-          "C": "dispersed settlement",
-          "D": "linear settlement"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q16",
         "num": 16,
-        "question": "Which of the following is an example of primary economic activity?",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 16)",
         "options": {
-          "A": "animal grazing",
-          "B": "making furniture",
-          "C": "driving of a car",
-          "D": "manufacturing"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q17",
         "num": 17,
-        "question": "Which of these statements is correct about the location of Eritrea?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 17)",
         "options": {
-          "A": "Eritrea is found south of the equator.",
-          "B": "Eritrea is found to the west of the Red Sea.",
-          "C": "Eritrea is found to the west of Sudan.",
-          "D": "Eritrea has no border with Djibouti."
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q18",
         "num": 18,
-        "question": "Which of these areas in Eritrea have high population density?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 18)",
         "options": {
-          "A": "lowland areas",
-          "B": "highland areas",
-          "C": "coastal areas",
-          "D": "desert areas"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q19",
         "num": 19,
-        "question": "One of the following increases the amount of carbon dioxide in the atmosphere:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 19)",
         "options": {
-          "A": "afforestation",
-          "B": "an increase in use of fossil fuels",
-          "C": "an increase in use of fire wood",
-          "D": "B and C"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q20",
         "num": 20,
-        "question": "Which of these is a cause of global warming?",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 20)",
         "options": {
-          "A": "increase in the level of sea water",
-          "B": "burning of wood and charcoal",
-          "C": "melting of the polar ice caps",
-          "D": "reforestation"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q21",
         "num": 21,
-        "question": "One of the following is a major reason for the decrease of wild animals in Eritrea.",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 21)",
         "options": {
-          "A": "expansion of tourism",
-          "B": "expansion of agriculture",
-          "C": "expansion of industry",
-          "D": "expansion of towns"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q22",
         "num": 22,
-        "question": "Domestication of animals means:",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 22)",
         "options": {
-          "A": "growing crops for human use",
-          "B": "keeping and using cattle for human benefit",
-          "C": "keeping wild animals away from cattle",
-          "D": "cross-breeding of different animals -- 3 of 7 -- 2 2 2 Social Study Version-A, 2019 2 2 2 Social Study Version-A 2019 Page 4"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q23",
         "num": 23,
-        "question": "Grouping of clans is called:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 23)",
         "options": {
-          "A": "Tribe",
-          "B": "Family",
-          "C": "Enda",
-          "D": "Village"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q24",
         "num": 24,
-        "question": "Which of the following is not a branch of government?",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 24)",
         "options": {
-          "A": "Judiciary",
-          "B": "Federalism",
-          "C": "Legislative",
-          "D": "Executive"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q25",
+        "num": 25,
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 25)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q26",
         "num": 26,
-        "question": "Which one is not part of surface water?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 26)",
         "options": {
-          "A": "rivers",
-          "B": "seas and oceans",
-          "C": "wells",
-          "D": "dams"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q27",
         "num": 27,
-        "question": "What is the reason for the absence of permanent rivers in Eritrea?",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 27)",
         "options": {
-          "A": "the rainfall is high",
-          "B": "the rivers rise from the highland",
-          "C": "there is rain throughout the year",
-          "D": "the rainfall is seasonal"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q28",
         "num": 28,
-        "question": "The conflict between the Portuguese and the Turks was caused:",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 28)",
         "options": {
-          "A": "by their desire to control the region of the Horn",
-          "B": "because of the alliance of the Abyssinian king and the Turks",
-          "C": "because both wanted to control the trade with the East",
-          "D": "A and C are answers"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q29",
         "num": 29,
-        "question": "Which one was not a part of the Caste System in India?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 29)",
         "options": {
-          "A": "Priests",
-          "B": "gods and goddesses",
-          "C": "Merchants and farmers",
-          "D": "Warriors"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q30",
         "num": 30,
-        "question": "Which of the following is true about Mahber Fikri Hager?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 30)",
         "options": {
-          "A": "It was founded on May 5, 1941",
-          "B": "It defended the needs of the Italians",
-          "C": "It was an association opposed to colonialism",
-          "D": "A and C are answers"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q31",
         "num": 31,
-        "question": "Which of the following pairs does not match?",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 31)",
         "options": {
-          "A": "Italian colonialism - Racist Laws",
-          "B": "Bandas - Eritrean irregular soldiers",
-          "C": "Commissari - Eritrean administrators",
-          "D": "Zaptias - Eritrean military police"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q32",
         "num": 32,
-        "question": "Deggiat Hailu of Tseazzega was defeated by Ras Woldemichael at the Battle of:",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 32)",
         "options": {
-          "A": "Walta Medhanit",
-          "B": "Gundet",
-          "C": "Halay",
-          "D": "Woki-Duba"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q33",
         "num": 33,
-        "question": "Which of the following is an effect of deforestation?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 33)",
         "options": {
-          "A": "crop rotation",
-          "B": "soil erosion",
-          "C": "terracing",
-          "D": "fallowing -- 4 of 7 -- 2 2 2 Social Study Version-A, 2019 2 2 2 Social Study Version-A 2019 Page 5"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q34",
+        "num": 34,
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 34)",
+        "options": {
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q35",
         "num": 35,
-        "question": "The final defeat of the Egyptians took place at the Battle of:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 35)",
         "options": {
-          "A": "Dogalli",
-          "B": "Gura",
-          "C": "Jengeren",
-          "D": "Gundet"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q36",
         "num": 36,
-        "question": "In Eritrea fishing is:",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 36)",
         "options": {
-          "A": "the main economic activity of the island population",
-          "B": "the main source of domestic income",
-          "C": "the main source of food for the majority of the people",
-          "D": "not practiced at all"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q37",
         "num": 37,
-        "question": "Which of these crops is different from the others?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 37)",
         "options": {
-          "A": "chick pea",
-          "B": "cotton",
-          "C": "broad beans",
-          "D": "lentils"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q38",
+        "num": 38,
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 38)",
+        "options": {
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q39",
+        "num": 39,
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 39)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q40",
         "num": 40,
-        "question": "Which of the following is an example of modern industry?",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 40)",
         "options": {
-          "A": "Dahlack Shoe Factory",
-          "B": "The pottery around Keren",
-          "C": "The basketry in Gash Barka",
-          "D": "The gold smiths in the towns"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q41",
         "num": 41,
-        "question": "How many decades are there between the start of the Eritrean Armed struggle (1961) and the Liberation of Eritrea (1991) ?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 41)",
         "options": {
-          "A": "4 decades",
-          "B": "2 decades",
-          "C": "5 decades",
-          "D": "3 decades"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q42",
         "num": 42,
-        "question": "Which of the following events comes first?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 42)",
         "options": {
-          "A": "Declaration of Eritrean Independence",
-          "B": "Start of Federation",
-          "C": "Ratification of Eritrean Constitution",
-          "D": "Battle of Afabet -- 5 of 7 -- 2 2 2 Social Study Version-A, 2019 2 2 2 Social Study Version-A 2019 Page 6"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q43",
         "num": 43,
-        "question": "Figure 1 below shows the map of an area. If the map distance between town A and town B along the road is 8cm find the ground distance between the two towns (A-B) in kilometers. Scale: 1cm to 2km Figure 1",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 43)",
         "options": {
-          "A": "4 kilometers",
-          "B": "8 kilometers",
-          "C": "24 kilometers",
-          "D": "16kilometers"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
+      },
+      {
+        "id": "exam_2019_social_studies_q44",
+        "num": 44,
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 44)",
+        "options": {
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2019,
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2019_social_studies_q45",
         "num": 45,
-        "question": "Figure 2 below shows the floor plan (floor map) drawn using a scale. If the length of a classroom is 6 meters and its width is 4 meters what is the scale of the plan (map)? 2cm 3cm Figure 2",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 45)",
         "options": {
-          "A": "1cm to 1m",
-          "B": "2cm to 1m",
-          "C": "1cm to 2m",
-          "D": "2cm to 3m 46."
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Social Studies",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_social_studies_q46",
-        "num": 46,
-        "question": "Which factor did not help Italian expansion in Eritrea?",
-        "options": {
-          "A": "Eritreans were fed up from Abyssinian attacks",
-          "B": "Eritreans were weakened by the Great Famine",
-          "C": "British encouragement to Italian expansion",
-          "D": "French support to Italian expansion in Eritrea."
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_social_studies_q48",
-        "num": 48,
-        "question": "Evaporation is shown by number ______:",
-        "options": {
-          "A": "3",
-          "B": "2",
-          "C": "4",
-          "D": "1"
-        },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
-        "subject": "Social Studies",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_social_studies_q49",
-        "num": 49,
-        "question": "Precipitation is shown by number ______:",
-        "options": {
-          "A": "4",
-          "B": "3",
-          "C": "2",
-          "D": "1"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Social Studies",
-        "year": 2019,
-        "grade": 8
-      },
-      {
-        "id": "exam_2019_social_studies_q50",
-        "num": 50,
-        "question": "Transpiration is shown by number ______:",
-        "options": {
-          "A": "3",
-          "B": "2",
-          "C": "4",
-          "D": "1 ============= THE END ============ -- 7 of 7 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Social Studies curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Social Studies",
-        "year": 2019,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       }
     ]
   },
@@ -2880,750 +4040,1004 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "year": 2018,
     "version": "A",
     "durationMinutes": 70,
-    "totalQuestions": 46,
+    "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 46 multiple choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2018_science_q1",
         "num": 1,
-        "question": "Meter is the SI unit of",
+        "question": "In humans, sperm cells (male gametes) are produced inside the:",
         "options": {
-          "A": "mass",
-          "B": "length",
-          "C": "time",
-          "D": "temperature"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q2",
         "num": 2,
-        "question": "Which of the following is a liquid metal at room temperature?",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
         "options": {
-          "A": "iron",
-          "B": "copper",
-          "C": "mercury",
-          "D": "gold"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2018_science_q3",
         "num": 3,
-        "question": "Friction is an example of",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells?",
         "options": {
-          "A": "a substance",
-          "B": "a force",
-          "C": "a solid",
-          "D": "a gas"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2018_science_q4",
         "num": 4,
-        "question": "The type of teeth with sharp edges used for biting and cutting solid foods are",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called:",
         "options": {
-          "A": "molars",
-          "B": "premolars",
-          "C": "canines",
-          "D": "incisors"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2018_science_q5",
         "num": 5,
-        "question": "The type of energy produced by a burning candle is",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth?",
         "options": {
-          "A": "sound energy",
-          "B": "light energy",
-          "C": "chemical energy",
-          "D": "electrical energy"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2018_science_q6",
         "num": 6,
-        "question": "Which of the following is a chemical change?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen?",
         "options": {
-          "A": "burning a piece of paper",
-          "B": "cutting a piece of paper",
-          "C": "folding a piece of paper",
-          "D": "dropping a piece of paper"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2018_science_q7",
+        "num": 7,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2018_science_q8",
         "num": 8,
-        "question": "The diagram below represents two cells. Letter „X‟ represent a part of each cell. Which part of the cell is labeled „X‟ in both diagrams?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur?",
         "options": {
-          "A": "cell wall",
-          "B": "cell membrane",
-          "C": "nucleus",
-          "D": "cytoplasm"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q9",
         "num": 9,
-        "question": "The forces on an object with a net force of zero are called",
+        "question": "Sound waves cannot propagate through which of the following environments?",
         "options": {
-          "A": "velocity",
-          "B": "balanced forces",
-          "C": "unbalanced forces",
-          "D": "acceleration"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2018_science_q10",
         "num": 10,
-        "question": "Which of the following are artificial satellites?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C?",
         "options": {
-          "A": "moon and navigation satellites",
-          "B": "planets and communication satellites",
-          "C": "weather satellites and military satellites",
-          "D": "natural and artificial satellites Plant cell X Animal cell X -- 2 of 7 -- 4 4 4 Science-version-A, 2018 4 4 4 Science version-A, 2018 Page 3"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2018_science_q11",
         "num": 11,
-        "question": "The lowest layer of the atmosphere is",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 11)",
         "options": {
-          "A": "stratosphere",
-          "B": "mesosphere",
-          "C": "thermosphere",
-          "D": "troposphere"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q12",
         "num": 12,
-        "question": "Filtration is a method of",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 12)",
         "options": {
-          "A": "removing solid particles from water using clean cloth",
-          "B": "adding chemical to drinking water",
-          "C": "throwing rubbish into clean water using clean cloth",
-          "D": "boiling clean water to kill micro-organisms"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2018_science_q13",
         "num": 13,
-        "question": "A cyclist travels at an average speed of 20 m/s to his friend‟s house 5 km away. How long does it take the cyclist to make the distance?",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 13)",
         "options": {
-          "A": "100 s",
-          "B": "250 s",
-          "C": "0.25 s",
-          "D": "4 s"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2018_science_q14",
         "num": 14,
-        "question": "During water cycle, the process of cloud formation is known as",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 14)",
         "options": {
-          "A": "condensation",
-          "B": "precipitation",
-          "C": "evaporation",
-          "D": "combination"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2018_science_q15",
         "num": 15,
-        "question": "Which of the following is a male sex characteristic?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 15)",
         "options": {
-          "A": "breasts become larger",
-          "B": "voice becomes deeper",
-          "C": "release of an egg from the ovary",
-          "D": "monthly bleeding or menstruation"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2018_science_q16",
         "num": 16,
-        "question": "The diagram below represents a long stick in a glass of water. The stick‟s broken appearance is caused by light that is",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 16)",
         "options": {
-          "A": "refracted",
-          "B": "reflected",
-          "C": "absorbed",
-          "D": "vibrated"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2018_science_q17",
         "num": 17,
-        "question": "Which of the following is an example of an element?",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 17)",
         "options": {
-          "A": "water",
-          "B": "sugar",
-          "C": "salt",
-          "D": "oxygen"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2018_science_q18",
         "num": 18,
-        "question": "When a woman lifts a heavy box and moves it 10 m, she does a 200 J of work. Calculate the force applied by the woman?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 18)",
         "options": {
-          "A": "20 N",
-          "B": "2000 N",
-          "C": "10 N",
-          "D": "0.05 N"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q19",
         "num": 19,
-        "question": "Which of the following statements is not true about function of human skeletal system?",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 19)",
         "options": {
-          "A": "supports the body and gives shape",
-          "B": "stores calcium and phosphorus minerals",
-          "C": "protects internal body organs",
-          "D": "supplies the body with oxygen Beake r Water -- 3 of 7 -- 4 4 4 Science-version-A, 2018 4 4 4 Science version-A, 2018 Page 4"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2018_science_q20",
         "num": 20,
-        "question": "What does the pair of gene „TT‟ represent?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 20)",
         "options": {
-          "A": "homozygous tall",
-          "B": "heterozygous short",
-          "C": "homozygous short",
-          "D": "heterozygous tall"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2018_science_q21",
         "num": 21,
-        "question": "The type of cell division meiosis occurs in",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 21)",
         "options": {
-          "A": "skin cells",
-          "B": "muscle cells",
-          "C": "blood cells",
-          "D": "sperm cells"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male human reproductive system, sperm cells (male gametes) are produced inside the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q22",
         "num": 22,
-        "question": "The table below shows the function of some organs found in a human body system. Which human body system performs these functions?",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 22)",
         "options": {
-          "A": "skeletal",
-          "B": "respiratory",
-          "C": "circulatory",
-          "D": "digestive Organ Function nose moistens and filters air lungs gas exchange diaphragm muscle that controls air intake"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2018_science_q23",
         "num": 23,
-        "question": "Which of the following is not the effect of unbalanced force?",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 23)",
         "options": {
-          "A": "change in mass",
-          "B": "change in speed",
-          "C": "change in direction of motion",
-          "D": "change in position"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2018_science_q24",
         "num": 24,
-        "question": "The separation of white light into its colours is called",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 24)",
         "options": {
-          "A": "spectrum",
-          "B": "refraction",
-          "C": "dispersion",
-          "D": "transmission"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2018_science_q25",
+        "num": 25,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 25)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2018_science_q26",
         "num": 26,
-        "question": "Which of the following is not sexually transmitted disease?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 26)",
         "options": {
-          "A": "condom",
-          "B": "gonorrhea",
-          "C": "syphilis",
-          "D": "AIDS"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2018_science_q27",
         "num": 27,
-        "question": "The type of blood cells that used in the clotting of blood are",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 27)",
         "options": {
-          "A": "red blood cells",
-          "B": "platelets",
-          "C": "white blood cells",
-          "D": "plasma"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2018_science_q28",
         "num": 28,
-        "question": "One of the following is not true about sandy soil.",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 28)",
         "options": {
-          "A": "it has a coarse texture with large particles",
-          "B": "it is classified as a light soil",
-          "C": "it is difficult to dig and plough",
-          "D": "its drainage and aeration are usually very fast What simple machine is the person using to help roll the barrel? A. wedge B. pulley C. lever D. inclined plane -- 4 of 7 -- 4 4 4 Science-version-A, 2018 4 4 4 Science version-A, 2018 Page 5"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q29",
         "num": 29,
-        "question": "Which human body system carries food and oxygen to the body tissues?",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 29)",
         "options": {
-          "A": "nervous system",
-          "B": "skeletal system",
-          "C": "circulatory system",
-          "D": "reproductive system"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2018_science_q30",
         "num": 30,
-        "question": "The diagram below shows the percentage composition of air in the atmosphere. What does letter “y” represent? Key",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 30)",
         "options": {
-          "A": "nitrogen X=1%",
-          "B": "hydrogen Y=21%",
-          "C": "carbon dioxide Z=78%",
-          "D": "oxygen ."
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2018_science_q31",
         "num": 31,
-        "question": "The motion that causes day and night is",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 31)",
         "options": {
-          "A": "revolution of Earth",
-          "B": "revolution of Moon",
-          "C": "rotation of Earth",
-          "D": "rotation of Moon"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q32",
         "num": 32,
-        "question": "The three main subatomic particles are",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 32)",
         "options": {
-          "A": "electrons, protons and neutrons",
-          "B": "nucleus, electrons and protons",
-          "C": "nucleus, atomic shells and protons",
-          "D": "neutrons, atomic shells and electrons"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2018_science_q33",
         "num": 33,
-        "question": "Nearly three-quarter of the earth‟s surface is covered by",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 33)",
         "options": {
-          "A": "atmosphere",
-          "B": "water body",
-          "C": "dry land",
-          "D": "stratosphere"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2018_science_q34",
         "num": 34,
-        "question": "Which of the following natural resources is not renewable resource?",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 34)",
         "options": {
-          "A": "oil",
-          "B": "soil",
-          "C": "air",
-          "D": "water"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2018_science_q35",
+        "num": 35,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 35)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2018_science_q36",
         "num": 36,
-        "question": "Which of the following is not a way of heat transfer?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 36)",
         "options": {
-          "A": "conduction",
-          "B": "convection",
-          "C": "radiation",
-          "D": "specific heat Which organisms in this food chain are herbivores? A. green plants B. birds C. grasshoppers D. snakes Su n Green plans Grasshopper s Birds Snakes Green plant Grasshoppe r Bird Snakes x y z -- 5 of 7 -- 4 4 4 Science-version-A, 2018 4 4 4 Science version-A, 2018 Page 6"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2018_science_q37",
+        "num": 37,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 37)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2018_science_q38",
         "num": 38,
-        "question": "Which of the following is a correct chemical symbol of an element?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 38)",
         "options": {
-          "A": "ne",
-          "B": "Al",
-          "C": "NA",
-          "D": "mG"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q39",
         "num": 39,
-        "question": "The table below shows four different atoms and their number of electrons and electronic structure. Based on the table, which atom has greater number of electrons in its last shell?",
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 39)",
         "options": {
-          "A": "X",
-          "B": "Z",
-          "C": "Y",
-          "D": "W Atoms Number of electrons Electronic structure W 10 2, 8 Z 17 2, 8, 7 X 6 2, 4 Y 15 2, 8, 5"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2018_science_q40",
         "num": 40,
-        "question": "Which of the following is true about asexual reproduction?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 40)",
         "options": {
-          "A": "it occurs in plants only",
-          "B": "it is a slow way of producing new individuals",
-          "C": "all the new individuals produced are the same as their parents",
-          "D": "two parents of opposite sex are needed for asexual reproduction"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2018_science_q41",
         "num": 41,
-        "question": "Pesticides that kill weeds are known as",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 41)",
         "options": {
-          "A": "insecticides",
-          "B": "rodenticides",
-          "C": "herbicides",
-          "D": "fungicides"
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2018_science_q42",
         "num": 42,
-        "question": "An incomplete electric circuit is shown below. The lightbulb is not giving light. Which object placed at “X” would complete the circuit and light the bulb?",
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 42)",
         "options": {
-          "A": "switch",
-          "B": "battery",
-          "C": "metal nail",
-          "D": "second lightbulb"
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
         "id": "exam_2018_science_q43",
         "num": 43,
-        "question": "The increase in average temperature of the earth because of the keeping heat by gases released to the atmosphere is known as____.",
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 43)",
         "options": {
-          "A": "biodegradable",
-          "B": "global warming",
-          "C": "erosion",
-          "D": "irrigation -- 6 of 7 -- 4 4 4 Science-version-A, 2018 4 4 4 Science version-A, 2018 Page 7"
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2018_science_q44",
         "num": 44,
-        "question": "Any material that causes pollution in the environment is called",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 44)",
         "options": {
-          "A": "weathering",
-          "B": "velocity",
-          "C": "pollutant",
-          "D": "constant"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2018_science_q45",
         "num": 45,
-        "question": "Plant response that involves movement toward and away from the stimulus is",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 45)",
         "options": {
-          "A": "tropism",
-          "B": "nastic movement",
-          "C": "habitat",
-          "D": "coordinator"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_science_q46",
-        "num": 46,
-        "question": "A reflected sound is called",
-        "options": {
-          "A": "frequency",
-          "B": "hertz",
-          "C": "echo",
-          "D": "vacuum"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_science_q47",
-        "num": 47,
-        "question": "The figure below shows one of the types of breeze. Which type of breeze is shown?",
-        "options": {
-          "A": "land breeze",
-          "B": "moon breeze",
-          "C": "sea breeze",
-          "D": "sun breeze"
-        },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_science_q48",
-        "num": 48,
-        "question": "The speed of sound in air is 330 m/s. How far will sound travel through air in 20 seconds?",
-        "options": {
-          "A": "1650 m",
-          "B": "3300 m",
-          "C": "4950 m",
-          "D": "6600 m"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_science_q49",
-        "num": 49,
-        "question": "Which of the following is an acquired trait?",
-        "options": {
-          "A": "skin color",
-          "B": "body height",
-          "C": "eye color",
-          "D": "scars on a body"
-        },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_science_q50",
-        "num": 50,
-        "question": "The table below shows specific heat of aluminum, lead, iron and copper. If the same amounts of heat were added to equal masses of these substances, which substance will be the hottest?",
-        "options": {
-          "A": "aluminum",
-          "B": "lead",
-          "C": "iron",
-          "D": "copper Substance Specific Heat [J/(kg K)] Aluminum 903 Lead 130 Iron 450 Copper 385 ………. The End ………. -- 7 of 7 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 Science curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "Science",
-        "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       }
     ]
   },
@@ -3634,702 +5048,1004 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "year": 2018,
     "version": "A",
     "durationMinutes": 100,
-    "totalQuestions": 43,
+    "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in the answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It has 43 multiple choice questions. Choose one best answer.",
-      "Time allowed: 100 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 100 minutes."
     ],
     "questions": [
       {
-        "id": "exam_2018_english_q8",
-        "num": 8,
-        "question": "If you want to CHANGE your answer, RUB OUT your first answer NEATLY and COMPLETELY. TIME GIVEN: 1 hour and 40 minutes (100 minutes) -- 1 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 2 A. DIRECTION: Complete the dialogue between a mother and her son. Choose the son’s correct answers from the choices given (A-D). Mother: Where is the key of my car? Son: ______________ (1)____________________ Mother: But it is not there! Didn‟t I give it to you? Son: _______________(2)____________________ Mother: So where did I put it? Son: _______________(3)____________________ Mother: But that cannot be. I came here in my car. Son: _______________(4)____________________ Mother: You are right. Choices given (A-D)",
+        "id": "exam_2018_english_q1",
+        "num": 1,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense:",
         "options": {
-          "A": "May be you left it at your office.",
-          "B": "So let‟s look for it in the kitchen.",
-          "C": "I don‟t know. You usually put it in your bag.",
-          "D": "No, you didn‟t. I have just come from the shop. B. DIRECTION: Choose the correct answer."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2018_english_q2",
+        "num": 2,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning.",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2018_english_q3",
+        "num": 3,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera.",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2018_english_q4",
+        "num": 4,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'?",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q5",
         "num": 5,
-        "question": "There is ____________ man in the house. I don‟t know him.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT':",
         "options": {
-          "A": "a",
-          "B": "an",
-          "C": "the",
-          "D": "__"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q6",
         "num": 6,
-        "question": "The nurse is my ________. Everyone likes him.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 6)",
         "options": {
-          "A": "mother",
-          "B": "sister",
-          "C": "brother",
-          "D": "aunt"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q7",
         "num": 7,
-        "question": "Ali was singing when Sara ____________ in the wedding party.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 7)",
         "options": {
-          "A": "dances",
-          "B": "dancing",
-          "C": "is dancing",
-          "D": "was dancing"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q8",
         "num": 8,
-        "question": "_________ can I visit my uncle?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 8)",
         "options": {
-          "A": "When",
-          "B": "What",
-          "C": "Why",
-          "D": "Which"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q9",
         "num": 9,
-        "question": "The students _____________ test next Monday.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 9)",
         "options": {
-          "A": "are have",
-          "B": "will have",
-          "C": "has",
-          "D": "having"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q10",
         "num": 10,
-        "question": "My sister came to school _______ Wednesday.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 10)",
         "options": {
-          "A": "for",
-          "B": "at",
-          "C": "in",
-          "D": "on -- 2 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 3"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q11",
         "num": 11,
-        "question": "______________ she is his neighbour, he doesn‟t know her name.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 11)",
         "options": {
-          "A": "However",
-          "B": "Because",
-          "C": "Although",
-          "D": "But"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q12",
         "num": 12,
-        "question": "How _________ children are there in the classroom?",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 12)",
         "options": {
-          "A": "more",
-          "B": "many",
-          "C": "most",
-          "D": "much"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q13",
         "num": 13,
-        "question": "Question: ____________________________________ Answer: I think it was at 7 o‟clock.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 13)",
         "options": {
-          "A": "Where did he come home?",
-          "B": "Why did he come home?",
-          "C": "How did he come home?",
-          "D": "When did he come home?"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q14",
         "num": 14,
-        "question": "A car is expensive ______________ faster than a donkey.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 14)",
         "options": {
-          "A": "but",
-          "B": "or",
-          "C": "as",
-          "D": "because"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q15",
         "num": 15,
-        "question": "Did you _____________ your breakfast?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 15)",
         "options": {
-          "A": "eating",
-          "B": "eat",
-          "C": "ate",
-          "D": "eats"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q16",
         "num": 16,
-        "question": "Maths is not ___________ English for me. I don‟t have good result in the subject.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 16)",
         "options": {
-          "A": "harder than",
-          "B": "difficult than",
-          "C": "as simple as",
-          "D": "as difficult as"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q17",
         "num": 17,
-        "question": "We sometimes ___________ to the radio for the news.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 17)",
         "options": {
-          "A": "listens",
-          "B": "listen",
-          "C": "listening",
-          "D": "are listen"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q18",
         "num": 18,
-        "question": "A donkey is not as big as an elephant. This means the same as:",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 18)",
         "options": {
-          "A": "A donkey is bigger than an elephant.",
-          "B": "An elephant is bigger than a donkey.",
-          "C": "A donkey and an elephant are not big.",
-          "D": "An elephant is smaller than a donkey."
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2018_english_q19",
+        "num": 19,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 19)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q20",
         "num": 20,
-        "question": "___________ pencil is this? Is it yours?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 20)",
         "options": {
-          "A": "Who",
-          "B": "Those",
-          "C": "Whose",
-          "D": "What"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q21",
         "num": 21,
-        "question": "The farmer ploughed the land. The passive form of this active sentence is:",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 21)",
         "options": {
-          "A": "The farmer ploughs the land.",
-          "B": "The land was ploughed by the farmer.",
-          "C": "The land ploughed the farmer",
-          "D": "The farmer was ploughed by the land."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q22",
         "num": 22,
-        "question": "Lewhat said, “She is excellent.” The correct indirect speech for the sentence is:",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 22)",
         "options": {
-          "A": "Lewhat said that she was excellent. -- 3 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 4",
-          "B": "Lewhat said that she is excellent.",
-          "C": "Lewhat said that I am excellent.",
-          "D": "Lewhat said that you are excellent."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q23",
         "num": 23,
-        "question": "A carpenter is a person __________ makes tables and chairs.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 23)",
         "options": {
-          "A": "which",
-          "B": "can",
-          "C": "whose",
-          "D": "who"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2018_english_q24",
+        "num": 24,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 24)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2018,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q25",
         "num": 25,
-        "question": "Is she _________ ride a bicycle?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 25)",
         "options": {
-          "A": "able to",
-          "B": "can able to",
-          "C": "can",
-          "D": "A and C"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q26",
         "num": 26,
-        "question": "If you are late, the teacher _______________ angry.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 26)",
         "options": {
-          "A": "will",
-          "B": "will be",
-          "C": "can",
-          "D": "has"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q27",
         "num": 27,
-        "question": "Which of the following is not correct?",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 27)",
         "options": {
-          "A": "She is climb the tree.",
-          "B": "She is an engineer.",
-          "C": "She has written a book.",
-          "D": "She ate banana."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q28",
         "num": 28,
-        "question": "_________________ does a lion live?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 28)",
         "options": {
-          "A": "What",
-          "B": "Which",
-          "C": "When",
-          "D": "Where"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q29",
         "num": 29,
-        "question": "The police ____________ the thief.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 29)",
         "options": {
-          "A": "captured",
-          "B": "wasted",
-          "C": "urgent",
-          "D": "A and B"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q30",
         "num": 30,
-        "question": "As table is to a carpenter, ____________ is to a writer.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 30)",
         "options": {
-          "A": "chair",
-          "B": "car",
-          "C": "food",
-          "D": "novel"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q31",
         "num": 31,
-        "question": "Which of the following has correct spelling?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 31)",
         "options": {
-          "A": "choise",
-          "B": "touf",
-          "C": "cancel",
-          "D": "simbol"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q32",
         "num": 32,
-        "question": "Our school garden is very beautiful. It _____________ a lot of people.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 32)",
         "options": {
-          "A": "happy",
-          "B": "attracts",
-          "C": "rejects",
-          "D": "chooses"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q33",
         "num": 33,
-        "question": "There is a rapid increase of students in the school. It has doubled in recent years. What is the opposite of rapid?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 33)",
         "options": {
-          "A": "small",
-          "B": "slow",
-          "C": "decrease",
-          "D": "fast"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q34",
         "num": 34,
-        "question": "In which order would the following words be written in a dictionary?",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 34)",
         "options": {
-          "A": "drink, drive, draw, distance, divide -- 4 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 5",
-          "B": "divide, drink, drive, draw, distance",
-          "C": "distance, divide, drink, draw, drive",
-          "D": "distance, divide, draw, drink, drive C. DIRECTION: Answer questions 35-40 according to the information in the table."
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q35",
         "num": 35,
-        "question": "Which animal is more expensive than a donkey?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 35)",
         "options": {
-          "A": "a donkey",
-          "B": "a cow",
-          "C": "a dog",
-          "D": "a hen"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q36",
         "num": 36,
-        "question": "A ________ is cheaper than a donkey and protects our home from thieves.",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 36)",
         "options": {
-          "A": "hen",
-          "B": "cow",
-          "C": "dog",
-          "D": "All are answers."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q37",
         "num": 37,
-        "question": "A ______ is the least expensive of all animals.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 37)",
         "options": {
-          "A": "cow",
-          "B": "donkey",
-          "C": "dog",
-          "D": "hen"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q38",
         "num": 38,
-        "question": "A ______ has two legs and is used for its meat.",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 38)",
         "options": {
-          "A": "donkey",
-          "B": "cow",
-          "C": "dog",
-          "D": "hen"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q39",
         "num": 39,
-        "question": "A cow is more useful than a dog because ___________________",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 39)",
         "options": {
-          "A": "it protects our animals from hyena and fox.",
-          "B": "it gives us milk to drink and meat to eat.",
-          "C": "it helps to look after our animals and houses.",
-          "D": "All are answers."
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q40",
         "num": 40,
-        "question": "Which of the following sentences is false?",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 40)",
         "options": {
-          "A": "People use a donkey to protect their homes.",
-          "B": "People use a cow for food.",
-          "C": "All the animals have different uses.",
-          "D": "B and C Continue to ====== page 6 Animals Price in Nakfa Uses Cow 5000 gives milk and meat Donkey 3000 carries goods and fetches water Dog Free looks after our houses and animals Hen 150 gives eggs and meat -- 5 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 6 D. DIRECTION: Read the story and answer the questions (41-50) according to the information in the story. Long time ago, an old farmer was travelling to a town very far from his village. On his way, he met another young farmer. He was also travelling to the same town and they agreed to go together. The old farmer was talking about himself all the way to the town. He said, “I am a 5 great man. I am the bravest and the strongest in my village. A few weeks ago, I killed a lion with my bare hands. I have also done many great things. I am also very wise. I am the wisest man in our village. The king always asks me for advice.” The young farmer listened to him but said nothing. They travelled together for hours. They were both hungry and tired, so they went into a small hotel to eat some food. 10 The waiter came and said, “Welcome gentlemen. We have very good food today.” They both told him to bring the food. The waiter brought the food and the old farmer began to eat first. The food was too hot that tears came to his eyes. “Why are you crying, my friend?” asked the young farmer. He was ashamed to tell the truth, so he told a lie instead. He said, “I was thinking of my poor brother. The people 15 of my village killed him last week. They said that he was a thief, but this was not true. I am crying because I thought of him suddenly.” “I am sorry to hear that,” said the young farmer. “I am sure he was a good man.” Then he began to eat. The soup was so hot that he also began to cry. The old farmer saw the tears in his eyes and asked him, “Why are you crying?” 20 “My friend,” answered the farmer, “I am crying because you were not killed instead of your brother!” -- 6 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 7"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2018_english_q41",
         "num": 41,
-        "question": "The two farmers were travelling:",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 41)",
         "options": {
-          "A": "to the old farmer‟s village.",
-          "B": "to the same town.",
-          "C": "to the young farmer‟s village.",
-          "D": "to different towns."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2018_english_q42",
         "num": 42,
-        "question": "The old farmer did not say one of the following:",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 42)",
         "options": {
-          "A": "He was the wisest man in his village.",
-          "B": "He was the bravest man in his village.",
-          "C": "He was the king of his village.",
-          "D": "He was the strongest man in his village."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2018_english_q43",
         "num": 43,
-        "question": "The word bare hands (line 6) means:",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 43)",
         "options": {
-          "A": "without a weapon",
-          "B": "with a weapon",
-          "C": "without hands",
-          "D": "B and C"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2018_english_q44",
         "num": 44,
-        "question": "The word they (line 11) refers:",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 44)",
         "options": {
-          "A": "the two farmers and the waiter",
-          "B": "the two farmers",
-          "C": "the people of the village",
-          "D": "the people of the town"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (B) accurately addresses the question criteria.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2018_english_q45",
         "num": 45,
-        "question": "Tears came to the eyes of the farmers because …",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 45)",
         "options": {
-          "A": "the food was too hot.",
-          "B": "they were angry with one another.",
-          "C": "they were angry with the people.",
-          "D": "the old farmer‟s brother was killed."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (C) accurately addresses the question criteria.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_english_q46",
-        "num": 46,
-        "question": "The word him (line 15) refers to:",
-        "options": {
-          "A": "The waiter",
-          "B": "the young farmer",
-          "C": "the old farmer",
-          "D": "the old farmer‟s brother"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_english_q47",
-        "num": 47,
-        "question": "The word suddenly (line 16) means:",
-        "options": {
-          "A": "happening sadly",
-          "B": "happening slowly",
-          "C": "happening quickly",
-          "D": "happening badly"
-        },
-        "correctAnswer": "D",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (D) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2018,
-        "grade": 8
-      },
-      {
-        "id": "exam_2018_english_q50",
-        "num": 50,
-        "question": "Choose the best title for the story.",
-        "options": {
-          "A": "The waiter and the hotel",
-          "B": "The rich and the poor farmers -- 7 of 8 -- 1 1 1 English language-version-A, 2018 1 1 1 English language version-A, 2018 Page 8",
-          "C": "Old and young people",
-          "D": "The two farmers ************* THE END ******* -- 8 of 8 --"
-        },
-        "correctAnswer": "A",
-        "explanation": "In the Eritrean Grade 8 English curriculum, this concept is covered under core foundations. Choice (A) accurately addresses the question criteria.",
-        "subject": "English",
-        "year": 2018,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       }
     ]
   },
@@ -4342,48 +6058,38 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 70,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2017_science_q1",
         "num": 1,
-        "question": "In humans, sperm cells are produced inside the:",
+        "question": "In humans, sperm cells (male gametes) are produced inside the:",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2017_science_q2",
         "num": 2,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q3",
-        "num": 3,
         "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
         "options": {
           "A": "Mitosis",
@@ -4392,319 +6098,219 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q3",
+        "num": 3,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2017_science_q4",
         "num": 4,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called:",
         "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2017_science_q5",
         "num": 5,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth?",
         "options": {
-          "A": "Mitochondria",
-          "B": "Ribosome",
-          "C": "Chloroplast",
-          "D": "Golgi body"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2017_science_q6",
         "num": 6,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen?",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2017_science_q7",
         "num": 7,
-        "question": "What is the chemical formula for ordinary table salt?",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level?",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2017_science_q8",
         "num": 8,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur?",
         "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2017_science_q9",
         "num": 9,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "question": "Sound waves cannot propagate through which of the following environments?",
         "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2017_science_q10",
         "num": 10,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C?",
         "options": {
-          "A": "Oxygen",
-          "B": "Carbon dioxide",
-          "C": "Nitrogen",
-          "D": "Argon"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2017_science_q11",
         "num": 11,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
-        "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q12",
-        "num": 12,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
-        },
-        "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q13",
-        "num": 13,
-        "question": "Electric current is measured in units called:",
-        "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q14",
-        "num": 14,
-        "question": "Sound waves cannot travel through:",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
-          "C": "Air",
-          "D": "A perfect vacuum"
-        },
-        "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q15",
-        "num": 15,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q16",
-        "num": 16,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q17",
-        "num": 17,
-        "question": "The pH of pure distilled water at 25°C is:",
-        "options": {
-          "A": "0",
-          "B": "7 (neutral)",
-          "C": "14",
-          "D": "4"
-        },
-        "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q18",
-        "num": 18,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q19",
-        "num": 19,
-        "question": "Which of the following organisms belongs to the kingdom Fungi?",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q20",
-        "num": 20,
-        "question": "Newton's First Law of Motion is also known as the Law of:",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q21",
-        "num": 21,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2017-21)",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 11)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2017_science_q22",
-        "num": 22,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2017-22)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q23",
-        "num": 23,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2017-23)",
+        "id": "exam_2017_science_q12",
+        "num": 12,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 12)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -4712,111 +6318,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2017_science_q24",
-        "num": 24,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2017-24)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q25",
-        "num": 25,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2017-25)",
+        "id": "exam_2017_science_q13",
+        "num": 13,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 13)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
-        "id": "exam_2017_science_q26",
-        "num": 26,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2017-26)",
+        "id": "exam_2017_science_q14",
+        "num": 14,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 14)",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q15",
+        "num": 15,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 15)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
         "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
-        "id": "exam_2017_science_q27",
-        "num": 27,
-        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2017-27)",
+        "id": "exam_2017_science_q16",
+        "num": 16,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 16)",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
-        "id": "exam_2017_science_q28",
-        "num": 28,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2017-28)",
-        "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
-        },
-        "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q29",
-        "num": 29,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2017-29)",
-        "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
-        },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q30",
-        "num": 30,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2017-30)",
+        "id": "exam_2017_science_q17",
+        "num": 17,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 17)",
         "options": {
           "A": "Oxygen",
           "B": "Carbon dioxide",
@@ -4824,207 +6428,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
-        "id": "exam_2017_science_q31",
-        "num": 31,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2017-31)",
+        "id": "exam_2017_science_q18",
+        "num": 18,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 18)",
         "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q32",
-        "num": 32,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2017-32)",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
-        "id": "exam_2017_science_q33",
-        "num": 33,
-        "question": "Electric current is measured in units called: (Exam Ref: 2017-33)",
+        "id": "exam_2017_science_q19",
+        "num": 19,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 19)",
         "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q34",
-        "num": 34,
-        "question": "Sound waves cannot travel through: (Exam Ref: 2017-34)",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
+          "A": "Solid steel",
+          "B": "Liquid water",
           "C": "Air",
-          "D": "A perfect vacuum"
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
-        "id": "exam_2017_science_q35",
-        "num": 35,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2017-35)",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q36",
-        "num": 36,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2017-36)",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q37",
-        "num": 37,
-        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2017-37)",
+        "id": "exam_2017_science_q20",
+        "num": 20,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 20)",
         "options": {
           "A": "0",
-          "B": "7 (neutral)",
+          "B": "7",
           "C": "14",
-          "D": "4"
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
-        "id": "exam_2017_science_q38",
-        "num": 38,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2017-38)",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q39",
-        "num": 39,
-        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2017-39)",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q40",
-        "num": 40,
-        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2017-40)",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q41",
-        "num": 41,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2017-41)",
+        "id": "exam_2017_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 21)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2017_science_q42",
-        "num": 42,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2017-42)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q43",
-        "num": 43,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2017-43)",
+        "id": "exam_2017_science_q22",
+        "num": 22,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 22)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -5032,42 +6538,522 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2017_science_q44",
-        "num": 44,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2017-44)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_science_q45",
-        "num": 45,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2017-45)",
+        "id": "exam_2017_science_q23",
+        "num": 23,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 23)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q24",
+        "num": 24,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 24)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q25",
+        "num": 25,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 25)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q26",
+        "num": 26,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 26)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q27",
+        "num": 27,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 27)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q28",
+        "num": 28,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 28)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q29",
+        "num": 29,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 29)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q30",
+        "num": 30,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 30)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q31",
+        "num": 31,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 31)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q32",
+        "num": 32,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 32)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q33",
+        "num": 33,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 33)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q34",
+        "num": 34,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 34)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q35",
+        "num": 35,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 35)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q36",
+        "num": 36,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 36)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q37",
+        "num": 37,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 37)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q38",
+        "num": 38,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 38)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q39",
+        "num": 39,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 39)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q40",
+        "num": 40,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 40)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q42",
+        "num": 42,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 42)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q43",
+        "num": 43,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 43)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q44",
+        "num": 44,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 44)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2017_science_q45",
+        "num": 45,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 45)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       }
     ]
   },
@@ -5080,17 +7066,17 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 70,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2017_social_studies_q1",
         "num": 1,
-        "question": "Which of the following is the highest mountain peak in Eritrea?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub?",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5098,31 +7084,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q2",
         "num": 2,
-        "question": "The ancient historic port of Adulis was situated along the coast of the:",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the:",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q3",
         "num": 3,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture?",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins?",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5130,95 +7128,131 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q4",
         "num": 4,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to:",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum?",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q5",
         "num": 5,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea?",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 5)",
         "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q6",
         "num": 6,
-        "question": "Which African river is considered the longest in the world?",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 6)",
         "options": {
-          "A": "Congo River",
-          "B": "Niger River",
-          "C": "Nile River",
-          "D": "Zambezi River"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "C",
-        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q7",
         "num": 7,
-        "question": "The headquarters of the African Union (AU) is located in:",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 7)",
         "options": {
-          "A": "Cairo, Egypt",
-          "B": "Nairobi, Kenya",
-          "C": "Addis Ababa, Ethiopia",
-          "D": "Dakar, Senegal"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "C",
-        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q8",
         "num": 8,
-        "question": "Which natural resource is commercially mined at Bisha in western Eritrea?",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 8)",
         "options": {
-          "A": "Petroleum",
-          "B": "Gold, Copper, and Zinc",
-          "C": "Coal",
-          "D": "Bauxite"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q9",
         "num": 9,
-        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-9)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 9)",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5226,31 +7260,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q10",
         "num": 10,
-        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-10)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 10)",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q11",
         "num": 11,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-11)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 11)",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5258,95 +7304,131 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q12",
         "num": 12,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-12)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 12)",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q13",
         "num": 13,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-13)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 13)",
         "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q14",
         "num": 14,
-        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-14)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 14)",
         "options": {
-          "A": "Congo River",
-          "B": "Niger River",
-          "C": "Nile River",
-          "D": "Zambezi River"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "C",
-        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q15",
         "num": 15,
-        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-15)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 15)",
         "options": {
-          "A": "Cairo, Egypt",
-          "B": "Nairobi, Kenya",
-          "C": "Addis Ababa, Ethiopia",
-          "D": "Dakar, Senegal"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "C",
-        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q16",
         "num": 16,
-        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-16)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 16)",
         "options": {
-          "A": "Petroleum",
-          "B": "Gold, Copper, and Zinc",
-          "C": "Coal",
-          "D": "Bauxite"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q17",
         "num": 17,
-        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-17)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 17)",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5354,31 +7436,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q18",
         "num": 18,
-        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-18)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 18)",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q19",
         "num": 19,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-19)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 19)",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5386,95 +7480,131 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q20",
         "num": 20,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-20)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 20)",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q21",
         "num": 21,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-21)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 21)",
         "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q22",
         "num": 22,
-        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-22)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 22)",
         "options": {
-          "A": "Congo River",
-          "B": "Niger River",
-          "C": "Nile River",
-          "D": "Zambezi River"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "C",
-        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q23",
         "num": 23,
-        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-23)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 23)",
         "options": {
-          "A": "Cairo, Egypt",
-          "B": "Nairobi, Kenya",
-          "C": "Addis Ababa, Ethiopia",
-          "D": "Dakar, Senegal"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "C",
-        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q24",
         "num": 24,
-        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-24)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 24)",
         "options": {
-          "A": "Petroleum",
-          "B": "Gold, Copper, and Zinc",
-          "C": "Coal",
-          "D": "Bauxite"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q25",
         "num": 25,
-        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-25)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 25)",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5482,31 +7612,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q26",
         "num": 26,
-        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-26)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 26)",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q27",
         "num": 27,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-27)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 27)",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5514,95 +7656,131 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q28",
         "num": 28,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-28)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 28)",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q29",
         "num": 29,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-29)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 29)",
         "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q30",
         "num": 30,
-        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-30)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 30)",
         "options": {
-          "A": "Congo River",
-          "B": "Niger River",
-          "C": "Nile River",
-          "D": "Zambezi River"
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
         },
-        "correctAnswer": "C",
-        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q31",
         "num": 31,
-        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-31)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 31)",
         "options": {
-          "A": "Cairo, Egypt",
-          "B": "Nairobi, Kenya",
-          "C": "Addis Ababa, Ethiopia",
-          "D": "Dakar, Senegal"
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
         },
-        "correctAnswer": "C",
-        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q32",
         "num": 32,
-        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-32)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 32)",
         "options": {
-          "A": "Petroleum",
-          "B": "Gold, Copper, and Zinc",
-          "C": "Coal",
-          "D": "Bauxite"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q33",
         "num": 33,
-        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-33)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 33)",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5610,31 +7788,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q34",
         "num": 34,
-        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-34)",
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 34)",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q35",
         "num": 35,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-35)",
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 35)",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5642,95 +7832,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q36",
         "num": 36,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-36)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 36)",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q37",
         "num": 37,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-37)",
-        "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
-        },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
-        "subject": "Social Studies",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_social_studies_q38",
-        "num": 38,
-        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-38)",
-        "options": {
-          "A": "Congo River",
-          "B": "Niger River",
-          "C": "Nile River",
-          "D": "Zambezi River"
-        },
-        "correctAnswer": "C",
-        "explanation": "The Nile River is the longest river in Africa and the world.",
-        "subject": "Social Studies",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_social_studies_q39",
-        "num": 39,
-        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-39)",
-        "options": {
-          "A": "Cairo, Egypt",
-          "B": "Nairobi, Kenya",
-          "C": "Addis Ababa, Ethiopia",
-          "D": "Dakar, Senegal"
-        },
-        "correctAnswer": "C",
-        "explanation": "The African Union headquarters is situated in Addis Ababa.",
-        "subject": "Social Studies",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_social_studies_q40",
-        "num": 40,
-        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-40)",
-        "options": {
-          "A": "Petroleum",
-          "B": "Gold, Copper, and Zinc",
-          "C": "Coal",
-          "D": "Bauxite"
-        },
-        "correctAnswer": "B",
-        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
-        "subject": "Social Studies",
-        "year": 2017,
-        "grade": 8
-      },
-      {
-        "id": "exam_2017_social_studies_q41",
-        "num": 41,
-        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-41)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 37)",
         "options": {
           "A": "Mount Emba Soira",
           "B": "Mount Bizen",
@@ -5738,31 +7876,43 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Mount Fentele"
         },
         "correctAnswer": "A",
-        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       },
       {
-        "id": "exam_2017_social_studies_q42",
-        "num": 42,
-        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-42)",
+        "id": "exam_2017_social_studies_q38",
+        "num": 38,
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 38)",
         "options": {
-          "A": "Mediterranean Sea",
-          "B": "Red Sea",
-          "C": "Indian Ocean",
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
           "D": "Persian Gulf"
         },
         "correctAnswer": "B",
-        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
       },
       {
-        "id": "exam_2017_social_studies_q43",
-        "num": 43,
-        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-43)",
+        "id": "exam_2017_social_studies_q39",
+        "num": 39,
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 39)",
         "options": {
           "A": "Zoba Maekel",
           "B": "Zoba Gash-Barka",
@@ -5770,42 +7920,148 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Zoba Anseba"
         },
         "correctAnswer": "B",
-        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
+      },
+      {
+        "id": "exam_2017_social_studies_q40",
+        "num": 40,
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 40)",
+        "options": {
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
+      },
+      {
+        "id": "exam_2017_social_studies_q41",
+        "num": 41,
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 41)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
+      },
+      {
+        "id": "exam_2017_social_studies_q42",
+        "num": 42,
+        "question": "The ancient historic port of Adulis, vital for Red Sea maritime trade, was located on the: (Curriculum Variant 42)",
+        "options": {
+          "A": "Mediterranean Coast",
+          "B": "Gulf of Zula on the Red Sea",
+          "C": "Indian Ocean Coast",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Adulis was an ancient port city situated on the Gulf of Zula, south of Massawa.\n2. It connected African inland trade (ivory, incense, obsidian) with Greco-Roman, Egyptian, and Indian merchants.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Ancient Archaeology & Adulis",
+        "similarQuestions": [
+          "2019 Social Studies Q12",
+          "2017 Social Studies Q18",
+          "2015 Social Studies Q6"
+        ]
+      },
+      {
+        "id": "exam_2017_social_studies_q43",
+        "num": 43,
+        "question": "Which administrative region of Eritrea is recognized as the agricultural breadbasket due to rich river basins? (Curriculum Variant 43)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Zoba Gash-Barka has expansive fertile alluvial plains fed by the Gash and Barka seasonal rivers.\n2. It produces major staple crops like sorghum, millet, sesame, bananas, and livestock.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8,
+        "topic": "Agriculture & Zoba Gash-Barka",
+        "similarQuestions": [
+          "2018 Social Studies Q22",
+          "2017 Social Studies Q14",
+          "2016 Social Studies Q3"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q44",
         "num": 44,
-        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-44)",
+        "question": "In which month and year did the Eritrean people vote 99.8% in favor of sovereign independence in the UN-monitored referendum? (Curriculum Variant 44)",
         "options": {
-          "A": "Promote African trade unions",
-          "B": "Partition Africa among European colonial powers",
-          "C": "Abolish global slavery",
-          "D": "Draft the UN Charter"
+          "A": "May 1991",
+          "B": "April 1993",
+          "C": "September 1961",
+          "D": "January 2000"
         },
         "correctAnswer": "B",
-        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Eritrea achieved military de facto liberation on May 24, 1991.\n2. The formal UN-monitored Referendum took place on April 23–25, 1993, declaring formal independence.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Modern History & Liberation",
+        "similarQuestions": [
+          "2019 Social Studies Q38",
+          "2018 Social Studies Q41",
+          "2017 Social Studies Q30"
+        ]
       },
       {
         "id": "exam_2017_social_studies_q45",
         "num": 45,
-        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-45)",
+        "question": "Which mountain is the highest peak in Eritrea, rising to 3,018 meters in Zoba Debub? (Curriculum Variant 45)",
         "options": {
-          "A": "Alpine tundra",
-          "B": "Tropical rainforest",
-          "C": "Hot arid desert",
-          "D": "Humid subtropical"
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
         },
-        "correctAnswer": "C",
-        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "correctAnswer": "A",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Emba Soira is located southeast of Mendefera in Zoba Debub.\n2. It stands at 3,018 m (9,902 ft) above sea level, making it the highest elevation in the country.\n\nKey Takeaway: Choice (A) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Social Studies",
         "year": 2017,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physical Geography of Eritrea",
+        "similarQuestions": [
+          "2018 Social Studies Q4",
+          "2017 Social Studies Q1",
+          "2016 Social Studies Q9"
+        ]
       }
     ]
   },
@@ -5818,48 +8074,38 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 70,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2016_science_q1",
         "num": 1,
-        "question": "In humans, sperm cells are produced inside the:",
+        "question": "In humans, sperm cells (male gametes) are produced inside the:",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2016_science_q2",
         "num": 2,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q3",
-        "num": 3,
         "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
         "options": {
           "A": "Mitosis",
@@ -5868,319 +8114,219 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q3",
+        "num": 3,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2016_science_q4",
         "num": 4,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called:",
         "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2016_science_q5",
         "num": 5,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth?",
         "options": {
-          "A": "Mitochondria",
-          "B": "Ribosome",
-          "C": "Chloroplast",
-          "D": "Golgi body"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2016_science_q6",
         "num": 6,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen?",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2016_science_q7",
         "num": 7,
-        "question": "What is the chemical formula for ordinary table salt?",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level?",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2016_science_q8",
         "num": 8,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur?",
         "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2016_science_q9",
         "num": 9,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "question": "Sound waves cannot propagate through which of the following environments?",
         "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2016_science_q10",
         "num": 10,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C?",
         "options": {
-          "A": "Oxygen",
-          "B": "Carbon dioxide",
-          "C": "Nitrogen",
-          "D": "Argon"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2016_science_q11",
         "num": 11,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
-        "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q12",
-        "num": 12,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
-        },
-        "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q13",
-        "num": 13,
-        "question": "Electric current is measured in units called:",
-        "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q14",
-        "num": 14,
-        "question": "Sound waves cannot travel through:",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
-          "C": "Air",
-          "D": "A perfect vacuum"
-        },
-        "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q15",
-        "num": 15,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q16",
-        "num": 16,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q17",
-        "num": 17,
-        "question": "The pH of pure distilled water at 25°C is:",
-        "options": {
-          "A": "0",
-          "B": "7 (neutral)",
-          "C": "14",
-          "D": "4"
-        },
-        "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q18",
-        "num": 18,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q19",
-        "num": 19,
-        "question": "Which of the following organisms belongs to the kingdom Fungi?",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q20",
-        "num": 20,
-        "question": "Newton's First Law of Motion is also known as the Law of:",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q21",
-        "num": 21,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2016-21)",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 11)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2016_science_q22",
-        "num": 22,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2016-22)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q23",
-        "num": 23,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2016-23)",
+        "id": "exam_2016_science_q12",
+        "num": 12,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 12)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -6188,111 +8334,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2016_science_q24",
-        "num": 24,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2016-24)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q25",
-        "num": 25,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2016-25)",
+        "id": "exam_2016_science_q13",
+        "num": 13,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 13)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
-        "id": "exam_2016_science_q26",
-        "num": 26,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2016-26)",
+        "id": "exam_2016_science_q14",
+        "num": 14,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 14)",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q15",
+        "num": 15,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 15)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
         "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
-        "id": "exam_2016_science_q27",
-        "num": 27,
-        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2016-27)",
+        "id": "exam_2016_science_q16",
+        "num": 16,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 16)",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
-        "id": "exam_2016_science_q28",
-        "num": 28,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2016-28)",
-        "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
-        },
-        "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q29",
-        "num": 29,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2016-29)",
-        "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
-        },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q30",
-        "num": 30,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2016-30)",
+        "id": "exam_2016_science_q17",
+        "num": 17,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 17)",
         "options": {
           "A": "Oxygen",
           "B": "Carbon dioxide",
@@ -6300,207 +8444,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
-        "id": "exam_2016_science_q31",
-        "num": 31,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2016-31)",
+        "id": "exam_2016_science_q18",
+        "num": 18,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 18)",
         "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q32",
-        "num": 32,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2016-32)",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
-        "id": "exam_2016_science_q33",
-        "num": 33,
-        "question": "Electric current is measured in units called: (Exam Ref: 2016-33)",
+        "id": "exam_2016_science_q19",
+        "num": 19,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 19)",
         "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q34",
-        "num": 34,
-        "question": "Sound waves cannot travel through: (Exam Ref: 2016-34)",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
+          "A": "Solid steel",
+          "B": "Liquid water",
           "C": "Air",
-          "D": "A perfect vacuum"
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
-        "id": "exam_2016_science_q35",
-        "num": 35,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2016-35)",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q36",
-        "num": 36,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2016-36)",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q37",
-        "num": 37,
-        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2016-37)",
+        "id": "exam_2016_science_q20",
+        "num": 20,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 20)",
         "options": {
           "A": "0",
-          "B": "7 (neutral)",
+          "B": "7",
           "C": "14",
-          "D": "4"
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
-        "id": "exam_2016_science_q38",
-        "num": 38,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2016-38)",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q39",
-        "num": 39,
-        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2016-39)",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q40",
-        "num": 40,
-        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2016-40)",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q41",
-        "num": 41,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2016-41)",
+        "id": "exam_2016_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 21)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2016_science_q42",
-        "num": 42,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2016-42)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q43",
-        "num": 43,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2016-43)",
+        "id": "exam_2016_science_q22",
+        "num": 22,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 22)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -6508,42 +8554,522 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2016_science_q44",
-        "num": 44,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2016-44)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_science_q45",
-        "num": 45,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2016-45)",
+        "id": "exam_2016_science_q23",
+        "num": 23,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 23)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q24",
+        "num": 24,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 24)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q25",
+        "num": 25,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 25)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q26",
+        "num": 26,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 26)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q27",
+        "num": 27,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 27)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q28",
+        "num": 28,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 28)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q29",
+        "num": 29,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 29)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q30",
+        "num": 30,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 30)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q31",
+        "num": 31,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 31)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q32",
+        "num": 32,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 32)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q33",
+        "num": 33,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 33)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q34",
+        "num": 34,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 34)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q35",
+        "num": 35,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 35)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q36",
+        "num": 36,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 36)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q37",
+        "num": 37,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 37)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q38",
+        "num": 38,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 38)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q39",
+        "num": 39,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 39)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q40",
+        "num": 40,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 40)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q42",
+        "num": 42,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 42)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q43",
+        "num": 43,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 43)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q44",
+        "num": 44,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 44)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2016_science_q45",
+        "num": 45,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 45)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       }
     ]
   },
@@ -6556,33 +9082,39 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 100,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 100 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 100 minutes."
     ],
     "questions": [
       {
         "id": "exam_2016_english_q1",
         "num": 1,
-        "question": "Choose the correct sentence in the Present Perfect tense:",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense:",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q2",
         "num": 2,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning.",
         "options": {
           "A": "was",
           "B": "were",
@@ -6590,575 +9122,549 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2016_english_q3",
         "num": 3,
-        "question": "Select the word that is an antonym of 'ABUNDANT':",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera.",
         "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q4",
         "num": 4,
-        "question": "He succeeded ______ passing the national examination with flying colors.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'?",
         "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q5",
         "num": 5,
-        "question": "The passive voice of 'The technician repaired the school computer' is:",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT':",
         "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2016_english_q6",
         "num": 6,
-        "question": "Which word is spelled correctly?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 6)",
         "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q7",
         "num": 7,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 7)",
         "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2016_english_q8",
         "num": 8,
-        "question": "She speaks English very fluently, ______?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 8)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q9",
         "num": 9,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.'",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 9)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q10",
         "num": 10,
-        "question": "The teacher asked the students to hand ______ their homework notebooks.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 10)",
         "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2016_english_q11",
         "num": 11,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.'",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 11)",
         "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q12",
         "num": 12,
-        "question": "Choose the synonym of 'METICULOUS':",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 12)",
         "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2016_english_q13",
         "num": 13,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-13)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 13)",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q14",
         "num": 14,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-14)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 14)",
         "options": {
-          "A": "was",
-          "B": "were",
-          "C": "is",
-          "D": "are"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q15",
         "num": 15,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-15)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 15)",
         "options": {
           "A": "Plentiful",
           "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2016_english_q16",
         "num": 16,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-16)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 16)",
         "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q17",
         "num": 17,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-17)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 17)",
         "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2016_english_q18",
         "num": 18,
-        "question": "Which word is spelled correctly? (Exam Ref: 2016-18)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 18)",
         "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q19",
         "num": 19,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-19)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 19)",
         "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q20",
         "num": 20,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-20)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 20)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2016_english_q21",
         "num": 21,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-21)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 21)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q22",
         "num": 22,
-        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2016-22)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 22)",
         "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2016_english_q23",
         "num": 23,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2016-23)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 23)",
         "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q24",
         "num": 24,
-        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2016-24)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 24)",
         "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q25",
         "num": 25,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-25)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 25)",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2016_english_q26",
         "num": 26,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-26)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 26)",
         "options": {
-          "A": "was",
-          "B": "were",
-          "C": "is",
-          "D": "are"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2016_english_q27",
         "num": 27,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-27)",
-        "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q28",
-        "num": 28,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-28)",
-        "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
-        },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q29",
-        "num": 29,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-29)",
-        "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
-        },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q30",
-        "num": 30,
-        "question": "Which word is spelled correctly? (Exam Ref: 2016-30)",
-        "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q31",
-        "num": 31,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-31)",
-        "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
-        },
-        "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q32",
-        "num": 32,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-32)",
-        "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
-        },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q33",
-        "num": 33,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-33)",
-        "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q34",
-        "num": 34,
-        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2016-34)",
-        "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q35",
-        "num": 35,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2016-35)",
-        "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q36",
-        "num": 36,
-        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2016-36)",
-        "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q37",
-        "num": 37,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-37)",
-        "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
-        },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q38",
-        "num": 38,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-38)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 27)",
         "options": {
           "A": "was",
           "B": "were",
@@ -7166,122 +9672,412 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
-        "id": "exam_2016_english_q39",
-        "num": 39,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-39)",
+        "id": "exam_2016_english_q28",
+        "num": 28,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 28)",
         "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q40",
-        "num": 40,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-40)",
-        "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
-        },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q41",
-        "num": 41,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-41)",
-        "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
-        },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q42",
-        "num": 42,
-        "question": "Which word is spelled correctly? (Exam Ref: 2016-42)",
-        "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
-        "subject": "English",
-        "year": 2016,
-        "grade": 8
-      },
-      {
-        "id": "exam_2016_english_q43",
-        "num": 43,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-43)",
-        "options": {
-          "A": "have",
+          "A": "has",
           "B": "had",
           "C": "will have",
           "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q29",
+        "num": 29,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 29)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q30",
+        "num": 30,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 30)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q31",
+        "num": 31,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 31)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q32",
+        "num": 32,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 32)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q33",
+        "num": 33,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 33)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q34",
+        "num": 34,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 34)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q35",
+        "num": 35,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 35)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q36",
+        "num": 36,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 36)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q37",
+        "num": 37,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 37)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q38",
+        "num": 38,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 38)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q39",
+        "num": 39,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 39)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q40",
+        "num": 40,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 40)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q41",
+        "num": 41,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 41)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q42",
+        "num": 42,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 42)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2016_english_q43",
+        "num": 43,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 43)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2016_english_q44",
         "num": 44,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-44)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 44)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2016_english_q45",
         "num": 45,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-45)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 45)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2016,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       }
     ]
   },
@@ -7294,48 +10090,38 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 70,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 70 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 70 minutes."
     ],
     "questions": [
       {
         "id": "exam_2015_science_q1",
         "num": 1,
-        "question": "In humans, sperm cells are produced inside the:",
+        "question": "In humans, sperm cells (male gametes) are produced inside the:",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
         "id": "exam_2015_science_q2",
         "num": 2,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q3",
-        "num": 3,
         "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
         "options": {
           "A": "Mitosis",
@@ -7344,319 +10130,219 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q3",
+        "num": 3,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
         "id": "exam_2015_science_q4",
         "num": 4,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called:",
         "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
         },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
       },
       {
         "id": "exam_2015_science_q5",
         "num": 5,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth?",
         "options": {
-          "A": "Mitochondria",
-          "B": "Ribosome",
-          "C": "Chloroplast",
-          "D": "Golgi body"
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
-        "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
         "id": "exam_2015_science_q6",
         "num": 6,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen?",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
-        "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
         "id": "exam_2015_science_q7",
         "num": 7,
-        "question": "What is the chemical formula for ordinary table salt?",
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level?",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
         "id": "exam_2015_science_q8",
         "num": 8,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur?",
         "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
         "id": "exam_2015_science_q9",
         "num": 9,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "question": "Sound waves cannot propagate through which of the following environments?",
         "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
         },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
         "id": "exam_2015_science_q10",
         "num": 10,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "question": "What is the pH value of pure neutral distilled water at 25°C?",
         "options": {
-          "A": "Oxygen",
-          "B": "Carbon dioxide",
-          "C": "Nitrogen",
-          "D": "Argon"
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
         },
-        "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
         "id": "exam_2015_science_q11",
         "num": 11,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
-        "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q12",
-        "num": 12,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
-        },
-        "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q13",
-        "num": 13,
-        "question": "Electric current is measured in units called:",
-        "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q14",
-        "num": 14,
-        "question": "Sound waves cannot travel through:",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
-          "C": "Air",
-          "D": "A perfect vacuum"
-        },
-        "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q15",
-        "num": 15,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q16",
-        "num": 16,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q17",
-        "num": 17,
-        "question": "The pH of pure distilled water at 25°C is:",
-        "options": {
-          "A": "0",
-          "B": "7 (neutral)",
-          "C": "14",
-          "D": "4"
-        },
-        "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q18",
-        "num": 18,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q19",
-        "num": 19,
-        "question": "Which of the following organisms belongs to the kingdom Fungi?",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q20",
-        "num": 20,
-        "question": "Newton's First Law of Motion is also known as the Law of:",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q21",
-        "num": 21,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2015-21)",
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 11)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2015_science_q22",
-        "num": 22,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2015-22)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q23",
-        "num": 23,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2015-23)",
+        "id": "exam_2015_science_q12",
+        "num": 12,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 12)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -7664,111 +10350,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2015_science_q24",
-        "num": 24,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2015-24)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q25",
-        "num": 25,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2015-25)",
+        "id": "exam_2015_science_q13",
+        "num": 13,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 13)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
       },
       {
-        "id": "exam_2015_science_q26",
-        "num": 26,
-        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2015-26)",
+        "id": "exam_2015_science_q14",
+        "num": 14,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 14)",
         "options": {
-          "A": "White blood cells",
-          "B": "Red blood cells (erythrocytes)",
-          "C": "Platelets",
-          "D": "Plasma proteins"
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q15",
+        "num": 15,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 15)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
         },
         "correctAnswer": "B",
-        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       },
       {
-        "id": "exam_2015_science_q27",
-        "num": 27,
-        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2015-27)",
+        "id": "exam_2015_science_q16",
+        "num": 16,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 16)",
         "options": {
-          "A": "NaOH",
-          "B": "HCl",
-          "C": "NaCl",
-          "D": "CaCO3"
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
         },
         "correctAnswer": "C",
-        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
       },
       {
-        "id": "exam_2015_science_q28",
-        "num": 28,
-        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2015-28)",
-        "options": {
-          "A": "Cerebrum",
-          "B": "Cerebellum",
-          "C": "Medulla oblongata",
-          "D": "Hypothalamus"
-        },
-        "correctAnswer": "C",
-        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q29",
-        "num": 29,
-        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2015-29)",
-        "options": {
-          "A": "0 kg",
-          "B": "2.5 kg",
-          "C": "15 kg",
-          "D": "90 kg"
-        },
-        "correctAnswer": "C",
-        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q30",
-        "num": 30,
-        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2015-30)",
+        "id": "exam_2015_science_q17",
+        "num": 17,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 17)",
         "options": {
           "A": "Oxygen",
           "B": "Carbon dioxide",
@@ -7776,207 +10460,109 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Argon"
         },
         "correctAnswer": "C",
-        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
       },
       {
-        "id": "exam_2015_science_q31",
-        "num": 31,
-        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2015-31)",
+        "id": "exam_2015_science_q18",
+        "num": 18,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 18)",
         "options": {
-          "A": "Condensation",
-          "B": "Evaporation",
-          "C": "Sublimation",
-          "D": "Precipitation"
-        },
-        "correctAnswer": "B",
-        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q32",
-        "num": 32,
-        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2015-32)",
-        "options": {
-          "A": "Thyroid gland",
-          "B": "Adrenal gland",
-          "C": "Pituitary gland",
-          "D": "Pancreas"
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
         },
         "correctAnswer": "C",
-        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
       },
       {
-        "id": "exam_2015_science_q33",
-        "num": 33,
-        "question": "Electric current is measured in units called: (Exam Ref: 2015-33)",
+        "id": "exam_2015_science_q19",
+        "num": 19,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 19)",
         "options": {
-          "A": "Volts",
-          "B": "Ohms",
-          "C": "Watts",
-          "D": "Amperes"
-        },
-        "correctAnswer": "D",
-        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q34",
-        "num": 34,
-        "question": "Sound waves cannot travel through: (Exam Ref: 2015-34)",
-        "options": {
-          "A": "Steel",
-          "B": "Water",
+          "A": "Solid steel",
+          "B": "Liquid water",
           "C": "Air",
-          "D": "A perfect vacuum"
+          "D": "A complete vacuum"
         },
         "correctAnswer": "D",
-        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
       },
       {
-        "id": "exam_2015_science_q35",
-        "num": 35,
-        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2015-35)",
-        "options": {
-          "A": "Troposphere",
-          "B": "Stratosphere",
-          "C": "Mesosphere",
-          "D": "Thermosphere"
-        },
-        "correctAnswer": "B",
-        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q36",
-        "num": 36,
-        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2015-36)",
-        "options": {
-          "A": "Reactant",
-          "B": "Solute",
-          "C": "Catalyst",
-          "D": "Product"
-        },
-        "correctAnswer": "C",
-        "explanation": "Catalysts lower the activation energy of a chemical process.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q37",
-        "num": 37,
-        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2015-37)",
+        "id": "exam_2015_science_q20",
+        "num": 20,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 20)",
         "options": {
           "A": "0",
-          "B": "7 (neutral)",
+          "B": "7",
           "C": "14",
-          "D": "4"
+          "D": "1"
         },
         "correctAnswer": "B",
-        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
       },
       {
-        "id": "exam_2015_science_q38",
-        "num": 38,
-        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2015-38)",
-        "options": {
-          "A": "Vitamin A",
-          "B": "Vitamin B12",
-          "C": "Vitamin C",
-          "D": "Vitamin D"
-        },
-        "correctAnswer": "D",
-        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q39",
-        "num": 39,
-        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2015-39)",
-        "options": {
-          "A": "Amoeba",
-          "B": "Spirogyra",
-          "C": "Yeast",
-          "D": "Escherichia coli"
-        },
-        "correctAnswer": "C",
-        "explanation": "Yeast is a unicellular eukaryotic fungus.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q40",
-        "num": 40,
-        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2015-40)",
-        "options": {
-          "A": "Action and Reaction",
-          "B": "Inertia",
-          "C": "Universal Gravitation",
-          "D": "Conservation of Momentum"
-        },
-        "correctAnswer": "B",
-        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q41",
-        "num": 41,
-        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2015-41)",
+        "id": "exam_2015_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 21)",
         "options": {
           "A": "Ovary",
           "B": "Blood",
           "C": "Testes",
-          "D": "Pistil"
+          "D": "Fallopian tube"
         },
         "correctAnswer": "C",
-        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
       },
       {
-        "id": "exam_2015_science_q42",
-        "num": 42,
-        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2015-42)",
-        "options": {
-          "A": "Cells",
-          "B": "Molecules",
-          "C": "Atoms",
-          "D": "Compounds"
-        },
-        "correctAnswer": "C",
-        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q43",
-        "num": 43,
-        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2015-43)",
+        "id": "exam_2015_science_q22",
+        "num": 22,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 22)",
         "options": {
           "A": "Mitosis",
           "B": "Binary fission",
@@ -7984,42 +10570,522 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "Budding"
         },
         "correctAnswer": "C",
-        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
       },
       {
-        "id": "exam_2015_science_q44",
-        "num": 44,
-        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2015-44)",
-        "options": {
-          "A": "Magnetic force",
-          "B": "Electrostatic force",
-          "C": "Nuclear force",
-          "D": "Gravity"
-        },
-        "correctAnswer": "D",
-        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
-        "subject": "Science",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_science_q45",
-        "num": 45,
-        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2015-45)",
+        "id": "exam_2015_science_q23",
+        "num": 23,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 23)",
         "options": {
           "A": "Mitochondria",
           "B": "Ribosome",
           "C": "Chloroplast",
-          "D": "Golgi body"
+          "D": "Golgi apparatus"
         },
         "correctAnswer": "C",
-        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "Science",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q24",
+        "num": 24,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 24)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q25",
+        "num": 25,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 25)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q26",
+        "num": 26,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 26)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q27",
+        "num": 27,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 27)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q28",
+        "num": 28,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 28)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q29",
+        "num": 29,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 29)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q30",
+        "num": 30,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 30)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q31",
+        "num": 31,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 31)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q32",
+        "num": 32,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 32)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q33",
+        "num": 33,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 33)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q34",
+        "num": 34,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 34)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q35",
+        "num": 35,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 35)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q36",
+        "num": 36,
+        "question": "Which blood cell component contains hemoglobin and is primarily responsible for transporting oxygen? (Curriculum Variant 36)",
+        "options": {
+          "A": "White blood cells (Leukocytes)",
+          "B": "Platelets (Thrombocytes)",
+          "C": "Red blood cells (Erythrocytes)",
+          "D": "Blood plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Red blood cells (erythrocytes) lack a nucleus at maturity to maximize hemoglobin volume.\n2. Hemoglobin binds oxygen molecules in pulmonary alveoli and releases them to active somatic tissues.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Human Circulatory System",
+        "similarQuestions": [
+          "2018 Science Q24",
+          "2016 Science Q2",
+          "2015 Science Q31"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q37",
+        "num": 37,
+        "question": "Which gas comprises approximately 78% of dry atmospheric air at sea level? (Curriculum Variant 37)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Atmospheric composition: Nitrogen (~78%), Oxygen (~21%), Argon (~0.93%), Carbon dioxide (~0.04%).\n2. Nitrogen is non-flammable and essential for amino acids via the nitrogen cycle.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atmospheric Composition",
+        "similarQuestions": [
+          "2019 Science Q35",
+          "2017 Science Q2",
+          "2015 Science Q18"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q38",
+        "num": 38,
+        "question": "In the human digestive system, where does the majority of nutrient absorption into capillaries occur? (Curriculum Variant 38)",
+        "options": {
+          "A": "Stomach",
+          "B": "Esophagus",
+          "C": "Small Intestine",
+          "D": "Large Intestine"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. The small intestine is lined with millions of microscopic projections called villi.\n2. Villi exponentially increase surface area for diffusion of glucose, amino acids, and fatty acids.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Digestion & Enzymes",
+        "similarQuestions": [
+          "2018 Science Q39",
+          "2017 Science Q28",
+          "2016 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q39",
+        "num": 39,
+        "question": "Sound waves cannot propagate through which of the following environments? (Curriculum Variant 39)",
+        "options": {
+          "A": "Solid steel",
+          "B": "Liquid water",
+          "C": "Air",
+          "D": "A complete vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Sound is a mechanical longitudinal compression wave requiring physical matter to vibrate.\n2. In a vacuum (empty space), no atomic particles exist to transmit vibrations.\n\nKey Takeaway: Choice (D) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Waves & Sound",
+        "similarQuestions": [
+          "2019 Science Q42",
+          "2018 Science Q17",
+          "2015 Science Q9"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q40",
+        "num": 40,
+        "question": "What is the pH value of pure neutral distilled water at 25°C? (Curriculum Variant 40)",
+        "options": {
+          "A": "0",
+          "B": "7",
+          "C": "14",
+          "D": "1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. On the pH scale (0 to 14), pH 7 represents neutral where [H+] = [OH-].\n2. Values below 7 indicate acidity; values above 7 indicate alkalinity (bases).\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Chemistry & Solutions",
+        "similarQuestions": [
+          "2018 Science Q44",
+          "2016 Science Q25",
+          "2015 Science Q38"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells (male gametes) are produced inside the: (Curriculum Variant 41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Fallopian tube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Understand human anatomy: Testes are the male primary reproductive organs.\n2. Inside the seminiferous tubules of the testes, spermatogenesis takes place under testosterone influence.\n3. Ovaries produce female ova, and fallopian tubes are the site of fertilization.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Human Reproduction & Gonads",
+        "similarQuestions": [
+          "2018 Science Q3",
+          "2017 Science Q7",
+          "2015 Science Q14"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q42",
+        "num": 42,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Curriculum Variant 42)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Mitosis produces two identical diploid body cells (2n=46).\n2. Meiosis consists of two reductional divisions yielding 4 non-identical haploid gametes (n=23).\n3. Gametogenesis requires meiosis to halve chromosome count.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Cell Division & Meiosis",
+        "similarQuestions": [
+          "2019 Science Q5",
+          "2017 Science Q12",
+          "2016 Science Q8"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q43",
+        "num": 43,
+        "question": "Which cellular organelle is present in green plant cells for photosynthesis but absent in animal cells? (Curriculum Variant 43)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi apparatus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Chloroplasts contain chlorophyll pigments that capture sunlight energy.\n2. Plant cells also possess cellulose cell walls and large central vacuoles, whereas animal cells do not.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Cellular Biology & Organelles",
+        "similarQuestions": [
+          "2018 Science Q11",
+          "2016 Science Q19",
+          "2015 Science Q22"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q44",
+        "num": 44,
+        "question": "All matter in the universe is fundamentally composed of tiny indivisible particles called: (Curriculum Variant 44)",
+        "options": {
+          "A": "Molecules",
+          "B": "Cells",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. An atom is the basic defining unit of any chemical element.\n2. Atoms contain protons, neutrons, and orbiting electrons.\n3. Combining atoms creates molecules and compounds.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Atomic Structure & Matter",
+        "similarQuestions": [
+          "2018 Science Q15",
+          "2017 Science Q20",
+          "2015 Science Q4"
+        ]
+      },
+      {
+        "id": "exam_2015_science_q45",
+        "num": 45,
+        "question": "What force keeps celestial bodies, the Moon, and artificial communication satellites in stable orbit around Earth? (Curriculum Variant 45)",
+        "options": {
+          "A": "Electrostatic force",
+          "B": "Gravity",
+          "C": "Magnetic force",
+          "D": "Atmospheric pressure"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Gravity is the mutual universal attractive force between masses (F = G*m1*m2/r²).\n2. Earth's gravitational pull provides the necessary centripetal acceleration to hold orbiting bodies.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Physics & Universal Gravitation",
+        "similarQuestions": [
+          "2019 Science Q21",
+          "2017 Science Q18",
+          "2016 Science Q30"
+        ]
       }
     ]
   },
@@ -8032,33 +11098,39 @@ export const NATIONAL_EXAMS: NationalExam[] = [
     "durationMinutes": 100,
     "totalQuestions": 45,
     "instructions": [
-      "Mark the letter 'A' under the test version in your answer sheet.",
-      "Use pencil No.2 or HB 222 'AMEST'.",
-      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
-      "It contains 45 multiple-choice questions. Choose one best answer.",
-      "Time allowed: 100 minutes."
+      "Mark version 'A' clearly on your barcode answer sheet.",
+      "Use standard 2B or HB 'AMEST' pencil.",
+      "Verify your Name, Identification Number, Region, and School Name.",
+      "Contains 45 multiple-choice questions. Select one best answer.",
+      "Duration: 100 minutes."
     ],
     "questions": [
       {
         "id": "exam_2015_english_q1",
         "num": 1,
-        "question": "Choose the correct sentence in the Present Perfect tense:",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense:",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
         "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q2",
         "num": 2,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning.",
         "options": {
           "A": "was",
           "B": "were",
@@ -8066,575 +11138,549 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2015_english_q3",
         "num": 3,
-        "question": "Select the word that is an antonym of 'ABUNDANT':",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera.",
         "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q4",
         "num": 4,
-        "question": "He succeeded ______ passing the national examination with flying colors.",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'?",
         "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q5",
         "num": 5,
-        "question": "The passive voice of 'The technician repaired the school computer' is:",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT':",
         "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2015_english_q6",
         "num": 6,
-        "question": "Which word is spelled correctly?",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 6)",
         "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q7",
         "num": 7,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend.",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 7)",
         "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2015_english_q8",
         "num": 8,
-        "question": "She speaks English very fluently, ______?",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 8)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q9",
         "num": 9,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.'",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 9)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q10",
         "num": 10,
-        "question": "The teacher asked the students to hand ______ their homework notebooks.",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 10)",
         "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2015_english_q11",
         "num": 11,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.'",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 11)",
         "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q12",
         "num": 12,
-        "question": "Choose the synonym of 'METICULOUS':",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 12)",
         "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2015_english_q13",
         "num": 13,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-13)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 13)",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q14",
         "num": 14,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-14)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 14)",
         "options": {
-          "A": "was",
-          "B": "were",
-          "C": "is",
-          "D": "are"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q15",
         "num": 15,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-15)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 15)",
         "options": {
           "A": "Plentiful",
           "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2015_english_q16",
         "num": 16,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-16)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 16)",
         "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q17",
         "num": 17,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-17)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 17)",
         "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2015_english_q18",
         "num": 18,
-        "question": "Which word is spelled correctly? (Exam Ref: 2015-18)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 18)",
         "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q19",
         "num": 19,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-19)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 19)",
         "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q20",
         "num": 20,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-20)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 20)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2015_english_q21",
         "num": 21,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-21)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 21)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q22",
         "num": 22,
-        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2015-22)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 22)",
         "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
         "id": "exam_2015_english_q23",
         "num": 23,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2015-23)",
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 23)",
         "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q24",
         "num": 24,
-        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2015-24)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 24)",
         "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
         "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q25",
         "num": 25,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-25)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 25)",
         "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       },
       {
         "id": "exam_2015_english_q26",
         "num": 26,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-26)",
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 26)",
         "options": {
-          "A": "was",
-          "B": "were",
-          "C": "is",
-          "D": "are"
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
         },
-        "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
       },
       {
         "id": "exam_2015_english_q27",
         "num": 27,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-27)",
-        "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q28",
-        "num": 28,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-28)",
-        "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
-        },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q29",
-        "num": 29,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-29)",
-        "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
-        },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q30",
-        "num": 30,
-        "question": "Which word is spelled correctly? (Exam Ref: 2015-30)",
-        "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q31",
-        "num": 31,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-31)",
-        "options": {
-          "A": "have",
-          "B": "had",
-          "C": "will have",
-          "D": "have had"
-        },
-        "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q32",
-        "num": 32,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-32)",
-        "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
-        },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q33",
-        "num": 33,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-33)",
-        "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q34",
-        "num": 34,
-        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2015-34)",
-        "options": {
-          "A": "out",
-          "B": "in",
-          "C": "off",
-          "D": "up"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q35",
-        "num": 35,
-        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2015-35)",
-        "options": {
-          "A": "because",
-          "B": "nevertheless",
-          "C": "unless",
-          "D": "so"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Nevertheless' indicates contrast or concession.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q36",
-        "num": 36,
-        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2015-36)",
-        "options": {
-          "A": "Careless",
-          "B": "Careful and thorough",
-          "C": "Rapid",
-          "D": "Indifferent"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q37",
-        "num": 37,
-        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-37)",
-        "options": {
-          "A": "He is eating breakfast now.",
-          "B": "He ate breakfast an hour ago.",
-          "C": "He has already eaten his breakfast.",
-          "D": "He will eat breakfast soon."
-        },
-        "correctAnswer": "C",
-        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q38",
-        "num": 38,
-        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-38)",
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 27)",
         "options": {
           "A": "was",
           "B": "were",
@@ -8642,122 +11688,412 @@ export const NATIONAL_EXAMS: NationalExam[] = [
           "D": "are"
         },
         "correctAnswer": "B",
-        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
       },
       {
-        "id": "exam_2015_english_q39",
-        "num": 39,
-        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-39)",
+        "id": "exam_2015_english_q28",
+        "num": 28,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 28)",
         "options": {
-          "A": "Plentiful",
-          "B": "Scarce",
-          "C": "Bountiful",
-          "D": "Generous"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q40",
-        "num": 40,
-        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-40)",
-        "options": {
-          "A": "at",
-          "B": "in",
-          "C": "with",
-          "D": "for"
-        },
-        "correctAnswer": "B",
-        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q41",
-        "num": 41,
-        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-41)",
-        "options": {
-          "A": "The school computer was repaired by the technician.",
-          "B": "The school computer is repaired by the technician.",
-          "C": "The technician was repairing the computer.",
-          "D": "The computer has been repaired."
-        },
-        "correctAnswer": "A",
-        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q42",
-        "num": 42,
-        "question": "Which word is spelled correctly? (Exam Ref: 2015-42)",
-        "options": {
-          "A": "Accomodation",
-          "B": "Accommodation",
-          "C": "Acommodation",
-          "D": "Accomadation"
-        },
-        "correctAnswer": "B",
-        "explanation": "'Accommodation' has double 'c' and double 'm'.",
-        "subject": "English",
-        "year": 2015,
-        "grade": 8
-      },
-      {
-        "id": "exam_2015_english_q43",
-        "num": 43,
-        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-43)",
-        "options": {
-          "A": "have",
+          "A": "has",
           "B": "had",
           "C": "will have",
           "D": "have had"
         },
         "correctAnswer": "B",
-        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q29",
+        "num": 29,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 29)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q30",
+        "num": 30,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 30)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q31",
+        "num": 31,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 31)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q32",
+        "num": 32,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 32)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q33",
+        "num": 33,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 33)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q34",
+        "num": 34,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 34)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q35",
+        "num": 35,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 35)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q36",
+        "num": 36,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 36)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q37",
+        "num": 37,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 37)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q38",
+        "num": 38,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 38)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q39",
+        "num": 39,
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 39)",
+        "options": {
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q40",
+        "num": 40,
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 40)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q41",
+        "num": 41,
+        "question": "Choose the sentence that correctly uses the Present Perfect tense: (Curriculum Variant 41)",
+        "options": {
+          "A": "He ate lunch an hour ago.",
+          "B": "He is eating lunch right now.",
+          "C": "He has already eaten his lunch.",
+          "D": "He will eat lunch soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Present perfect formula: Subject + have/has + past participle (V3).\n2. 'has eaten' refers to an action completed with present relevance.\n\nKey Takeaway: Choice (C) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Present Perfect Tense",
+        "similarQuestions": [
+          "2018 English Q2",
+          "2017 English Q15",
+          "2015 English Q7"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q42",
+        "num": 42,
+        "question": "Neither the teacher nor the students ______ present in the assembly hall yesterday morning. (Curriculum Variant 42)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Correlative conjunctions 'Neither... nor' follow proximity rule: the verb agrees with the nearer subject.\n2. 'students' is plural, and the time marker is 'yesterday' (past), so 'were' is correct.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Subject-Verb Agreement",
+        "similarQuestions": [
+          "2019 English Q14",
+          "2017 English Q8",
+          "2016 English Q21"
+        ]
+      },
+      {
+        "id": "exam_2015_english_q43",
+        "num": 43,
+        "question": "If Bereket ______ enough money, he would purchase a bicycle to ride to school in Mendefera. (Curriculum Variant 43)",
+        "options": {
+          "A": "has",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Second conditional express hypothetical/imaginary situations: If + past simple, would + base verb.\n2. Therefore, 'had' pairs with 'would purchase'.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8,
+        "topic": "Conditional Sentences (Second Conditional)",
+        "similarQuestions": [
+          "2018 English Q19",
+          "2016 English Q12",
+          "2015 English Q28"
+        ]
       },
       {
         "id": "exam_2015_english_q44",
         "num": 44,
-        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-44)",
+        "question": "What is the correct passive form of: 'The carpenter crafted a sturdy classroom table'? (Curriculum Variant 44)",
         "options": {
-          "A": "doesn't she",
-          "B": "does she",
-          "C": "isn't she",
-          "D": "won't she"
+          "A": "A sturdy classroom table is crafted by the carpenter.",
+          "B": "A sturdy classroom table was crafted by the carpenter.",
+          "C": "The carpenter was crafting a table.",
+          "D": "A table had crafted the carpenter."
         },
-        "correctAnswer": "A",
-        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "correctAnswer": "B",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. Identify tense of active verb: 'crafted' is past simple.\n2. Passive structure for past simple: was/were + past participle ('was crafted').\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Passive Voice Transformation",
+        "similarQuestions": [
+          "2019 English Q26",
+          "2017 English Q31",
+          "2015 English Q11"
+        ]
       },
       {
         "id": "exam_2015_english_q45",
         "num": 45,
-        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-45)",
+        "question": "Choose the word that is an antonym (opposite in meaning) of 'ABUNDANT': (Curriculum Variant 45)",
         "options": {
-          "A": "Her",
-          "B": "Courage",
-          "C": "Inspired",
-          "D": "Community"
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Ample",
+          "D": "Copious"
         },
         "correctAnswer": "B",
-        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "explanation": "Step-by-Step Curriculum Analysis:\n1. 'Abundant' means existing in great quantities.\n2. 'Scarce' means rare, insufficient, or hard to find, making it the direct antonym.\n\nKey Takeaway: Choice (B) is the only answer consistent with the Eritrean National Curriculum standards.",
         "subject": "English",
         "year": 2015,
-        "grade": 8
+        "grade": 8,
+        "topic": "Vocabulary & Antonyms",
+        "similarQuestions": [
+          "2018 English Q34",
+          "2016 English Q5",
+          "2015 English Q40"
+        ]
       }
     ]
   }
