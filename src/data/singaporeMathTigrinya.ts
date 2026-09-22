@@ -127,7 +127,7 @@ export const KIDS_LEVELS: KidsLevelMap[] = [
         "titleTigrinya": "ብዓሰርተ-ሳንዱቕ ምድማር (8 + 5)",
         "titleEnglish": "Making 10 Strategy",
         "pedagogyStage": "pictorial",
-        "storyTigrinya": "ናይ ሲንጋፖር ሜላ \"Make 10\": ካብ 5 ክልተ ወሲድካ ን 8 ዓሰርተ ግበሮ። 10 + 3 ክንደይ ይኸውን?",
+        "storyTigrinya": "ናይ ሲንጋፖር ሜላ 'Make 10': ካብ 5 ክልተ ወሲድካ ን 8 ዓሰርተ ግበሮ። 10 + 3 ክንደይ ይኸውን?",
         "promptTigrinya": "8 + 5 = 10 + ? = ?",
         "audioVoicePrompt": "8 + 5 ክንደይ ይኸውን? ብቐሊሉ 10 + 3 ጌርካ ሕሰቦ!",
         "choices": [

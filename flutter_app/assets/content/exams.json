@@ -4330,5 +4330,4433 @@
         "grade": 8
       }
     ]
+  },
+  {
+    "id": "exam_2017_science_va",
+    "title": "Eritrean Grade 8 National Examination (2017) - Science",
+    "subject": "Science",
+    "year": 2017,
+    "version": "A",
+    "durationMinutes": 70,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 70 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2017_science_q1",
+        "num": 1,
+        "question": "In humans, sperm cells are produced inside the:",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q2",
+        "num": 2,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q3",
+        "num": 3,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q4",
+        "num": 4,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q5",
+        "num": 5,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q6",
+        "num": 6,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q7",
+        "num": 7,
+        "question": "What is the chemical formula for ordinary table salt?",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q8",
+        "num": 8,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q9",
+        "num": 9,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q10",
+        "num": 10,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q11",
+        "num": 11,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q12",
+        "num": 12,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q13",
+        "num": 13,
+        "question": "Electric current is measured in units called:",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q14",
+        "num": 14,
+        "question": "Sound waves cannot travel through:",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q15",
+        "num": 15,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q16",
+        "num": 16,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q17",
+        "num": 17,
+        "question": "The pH of pure distilled water at 25°C is:",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q18",
+        "num": 18,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q19",
+        "num": 19,
+        "question": "Which of the following organisms belongs to the kingdom Fungi?",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q20",
+        "num": 20,
+        "question": "Newton's First Law of Motion is also known as the Law of:",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2017-21)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q22",
+        "num": 22,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2017-22)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q23",
+        "num": 23,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2017-23)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q24",
+        "num": 24,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2017-24)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q25",
+        "num": 25,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2017-25)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q26",
+        "num": 26,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2017-26)",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q27",
+        "num": 27,
+        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2017-27)",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q28",
+        "num": 28,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2017-28)",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q29",
+        "num": 29,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2017-29)",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q30",
+        "num": 30,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2017-30)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q31",
+        "num": 31,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2017-31)",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q32",
+        "num": 32,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2017-32)",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q33",
+        "num": 33,
+        "question": "Electric current is measured in units called: (Exam Ref: 2017-33)",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q34",
+        "num": 34,
+        "question": "Sound waves cannot travel through: (Exam Ref: 2017-34)",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q35",
+        "num": 35,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2017-35)",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q36",
+        "num": 36,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2017-36)",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q37",
+        "num": 37,
+        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2017-37)",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q38",
+        "num": 38,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2017-38)",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q39",
+        "num": 39,
+        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2017-39)",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q40",
+        "num": 40,
+        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2017-40)",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2017-41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q42",
+        "num": 42,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2017-42)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q43",
+        "num": 43,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2017-43)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q44",
+        "num": 44,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2017-44)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_science_q45",
+        "num": 45,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2017-45)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2017,
+        "grade": 8
+      }
+    ]
+  },
+  {
+    "id": "exam_2017_social_studies_va",
+    "title": "Eritrean Grade 8 National Examination (2017) - Social Studies",
+    "subject": "Social Studies",
+    "year": 2017,
+    "version": "A",
+    "durationMinutes": 70,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 70 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2017_social_studies_q1",
+        "num": 1,
+        "question": "Which of the following is the highest mountain peak in Eritrea?",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q2",
+        "num": 2,
+        "question": "The ancient historic port of Adulis was situated along the coast of the:",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q3",
+        "num": 3,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture?",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q4",
+        "num": 4,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to:",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q5",
+        "num": 5,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea?",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q6",
+        "num": 6,
+        "question": "Which African river is considered the longest in the world?",
+        "options": {
+          "A": "Congo River",
+          "B": "Niger River",
+          "C": "Nile River",
+          "D": "Zambezi River"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q7",
+        "num": 7,
+        "question": "The headquarters of the African Union (AU) is located in:",
+        "options": {
+          "A": "Cairo, Egypt",
+          "B": "Nairobi, Kenya",
+          "C": "Addis Ababa, Ethiopia",
+          "D": "Dakar, Senegal"
+        },
+        "correctAnswer": "C",
+        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q8",
+        "num": 8,
+        "question": "Which natural resource is commercially mined at Bisha in western Eritrea?",
+        "options": {
+          "A": "Petroleum",
+          "B": "Gold, Copper, and Zinc",
+          "C": "Coal",
+          "D": "Bauxite"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q9",
+        "num": 9,
+        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-9)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q10",
+        "num": 10,
+        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-10)",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q11",
+        "num": 11,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-11)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q12",
+        "num": 12,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-12)",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q13",
+        "num": 13,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-13)",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q14",
+        "num": 14,
+        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-14)",
+        "options": {
+          "A": "Congo River",
+          "B": "Niger River",
+          "C": "Nile River",
+          "D": "Zambezi River"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q15",
+        "num": 15,
+        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-15)",
+        "options": {
+          "A": "Cairo, Egypt",
+          "B": "Nairobi, Kenya",
+          "C": "Addis Ababa, Ethiopia",
+          "D": "Dakar, Senegal"
+        },
+        "correctAnswer": "C",
+        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q16",
+        "num": 16,
+        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-16)",
+        "options": {
+          "A": "Petroleum",
+          "B": "Gold, Copper, and Zinc",
+          "C": "Coal",
+          "D": "Bauxite"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q17",
+        "num": 17,
+        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-17)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q18",
+        "num": 18,
+        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-18)",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q19",
+        "num": 19,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-19)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q20",
+        "num": 20,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-20)",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q21",
+        "num": 21,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-21)",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q22",
+        "num": 22,
+        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-22)",
+        "options": {
+          "A": "Congo River",
+          "B": "Niger River",
+          "C": "Nile River",
+          "D": "Zambezi River"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q23",
+        "num": 23,
+        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-23)",
+        "options": {
+          "A": "Cairo, Egypt",
+          "B": "Nairobi, Kenya",
+          "C": "Addis Ababa, Ethiopia",
+          "D": "Dakar, Senegal"
+        },
+        "correctAnswer": "C",
+        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q24",
+        "num": 24,
+        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-24)",
+        "options": {
+          "A": "Petroleum",
+          "B": "Gold, Copper, and Zinc",
+          "C": "Coal",
+          "D": "Bauxite"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q25",
+        "num": 25,
+        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-25)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q26",
+        "num": 26,
+        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-26)",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q27",
+        "num": 27,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-27)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q28",
+        "num": 28,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-28)",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q29",
+        "num": 29,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-29)",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q30",
+        "num": 30,
+        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-30)",
+        "options": {
+          "A": "Congo River",
+          "B": "Niger River",
+          "C": "Nile River",
+          "D": "Zambezi River"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q31",
+        "num": 31,
+        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-31)",
+        "options": {
+          "A": "Cairo, Egypt",
+          "B": "Nairobi, Kenya",
+          "C": "Addis Ababa, Ethiopia",
+          "D": "Dakar, Senegal"
+        },
+        "correctAnswer": "C",
+        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q32",
+        "num": 32,
+        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-32)",
+        "options": {
+          "A": "Petroleum",
+          "B": "Gold, Copper, and Zinc",
+          "C": "Coal",
+          "D": "Bauxite"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q33",
+        "num": 33,
+        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-33)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q34",
+        "num": 34,
+        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-34)",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q35",
+        "num": 35,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-35)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q36",
+        "num": 36,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-36)",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q37",
+        "num": 37,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-37)",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q38",
+        "num": 38,
+        "question": "Which African river is considered the longest in the world? (Exam Ref: 2017-38)",
+        "options": {
+          "A": "Congo River",
+          "B": "Niger River",
+          "C": "Nile River",
+          "D": "Zambezi River"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile River is the longest river in Africa and the world.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q39",
+        "num": 39,
+        "question": "The headquarters of the African Union (AU) is located in: (Exam Ref: 2017-39)",
+        "options": {
+          "A": "Cairo, Egypt",
+          "B": "Nairobi, Kenya",
+          "C": "Addis Ababa, Ethiopia",
+          "D": "Dakar, Senegal"
+        },
+        "correctAnswer": "C",
+        "explanation": "The African Union headquarters is situated in Addis Ababa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q40",
+        "num": 40,
+        "question": "Which natural resource is commercially mined at Bisha in western Eritrea? (Exam Ref: 2017-40)",
+        "options": {
+          "A": "Petroleum",
+          "B": "Gold, Copper, and Zinc",
+          "C": "Coal",
+          "D": "Bauxite"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bisha mine is a prominent producer of gold, copper, and zinc concentrates.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q41",
+        "num": 41,
+        "question": "Which of the following is the highest mountain peak in Eritrea? (Exam Ref: 2017-41)",
+        "options": {
+          "A": "Mount Emba Soira",
+          "B": "Mount Bizen",
+          "C": "Mount Ghedem",
+          "D": "Mount Fentele"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emba Soira (3,018 meters), located in the Debub region, is the highest peak in Eritrea.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q42",
+        "num": 42,
+        "question": "The ancient historic port of Adulis was situated along the coast of the: (Exam Ref: 2017-42)",
+        "options": {
+          "A": "Mediterranean Sea",
+          "B": "Red Sea",
+          "C": "Indian Ocean",
+          "D": "Persian Gulf"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adulis was an ancient port city situated on the Gulf of Zula along the Red Sea coast.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q43",
+        "num": 43,
+        "question": "Which administrative region (Zoba) of Eritrea is known as the breadbasket due to extensive agriculture? (Exam Ref: 2017-43)",
+        "options": {
+          "A": "Zoba Maekel",
+          "B": "Zoba Gash-Barka",
+          "C": "Zoba Debubawi Keyih Bahri",
+          "D": "Zoba Anseba"
+        },
+        "correctAnswer": "B",
+        "explanation": "Zoba Gash-Barka has extensive fertile plains along the Gash and Barka river basins.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q44",
+        "num": 44,
+        "question": "The Berlin Conference of 1884–1885 was convened primarily to: (Exam Ref: 2017-44)",
+        "options": {
+          "A": "Promote African trade unions",
+          "B": "Partition Africa among European colonial powers",
+          "C": "Abolish global slavery",
+          "D": "Draft the UN Charter"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the Scramble for Africa.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      },
+      {
+        "id": "exam_2017_social_studies_q45",
+        "num": 45,
+        "question": "What type of climate is predominantly found in the Danakil Depression of Eritrea? (Exam Ref: 2017-45)",
+        "options": {
+          "A": "Alpine tundra",
+          "B": "Tropical rainforest",
+          "C": "Hot arid desert",
+          "D": "Humid subtropical"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Danakil Depression is one of the hottest and driest desert depressions on Earth.",
+        "subject": "Social Studies",
+        "year": 2017,
+        "grade": 8
+      }
+    ]
+  },
+  {
+    "id": "exam_2016_science_va",
+    "title": "Eritrean Grade 8 National Examination (2016) - Science",
+    "subject": "Science",
+    "year": 2016,
+    "version": "A",
+    "durationMinutes": 70,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 70 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2016_science_q1",
+        "num": 1,
+        "question": "In humans, sperm cells are produced inside the:",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q2",
+        "num": 2,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q3",
+        "num": 3,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q4",
+        "num": 4,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q5",
+        "num": 5,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q6",
+        "num": 6,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q7",
+        "num": 7,
+        "question": "What is the chemical formula for ordinary table salt?",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q8",
+        "num": 8,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q9",
+        "num": 9,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q10",
+        "num": 10,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q11",
+        "num": 11,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q12",
+        "num": 12,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q13",
+        "num": 13,
+        "question": "Electric current is measured in units called:",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q14",
+        "num": 14,
+        "question": "Sound waves cannot travel through:",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q15",
+        "num": 15,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q16",
+        "num": 16,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q17",
+        "num": 17,
+        "question": "The pH of pure distilled water at 25°C is:",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q18",
+        "num": 18,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q19",
+        "num": 19,
+        "question": "Which of the following organisms belongs to the kingdom Fungi?",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q20",
+        "num": 20,
+        "question": "Newton's First Law of Motion is also known as the Law of:",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2016-21)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q22",
+        "num": 22,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2016-22)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q23",
+        "num": 23,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2016-23)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q24",
+        "num": 24,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2016-24)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q25",
+        "num": 25,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2016-25)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q26",
+        "num": 26,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2016-26)",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q27",
+        "num": 27,
+        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2016-27)",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q28",
+        "num": 28,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2016-28)",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q29",
+        "num": 29,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2016-29)",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q30",
+        "num": 30,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2016-30)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q31",
+        "num": 31,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2016-31)",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q32",
+        "num": 32,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2016-32)",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q33",
+        "num": 33,
+        "question": "Electric current is measured in units called: (Exam Ref: 2016-33)",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q34",
+        "num": 34,
+        "question": "Sound waves cannot travel through: (Exam Ref: 2016-34)",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q35",
+        "num": 35,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2016-35)",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q36",
+        "num": 36,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2016-36)",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q37",
+        "num": 37,
+        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2016-37)",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q38",
+        "num": 38,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2016-38)",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q39",
+        "num": 39,
+        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2016-39)",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q40",
+        "num": 40,
+        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2016-40)",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2016-41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q42",
+        "num": 42,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2016-42)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q43",
+        "num": 43,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2016-43)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q44",
+        "num": 44,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2016-44)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_science_q45",
+        "num": 45,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2016-45)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2016,
+        "grade": 8
+      }
+    ]
+  },
+  {
+    "id": "exam_2016_english_va",
+    "title": "Eritrean Grade 8 National Examination (2016) - English",
+    "subject": "English",
+    "year": 2016,
+    "version": "A",
+    "durationMinutes": 100,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 100 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2016_english_q1",
+        "num": 1,
+        "question": "Choose the correct sentence in the Present Perfect tense:",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q2",
+        "num": 2,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday.",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q3",
+        "num": 3,
+        "question": "Select the word that is an antonym of 'ABUNDANT':",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q4",
+        "num": 4,
+        "question": "He succeeded ______ passing the national examination with flying colors.",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q5",
+        "num": 5,
+        "question": "The passive voice of 'The technician repaired the school computer' is:",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q6",
+        "num": 6,
+        "question": "Which word is spelled correctly?",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q7",
+        "num": 7,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend.",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q8",
+        "num": 8,
+        "question": "She speaks English very fluently, ______?",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q9",
+        "num": 9,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.'",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q10",
+        "num": 10,
+        "question": "The teacher asked the students to hand ______ their homework notebooks.",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q11",
+        "num": 11,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.'",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q12",
+        "num": 12,
+        "question": "Choose the synonym of 'METICULOUS':",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q13",
+        "num": 13,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-13)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q14",
+        "num": 14,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-14)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q15",
+        "num": 15,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-15)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q16",
+        "num": 16,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-16)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q17",
+        "num": 17,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-17)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q18",
+        "num": 18,
+        "question": "Which word is spelled correctly? (Exam Ref: 2016-18)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q19",
+        "num": 19,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-19)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q20",
+        "num": 20,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-20)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q21",
+        "num": 21,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-21)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q22",
+        "num": 22,
+        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2016-22)",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q23",
+        "num": 23,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2016-23)",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q24",
+        "num": 24,
+        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2016-24)",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q25",
+        "num": 25,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-25)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q26",
+        "num": 26,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-26)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q27",
+        "num": 27,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-27)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q28",
+        "num": 28,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-28)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q29",
+        "num": 29,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-29)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q30",
+        "num": 30,
+        "question": "Which word is spelled correctly? (Exam Ref: 2016-30)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q31",
+        "num": 31,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-31)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q32",
+        "num": 32,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-32)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q33",
+        "num": 33,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-33)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q34",
+        "num": 34,
+        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2016-34)",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q35",
+        "num": 35,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2016-35)",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q36",
+        "num": 36,
+        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2016-36)",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q37",
+        "num": 37,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2016-37)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q38",
+        "num": 38,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2016-38)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q39",
+        "num": 39,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2016-39)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q40",
+        "num": 40,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2016-40)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q41",
+        "num": 41,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2016-41)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q42",
+        "num": 42,
+        "question": "Which word is spelled correctly? (Exam Ref: 2016-42)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q43",
+        "num": 43,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2016-43)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q44",
+        "num": 44,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2016-44)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      },
+      {
+        "id": "exam_2016_english_q45",
+        "num": 45,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2016-45)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2016,
+        "grade": 8
+      }
+    ]
+  },
+  {
+    "id": "exam_2015_science_va",
+    "title": "Eritrean Grade 8 National Examination (2015) - Science",
+    "subject": "Science",
+    "year": 2015,
+    "version": "A",
+    "durationMinutes": 70,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 70 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2015_science_q1",
+        "num": 1,
+        "question": "In humans, sperm cells are produced inside the:",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q2",
+        "num": 2,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called:",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q3",
+        "num": 3,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)?",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q4",
+        "num": 4,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies?",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q5",
+        "num": 5,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q6",
+        "num": 6,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body?",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q7",
+        "num": 7,
+        "question": "What is the chemical formula for ordinary table salt?",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q8",
+        "num": 8,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing?",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q9",
+        "num": 9,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be:",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q10",
+        "num": 10,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q11",
+        "num": 11,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is:",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q12",
+        "num": 12,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'?",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q13",
+        "num": 13,
+        "question": "Electric current is measured in units called:",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q14",
+        "num": 14,
+        "question": "Sound waves cannot travel through:",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q15",
+        "num": 15,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation?",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q16",
+        "num": 16,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a:",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q17",
+        "num": 17,
+        "question": "The pH of pure distilled water at 25°C is:",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q18",
+        "num": 18,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight?",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q19",
+        "num": 19,
+        "question": "Which of the following organisms belongs to the kingdom Fungi?",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q20",
+        "num": 20,
+        "question": "Newton's First Law of Motion is also known as the Law of:",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q21",
+        "num": 21,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2015-21)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q22",
+        "num": 22,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2015-22)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q23",
+        "num": 23,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2015-23)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q24",
+        "num": 24,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2015-24)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q25",
+        "num": 25,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2015-25)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q26",
+        "num": 26,
+        "question": "Which blood component is primarily responsible for transporting oxygen throughout the human body? (Exam Ref: 2015-26)",
+        "options": {
+          "A": "White blood cells",
+          "B": "Red blood cells (erythrocytes)",
+          "C": "Platelets",
+          "D": "Plasma proteins"
+        },
+        "correctAnswer": "B",
+        "explanation": "Red blood cells contain hemoglobin which binds and transports molecular oxygen.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q27",
+        "num": 27,
+        "question": "What is the chemical formula for ordinary table salt? (Exam Ref: 2015-27)",
+        "options": {
+          "A": "NaOH",
+          "B": "HCl",
+          "C": "NaCl",
+          "D": "CaCO3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sodium chloride (NaCl) is common table salt.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q28",
+        "num": 28,
+        "question": "Which part of the human brain controls involuntary vital functions such as heartbeat and breathing? (Exam Ref: 2015-28)",
+        "options": {
+          "A": "Cerebrum",
+          "B": "Cerebellum",
+          "C": "Medulla oblongata",
+          "D": "Hypothalamus"
+        },
+        "correctAnswer": "C",
+        "explanation": "The medulla oblongata at the brain stem governs autonomic reflexes including breathing and cardiac cycles.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q29",
+        "num": 29,
+        "question": "An object with a mass of 15 kg on Earth is taken to the Moon. Its mass on the Moon will be: (Exam Ref: 2015-29)",
+        "options": {
+          "A": "0 kg",
+          "B": "2.5 kg",
+          "C": "15 kg",
+          "D": "90 kg"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mass is the amount of matter in an object and remains constant regardless of gravitational field strength.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q30",
+        "num": 30,
+        "question": "Which gas makes up approximately 78% of the Earth's atmosphere? (Exam Ref: 2015-30)",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Nitrogen",
+          "D": "Argon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Nitrogen (N2) constitutes approximately 78% of dry atmospheric air.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q31",
+        "num": 31,
+        "question": "The process by which liquid water changes into water vapor below its boiling point is: (Exam Ref: 2015-31)",
+        "options": {
+          "A": "Condensation",
+          "B": "Evaporation",
+          "C": "Sublimation",
+          "D": "Precipitation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation occurs at the surface of a liquid at temperatures below boiling.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q32",
+        "num": 32,
+        "question": "Which gland in the human endocrine system is known as the 'master gland'? (Exam Ref: 2015-32)",
+        "options": {
+          "A": "Thyroid gland",
+          "B": "Adrenal gland",
+          "C": "Pituitary gland",
+          "D": "Pancreas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The pituitary gland releases trophic hormones that regulate other endocrine glands.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q33",
+        "num": 33,
+        "question": "Electric current is measured in units called: (Exam Ref: 2015-33)",
+        "options": {
+          "A": "Volts",
+          "B": "Ohms",
+          "C": "Watts",
+          "D": "Amperes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electric current (rate of charge flow) is measured in Amperes (A).",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q34",
+        "num": 34,
+        "question": "Sound waves cannot travel through: (Exam Ref: 2015-34)",
+        "options": {
+          "A": "Steel",
+          "B": "Water",
+          "C": "Air",
+          "D": "A perfect vacuum"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sound is a mechanical longitudinal wave requiring a material medium for propagation.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q35",
+        "num": 35,
+        "question": "Which layer of the atmosphere contains the ozone layer that filters harmful UV radiation? (Exam Ref: 2015-35)",
+        "options": {
+          "A": "Troposphere",
+          "B": "Stratosphere",
+          "C": "Mesosphere",
+          "D": "Thermosphere"
+        },
+        "correctAnswer": "B",
+        "explanation": "The ozone layer is concentrated in the stratosphere between 15 and 35 km altitude.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q36",
+        "num": 36,
+        "question": "A substance that speeds up a chemical reaction without being consumed is called a: (Exam Ref: 2015-36)",
+        "options": {
+          "A": "Reactant",
+          "B": "Solute",
+          "C": "Catalyst",
+          "D": "Product"
+        },
+        "correctAnswer": "C",
+        "explanation": "Catalysts lower the activation energy of a chemical process.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q37",
+        "num": 37,
+        "question": "The pH of pure distilled water at 25°C is: (Exam Ref: 2015-37)",
+        "options": {
+          "A": "0",
+          "B": "7 (neutral)",
+          "C": "14",
+          "D": "4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Neutral water has a pH of 7 where [H+] = [OH-].",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q38",
+        "num": 38,
+        "question": "Which vitamin is synthesized in human skin upon exposure to sunlight? (Exam Ref: 2015-38)",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin B12",
+          "C": "Vitamin C",
+          "D": "Vitamin D"
+        },
+        "correctAnswer": "D",
+        "explanation": "Photochemical synthesis converts 7-dehydrocholesterol to Vitamin D3 in epidermal layers.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q39",
+        "num": 39,
+        "question": "Which of the following organisms belongs to the kingdom Fungi? (Exam Ref: 2015-39)",
+        "options": {
+          "A": "Amoeba",
+          "B": "Spirogyra",
+          "C": "Yeast",
+          "D": "Escherichia coli"
+        },
+        "correctAnswer": "C",
+        "explanation": "Yeast is a unicellular eukaryotic fungus.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q40",
+        "num": 40,
+        "question": "Newton's First Law of Motion is also known as the Law of: (Exam Ref: 2015-40)",
+        "options": {
+          "A": "Action and Reaction",
+          "B": "Inertia",
+          "C": "Universal Gravitation",
+          "D": "Conservation of Momentum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Newton's first law states an object remains in its state of rest or uniform motion unless acted upon by a net force (Inertia).",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q41",
+        "num": 41,
+        "question": "In humans, sperm cells are produced inside the: (Exam Ref: 2015-41)",
+        "options": {
+          "A": "Ovary",
+          "B": "Blood",
+          "C": "Testes",
+          "D": "Pistil"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the male reproductive system, sperm cells (male gametes) are produced inside the seminiferous tubules of the testes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q42",
+        "num": 42,
+        "question": "All matter and chemical substances are fundamentally made up of tiny indivisible units called: (Exam Ref: 2015-42)",
+        "options": {
+          "A": "Cells",
+          "B": "Molecules",
+          "C": "Atoms",
+          "D": "Compounds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Atoms are the basic building blocks of all chemical elements and matter.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q43",
+        "num": 43,
+        "question": "Which of the following cell divisions produces four genetically diverse haploid sex cells (gametes)? (Exam Ref: 2015-43)",
+        "options": {
+          "A": "Mitosis",
+          "B": "Binary fission",
+          "C": "Meiosis",
+          "D": "Budding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Meiosis is the specialized reductional division in gonads producing haploid gametes.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q44",
+        "num": 44,
+        "question": "What force keeps celestial bodies, artificial satellites, and planets in orbit around massive bodies? (Exam Ref: 2015-44)",
+        "options": {
+          "A": "Magnetic force",
+          "B": "Electrostatic force",
+          "C": "Nuclear force",
+          "D": "Gravity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gravity provides the required centripetal attraction holding satellites and planets in stable orbit.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_science_q45",
+        "num": 45,
+        "question": "In green plants, photosynthesis takes place primarily within which specialized cellular organelle? (Exam Ref: 2015-45)",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Ribosome",
+          "C": "Chloroplast",
+          "D": "Golgi body"
+        },
+        "correctAnswer": "C",
+        "explanation": "Chloroplasts contain chlorophyll pigments that absorb sunlight for photosynthesis.",
+        "subject": "Science",
+        "year": 2015,
+        "grade": 8
+      }
+    ]
+  },
+  {
+    "id": "exam_2015_english_va",
+    "title": "Eritrean Grade 8 National Examination (2015) - English",
+    "subject": "English",
+    "year": 2015,
+    "version": "A",
+    "durationMinutes": 100,
+    "totalQuestions": 45,
+    "instructions": [
+      "Mark the letter 'A' under the test version in your answer sheet.",
+      "Use pencil No.2 or HB 222 'AMEST'.",
+      "Write down your Name, Father's Name, Region, School ID, and Subject Name.",
+      "It contains 45 multiple-choice questions. Choose one best answer.",
+      "Time allowed: 100 minutes."
+    ],
+    "questions": [
+      {
+        "id": "exam_2015_english_q1",
+        "num": 1,
+        "question": "Choose the correct sentence in the Present Perfect tense:",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q2",
+        "num": 2,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday.",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q3",
+        "num": 3,
+        "question": "Select the word that is an antonym of 'ABUNDANT':",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q4",
+        "num": 4,
+        "question": "He succeeded ______ passing the national examination with flying colors.",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q5",
+        "num": 5,
+        "question": "The passive voice of 'The technician repaired the school computer' is:",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q6",
+        "num": 6,
+        "question": "Which word is spelled correctly?",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q7",
+        "num": 7,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend.",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q8",
+        "num": 8,
+        "question": "She speaks English very fluently, ______?",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q9",
+        "num": 9,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.'",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q10",
+        "num": 10,
+        "question": "The teacher asked the students to hand ______ their homework notebooks.",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q11",
+        "num": 11,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.'",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q12",
+        "num": 12,
+        "question": "Choose the synonym of 'METICULOUS':",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q13",
+        "num": 13,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-13)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q14",
+        "num": 14,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-14)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q15",
+        "num": 15,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-15)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q16",
+        "num": 16,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-16)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q17",
+        "num": 17,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-17)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q18",
+        "num": 18,
+        "question": "Which word is spelled correctly? (Exam Ref: 2015-18)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q19",
+        "num": 19,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-19)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q20",
+        "num": 20,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-20)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q21",
+        "num": 21,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-21)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q22",
+        "num": 22,
+        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2015-22)",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q23",
+        "num": 23,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2015-23)",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q24",
+        "num": 24,
+        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2015-24)",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q25",
+        "num": 25,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-25)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q26",
+        "num": 26,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-26)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q27",
+        "num": 27,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-27)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q28",
+        "num": 28,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-28)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q29",
+        "num": 29,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-29)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q30",
+        "num": 30,
+        "question": "Which word is spelled correctly? (Exam Ref: 2015-30)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q31",
+        "num": 31,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-31)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q32",
+        "num": 32,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-32)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q33",
+        "num": 33,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-33)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q34",
+        "num": 34,
+        "question": "The teacher asked the students to hand ______ their homework notebooks. (Exam Ref: 2015-34)",
+        "options": {
+          "A": "out",
+          "B": "in",
+          "C": "off",
+          "D": "up"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hand in' is a phrasal verb meaning to submit assignments.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q35",
+        "num": 35,
+        "question": "Which conjunction best connects: 'He was tired; ______, he continued studying.' (Exam Ref: 2015-35)",
+        "options": {
+          "A": "because",
+          "B": "nevertheless",
+          "C": "unless",
+          "D": "so"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Nevertheless' indicates contrast or concession.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q36",
+        "num": 36,
+        "question": "Choose the synonym of 'METICULOUS': (Exam Ref: 2015-36)",
+        "options": {
+          "A": "Careless",
+          "B": "Careful and thorough",
+          "C": "Rapid",
+          "D": "Indifferent"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Meticulous' means showing great attention to detail.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q37",
+        "num": 37,
+        "question": "Choose the correct sentence in the Present Perfect tense: (Exam Ref: 2015-37)",
+        "options": {
+          "A": "He is eating breakfast now.",
+          "B": "He ate breakfast an hour ago.",
+          "C": "He has already eaten his breakfast.",
+          "D": "He will eat breakfast soon."
+        },
+        "correctAnswer": "C",
+        "explanation": "The present perfect tense is formed with have/has + past participle (has eaten).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q38",
+        "num": 38,
+        "question": "Neither the teacher nor the students ______ present in the auditorium yesterday. (Exam Ref: 2015-38)",
+        "options": {
+          "A": "was",
+          "B": "were",
+          "C": "is",
+          "D": "are"
+        },
+        "correctAnswer": "B",
+        "explanation": "With 'neither... nor', the verb agrees with the nearer subject ('students' -> were).",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q39",
+        "num": 39,
+        "question": "Select the word that is an antonym of 'ABUNDANT': (Exam Ref: 2015-39)",
+        "options": {
+          "A": "Plentiful",
+          "B": "Scarce",
+          "C": "Bountiful",
+          "D": "Generous"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Scarce' means existing in small or insufficient quantities, opposite of abundant.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q40",
+        "num": 40,
+        "question": "He succeeded ______ passing the national examination with flying colors. (Exam Ref: 2015-40)",
+        "options": {
+          "A": "at",
+          "B": "in",
+          "C": "with",
+          "D": "for"
+        },
+        "correctAnswer": "B",
+        "explanation": "The verb 'succeed' takes the preposition 'in' followed by a gerund.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q41",
+        "num": 41,
+        "question": "The passive voice of 'The technician repaired the school computer' is: (Exam Ref: 2015-41)",
+        "options": {
+          "A": "The school computer was repaired by the technician.",
+          "B": "The school computer is repaired by the technician.",
+          "C": "The technician was repairing the computer.",
+          "D": "The computer has been repaired."
+        },
+        "correctAnswer": "A",
+        "explanation": "Past simple active ('repaired') converts to was/were + past participle ('was repaired').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q42",
+        "num": 42,
+        "question": "Which word is spelled correctly? (Exam Ref: 2015-42)",
+        "options": {
+          "A": "Accomodation",
+          "B": "Accommodation",
+          "C": "Acommodation",
+          "D": "Accomadation"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Accommodation' has double 'c' and double 'm'.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q43",
+        "num": 43,
+        "question": "If I ______ enough money, I would travel to Massawa this weekend. (Exam Ref: 2015-43)",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "will have",
+          "D": "have had"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the second conditional (hypothetical present), the if-clause uses the past simple ('had').",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q44",
+        "num": 44,
+        "question": "She speaks English very fluently, ______? (Exam Ref: 2015-44)",
+        "options": {
+          "A": "doesn't she",
+          "B": "does she",
+          "C": "isn't she",
+          "D": "won't she"
+        },
+        "correctAnswer": "A",
+        "explanation": "Positive statement with simple present verb takes negative tag 'doesn't she?'",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      },
+      {
+        "id": "exam_2015_english_q45",
+        "num": 45,
+        "question": "Identify the abstract noun in the sentence: 'Her courage inspired the whole community.' (Exam Ref: 2015-45)",
+        "options": {
+          "A": "Her",
+          "B": "Courage",
+          "C": "Inspired",
+          "D": "Community"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Courage' represents an intangible quality or feeling.",
+        "subject": "English",
+        "year": 2015,
+        "grade": 8
+      }
+    ]
   }
 ]

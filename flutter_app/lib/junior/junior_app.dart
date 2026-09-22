@@ -13,7 +13,7 @@ class JuniorBeeApp extends StatefulWidget {
 class _JuniorBeeAppState extends State<JuniorBeeApp> {
   int _currentIndex = 0;
   int _selectedGrade = 6;
-  String _selectedSubjectKey = 'math';
+  String _selectedSubjectKey = 'all';
   List<dynamic> _units = [];
   List<dynamic> _exams = [];
   bool _isLoading = true;
@@ -172,11 +172,14 @@ class _JuniorBeeAppState extends State<JuniorBeeApp> {
             spacing: 8,
             runSpacing: 8,
             children: [
+              _buildSubjectChip('all', 'All Subjects (ኩሎም)', Icons.apps),
               _buildSubjectChip('math', 'Mathematics (ሒሳብ)', Icons.calculate),
               _buildSubjectChip('science', 'Science (ሳይንስ)', Icons.science),
               _buildSubjectChip('english', 'English (እንግሊዝኛ)', Icons.menu_book),
+              _buildSubjectChip('social_studies', 'Social Studies (ማሕበራዊ)', Icons.public),
               _buildSubjectChip('citizenship', 'Citizenship (ስነ-ዜጋ)', Icons.shield),
               _buildSubjectChip('ict', 'ICT (ቴክኖሎጂ)', Icons.computer),
+              _buildSubjectChip('life_skills', 'Life Skills (ናይ ህይወት)', Icons.volunteer_activism),
             ],
           ),
           const SizedBox(height: 24),
@@ -226,7 +229,11 @@ class _JuniorBeeAppState extends State<JuniorBeeApp> {
   }
 
   List<dynamic> _getFilteredUnits() {
-    return _units.where((u) => u['grade'] == _selectedGrade).toList();
+    return _units.where((u) {
+      final matchesGrade = u['grade'] == _selectedGrade;
+      final matchesSubject = _selectedSubjectKey == 'all' || u['subjectKey'] == _selectedSubjectKey;
+      return matchesGrade && matchesSubject;
+    }).toList();
   }
 
   Widget _buildUnitCard(dynamic unit) {
